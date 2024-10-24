@@ -1,14 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\abado\\Desktop\\\u041A\u043E\u0434\u044B \u0438 \u0447\u0435\u0440\u0442\u0435\u0436\u0438\\\u0422\u041F\\5 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041A\u0443\u0440\u0441\u043E\u0432\u0438\u043A\\Virtual-Art-Gallery\\\u041A\u043E\u0434\\Virtual_Art_Gallery\\",
+  "WorkspaceRootPath": "D:\\\u041A\u043E\u0434\u044B \u0438 \u0447\u0435\u0440\u0442\u0435\u0436\u0438\\\u0422\u041F\\5 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041A\u0443\u0440\u0441\u043E\u0432\u0438\u043A\\Virtual-Art-Gallery\\\u041A\u043E\u0434\\Virtual_Art_Gallery\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{04ABC219-D526-4384-A531-55D01BB18AB9}|Virtual_Art_Gallery.csproj|c:\\users\\abado\\desktop\\\u043A\u043E\u0434\u044B \u0438 \u0447\u0435\u0440\u0442\u0435\u0436\u0438\\\u0442\u043F\\5 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u043A\u0443\u0440\u0441\u043E\u0432\u0438\u043A\\virtual-art-gallery\\\u043A\u043E\u0434\\virtual_art_gallery\\virtual_art_gallery.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{04ABC219-D526-4384-A531-55D01BB18AB9}|Virtual_Art_Gallery.csproj|solutionrelative:virtual_art_gallery.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{04ABC219-D526-4384-A531-55D01BB18AB9}|Virtual_Art_Gallery.csproj|d:\\\u043A\u043E\u0434\u044B \u0438 \u0447\u0435\u0440\u0442\u0435\u0436\u0438\\\u0442\u043F\\5 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u043A\u0443\u0440\u0441\u043E\u0432\u0438\u043A\\virtual-art-gallery\\\u043A\u043E\u0434\\virtual_art_gallery\\models\\pricelistmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04ABC219-D526-4384-A531-55D01BB18AB9}|Virtual_Art_Gallery.csproj|solutionrelative:models\\pricelistmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{04ABC219-D526-4384-A531-55D01BB18AB9}|Virtual_Art_Gallery.csproj|c:\\users\\abado\\desktop\\\u043A\u043E\u0434\u044B \u0438 \u0447\u0435\u0440\u0442\u0435\u0436\u0438\\\u0442\u043F\\5 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u043A\u0443\u0440\u0441\u043E\u0432\u0438\u043A\\virtual-art-gallery\\\u043A\u043E\u0434\\virtual_art_gallery\\models\\artworkmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{04ABC219-D526-4384-A531-55D01BB18AB9}|Virtual_Art_Gallery.csproj|d:\\\u043A\u043E\u0434\u044B \u0438 \u0447\u0435\u0440\u0442\u0435\u0436\u0438\\\u0442\u043F\\5 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u043A\u0443\u0440\u0441\u043E\u0432\u0438\u043A\\virtual-art-gallery\\\u043A\u043E\u0434\\virtual_art_gallery\\models\\itemmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04ABC219-D526-4384-A531-55D01BB18AB9}|Virtual_Art_Gallery.csproj|solutionrelative:models\\itemmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04ABC219-D526-4384-A531-55D01BB18AB9}|Virtual_Art_Gallery.csproj|d:\\\u043A\u043E\u0434\u044B \u0438 \u0447\u0435\u0440\u0442\u0435\u0436\u0438\\\u0442\u043F\\5 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u043A\u0443\u0440\u0441\u043E\u0432\u0438\u043A\\virtual-art-gallery\\\u043A\u043E\u0434\\virtual_art_gallery\\models\\exhibitionmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04ABC219-D526-4384-A531-55D01BB18AB9}|Virtual_Art_Gallery.csproj|solutionrelative:models\\exhibitionmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04ABC219-D526-4384-A531-55D01BB18AB9}|Virtual_Art_Gallery.csproj|d:\\\u043A\u043E\u0434\u044B \u0438 \u0447\u0435\u0440\u0442\u0435\u0436\u0438\\\u0442\u043F\\5 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u043A\u0443\u0440\u0441\u043E\u0432\u0438\u043A\\virtual-art-gallery\\\u043A\u043E\u0434\\virtual_art_gallery\\models\\artworkmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{04ABC219-D526-4384-A531-55D01BB18AB9}|Virtual_Art_Gallery.csproj|solutionrelative:models\\artworkmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04ABC219-D526-4384-A531-55D01BB18AB9}|Virtual_Art_Gallery.csproj|d:\\\u043A\u043E\u0434\u044B \u0438 \u0447\u0435\u0440\u0442\u0435\u0436\u0438\\\u0442\u043F\\5 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u043A\u0443\u0440\u0441\u043E\u0432\u0438\u043A\\virtual-art-gallery\\\u043A\u043E\u0434\\virtual_art_gallery\\virtual_art_gallery.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{04ABC219-D526-4384-A531-55D01BB18AB9}|Virtual_Art_Gallery.csproj|solutionrelative:virtual_art_gallery.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,24 +43,64 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ArtworkModel.cs",
-              "DocumentMoniker": "C:\\Users\\abado\\Desktop\\\u041A\u043E\u0434\u044B \u0438 \u0447\u0435\u0440\u0442\u0435\u0436\u0438\\\u0422\u041F\\5 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041A\u0443\u0440\u0441\u043E\u0432\u0438\u043A\\Virtual-Art-Gallery\\\u041A\u043E\u0434\\Virtual_Art_Gallery\\Models\\ArtworkModel.cs",
-              "RelativeDocumentMoniker": "Models\\ArtworkModel.cs",
-              "ToolTip": "C:\\Users\\abado\\Desktop\\\u041A\u043E\u0434\u044B \u0438 \u0447\u0435\u0440\u0442\u0435\u0436\u0438\\\u0422\u041F\\5 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041A\u0443\u0440\u0441\u043E\u0432\u0438\u043A\\Virtual-Art-Gallery\\\u041A\u043E\u0434\\Virtual_Art_Gallery\\Models\\ArtworkModel.cs",
-              "RelativeToolTip": "Models\\ArtworkModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "ItemModel.cs",
+              "DocumentMoniker": "D:\\\u041A\u043E\u0434\u044B \u0438 \u0447\u0435\u0440\u0442\u0435\u0436\u0438\\\u0422\u041F\\5 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041A\u0443\u0440\u0441\u043E\u0432\u0438\u043A\\Virtual-Art-Gallery\\\u041A\u043E\u0434\\Virtual_Art_Gallery\\Models\\ItemModel.cs",
+              "RelativeDocumentMoniker": "Models\\ItemModel.cs",
+              "ToolTip": "D:\\\u041A\u043E\u0434\u044B \u0438 \u0447\u0435\u0440\u0442\u0435\u0436\u0438\\\u0422\u041F\\5 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041A\u0443\u0440\u0441\u043E\u0432\u0438\u043A\\Virtual-Art-Gallery\\\u041A\u043E\u0434\\Virtual_Art_Gallery\\Models\\ItemModel.cs",
+              "RelativeToolTip": "Models\\ItemModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T07:48:47.188Z"
+              "WhenOpened": "2024-10-24T06:51:14.333Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "PriceListModel.cs",
+              "DocumentMoniker": "D:\\\u041A\u043E\u0434\u044B \u0438 \u0447\u0435\u0440\u0442\u0435\u0436\u0438\\\u0422\u041F\\5 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041A\u0443\u0440\u0441\u043E\u0432\u0438\u043A\\Virtual-Art-Gallery\\\u041A\u043E\u0434\\Virtual_Art_Gallery\\Models\\PriceListModel.cs",
+              "RelativeDocumentMoniker": "Models\\PriceListModel.cs",
+              "ToolTip": "D:\\\u041A\u043E\u0434\u044B \u0438 \u0447\u0435\u0440\u0442\u0435\u0436\u0438\\\u0422\u041F\\5 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041A\u0443\u0440\u0441\u043E\u0432\u0438\u043A\\Virtual-Art-Gallery\\\u041A\u043E\u0434\\Virtual_Art_Gallery\\Models\\PriceListModel.cs",
+              "RelativeToolTip": "Models\\PriceListModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T06:40:25.957Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ExhibitionModel.cs",
+              "DocumentMoniker": "D:\\\u041A\u043E\u0434\u044B \u0438 \u0447\u0435\u0440\u0442\u0435\u0436\u0438\\\u0422\u041F\\5 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041A\u0443\u0440\u0441\u043E\u0432\u0438\u043A\\Virtual-Art-Gallery\\\u041A\u043E\u0434\\Virtual_Art_Gallery\\Models\\ExhibitionModel.cs",
+              "RelativeDocumentMoniker": "Models\\ExhibitionModel.cs",
+              "ToolTip": "D:\\\u041A\u043E\u0434\u044B \u0438 \u0447\u0435\u0440\u0442\u0435\u0436\u0438\\\u0422\u041F\\5 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041A\u0443\u0440\u0441\u043E\u0432\u0438\u043A\\Virtual-Art-Gallery\\\u041A\u043E\u0434\\Virtual_Art_Gallery\\Models\\ExhibitionModel.cs",
+              "RelativeToolTip": "Models\\ExhibitionModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T06:30:15.994Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ArtworkModel.cs",
+              "DocumentMoniker": "D:\\\u041A\u043E\u0434\u044B \u0438 \u0447\u0435\u0440\u0442\u0435\u0436\u0438\\\u0422\u041F\\5 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041A\u0443\u0440\u0441\u043E\u0432\u0438\u043A\\Virtual-Art-Gallery\\\u041A\u043E\u0434\\Virtual_Art_Gallery\\Models\\ArtworkModel.cs",
+              "RelativeDocumentMoniker": "Models\\ArtworkModel.cs",
+              "ToolTip": "D:\\\u041A\u043E\u0434\u044B \u0438 \u0447\u0435\u0440\u0442\u0435\u0436\u0438\\\u0422\u041F\\5 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041A\u0443\u0440\u0441\u043E\u0432\u0438\u043A\\Virtual-Art-Gallery\\\u041A\u043E\u0434\\Virtual_Art_Gallery\\Models\\ArtworkModel.cs",
+              "RelativeToolTip": "Models\\ArtworkModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T07:48:47.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Virtual_Art_Gallery.csproj",
-              "DocumentMoniker": "C:\\Users\\abado\\Desktop\\\u041A\u043E\u0434\u044B \u0438 \u0447\u0435\u0440\u0442\u0435\u0436\u0438\\\u0422\u041F\\5 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041A\u0443\u0440\u0441\u043E\u0432\u0438\u043A\\Virtual-Art-Gallery\\\u041A\u043E\u0434\\Virtual_Art_Gallery\\Virtual_Art_Gallery.csproj",
+              "DocumentMoniker": "D:\\\u041A\u043E\u0434\u044B \u0438 \u0447\u0435\u0440\u0442\u0435\u0436\u0438\\\u0422\u041F\\5 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041A\u0443\u0440\u0441\u043E\u0432\u0438\u043A\\Virtual-Art-Gallery\\\u041A\u043E\u0434\\Virtual_Art_Gallery\\Virtual_Art_Gallery.csproj",
               "RelativeDocumentMoniker": "Virtual_Art_Gallery.csproj",
-              "ToolTip": "C:\\Users\\abado\\Desktop\\\u041A\u043E\u0434\u044B \u0438 \u0447\u0435\u0440\u0442\u0435\u0436\u0438\\\u0422\u041F\\5 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041A\u0443\u0440\u0441\u043E\u0432\u0438\u043A\\Virtual-Art-Gallery\\\u041A\u043E\u0434\\Virtual_Art_Gallery\\Virtual_Art_Gallery.csproj",
+              "ToolTip": "D:\\\u041A\u043E\u0434\u044B \u0438 \u0447\u0435\u0440\u0442\u0435\u0436\u0438\\\u0422\u041F\\5 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041A\u0443\u0440\u0441\u043E\u0432\u0438\u043A\\Virtual-Art-Gallery\\\u041A\u043E\u0434\\Virtual_Art_Gallery\\Virtual_Art_Gallery.csproj",
               "RelativeToolTip": "Virtual_Art_Gallery.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2024-10-17T07:26:09.764Z",
               "EditorCaption": ""
