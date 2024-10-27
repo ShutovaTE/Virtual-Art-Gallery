@@ -1,0 +1,126 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\C# project\\Virtual-Art-Gallery\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\C# project\\Virtual-Art-Gallery\\\u041A\u043E\u0434\\Virtual_Art_Gallery\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:\u041A\u043E\u0434\\Virtual_Art_Gallery\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\C# project\\Virtual-Art-Gallery\\\u041A\u043E\u0434\\Virtual_Art_Gallery\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:\u041A\u043E\u0434\\Virtual_Art_Gallery\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\C# project\\Virtual-Art-Gallery\\\u041A\u043E\u0434\\Virtual_Art_Gallery\\appsettings.Development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:\u041A\u043E\u0434\\Virtual_Art_Gallery\\appsettings.Development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\C# project\\Virtual-Art-Gallery\\\u041A\u043E\u0434\\Virtual_Art_Gallery\\Models\\Category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:\u041A\u043E\u0434\\Virtual_Art_Gallery\\Models\\Category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\C# project\\Virtual-Art-Gallery\\\u041A\u043E\u0434\\Virtual_Art_Gallery\\Models\\ArtworkModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:\u041A\u043E\u0434\\Virtual_Art_Gallery\\Models\\ArtworkModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\C# project\\Virtual-Art-Gallery\\\u041A\u043E\u0434\\Virtual_Art_Gallery\\Models\\ErrorViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:\u041A\u043E\u0434\\Virtual_Art_Gallery\\Models\\ErrorViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\C# project\\Virtual-Art-Gallery\\\u041A\u043E\u0434\\Virtual_Art_Gallery\\Program.cs",
+              "RelativeDocumentMoniker": "\u041A\u043E\u0434\\Virtual_Art_Gallery\\Program.cs",
+              "ToolTip": "D:\\C# project\\Virtual-Art-Gallery\\\u041A\u043E\u0434\\Virtual_Art_Gallery\\Program.cs",
+              "RelativeToolTip": "\u041A\u043E\u0434\\Virtual_Art_Gallery\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T09:07:19.022Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\C# project\\Virtual-Art-Gallery\\\u041A\u043E\u0434\\Virtual_Art_Gallery\\appsettings.json",
+              "RelativeDocumentMoniker": "\u041A\u043E\u0434\\Virtual_Art_Gallery\\appsettings.json",
+              "ToolTip": "D:\\C# project\\Virtual-Art-Gallery\\\u041A\u043E\u0434\\Virtual_Art_Gallery\\appsettings.json",
+              "RelativeToolTip": "\u041A\u043E\u0434\\Virtual_Art_Gallery\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-27T09:07:18.339Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\C# project\\Virtual-Art-Gallery\\\u041A\u043E\u0434\\Virtual_Art_Gallery\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "\u041A\u043E\u0434\\Virtual_Art_Gallery\\appsettings.Development.json",
+              "ToolTip": "D:\\C# project\\Virtual-Art-Gallery\\\u041A\u043E\u0434\\Virtual_Art_Gallery\\appsettings.Development.json",
+              "RelativeToolTip": "\u041A\u043E\u0434\\Virtual_Art_Gallery\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-27T09:07:17.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Category.cs",
+              "DocumentMoniker": "D:\\C# project\\Virtual-Art-Gallery\\\u041A\u043E\u0434\\Virtual_Art_Gallery\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "\u041A\u043E\u0434\\Virtual_Art_Gallery\\Models\\Category.cs",
+              "ToolTip": "D:\\C# project\\Virtual-Art-Gallery\\\u041A\u043E\u0434\\Virtual_Art_Gallery\\Models\\Category.cs",
+              "RelativeToolTip": "\u041A\u043E\u0434\\Virtual_Art_Gallery\\Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T09:04:36.602Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "D:\\C# project\\Virtual-Art-Gallery\\\u041A\u043E\u0434\\Virtual_Art_Gallery\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "\u041A\u043E\u0434\\Virtual_Art_Gallery\\Models\\ErrorViewModel.cs",
+              "ToolTip": "D:\\C# project\\Virtual-Art-Gallery\\\u041A\u043E\u0434\\Virtual_Art_Gallery\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "\u041A\u043E\u0434\\Virtual_Art_Gallery\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T08:56:11.835Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ArtworkModel.cs",
+              "DocumentMoniker": "D:\\C# project\\Virtual-Art-Gallery\\\u041A\u043E\u0434\\Virtual_Art_Gallery\\Models\\ArtworkModel.cs",
+              "RelativeDocumentMoniker": "\u041A\u043E\u0434\\Virtual_Art_Gallery\\Models\\ArtworkModel.cs",
+              "ToolTip": "D:\\C# project\\Virtual-Art-Gallery\\\u041A\u043E\u0434\\Virtual_Art_Gallery\\Models\\ArtworkModel.cs",
+              "RelativeToolTip": "\u041A\u043E\u0434\\Virtual_Art_Gallery\\Models\\ArtworkModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T08:56:11.157Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,6 +1,4 @@
-﻿
-
-namespace Virtual_Art_Gallery.Models
+﻿namespace Virtual_Art_Gallery.Models
 {
     public class ArtworkModel
     {
@@ -8,6 +6,7 @@ namespace Virtual_Art_Gallery.Models
         private string title;
         private string description;
         private bool isPublished;
+        public int rating;
         private DateTime dateCreated;
     }
 }
