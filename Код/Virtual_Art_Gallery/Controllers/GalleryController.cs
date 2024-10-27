@@ -8,5 +8,10 @@ namespace Virtual_Art_Gallery.Controllers
         {
             return View();
         }
+
+        public IActionResult Publications()
+        {
+            return View();
+        }
     }
 }
