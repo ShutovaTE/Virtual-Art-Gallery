@@ -11,10 +11,15 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap5")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("Virtual_Art_Gallery")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+<<<<<<< HEAD
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cc797105a364e226eca6254ddba0c0813b83efaa")]
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fcc8c98fefba5b038873bfd535ccb7e641e50428")]
+>>>>>>> d1f00500bb6eae7508b2a57093cd6394d69326b9
 [assembly: System.Reflection.AssemblyProductAttribute("Virtual_Art_Gallery")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Virtual_Art_Gallery")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

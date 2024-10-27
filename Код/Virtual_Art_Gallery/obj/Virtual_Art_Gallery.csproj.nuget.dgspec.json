@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "D:\\C# project\\Virtual-Art-Gallery\\Код\\Virtual_Art_Gallery\\Virtual_Art_Gallery.csproj": {}
   },
   "projects": {
@@ -12,6 +13,19 @@
         "projectPath": "D:\\C# project\\Virtual-Art-Gallery\\Код\\Virtual_Art_Gallery\\Virtual_Art_Gallery.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
         "outputPath": "D:\\C# project\\Virtual-Art-Gallery\\Код\\Virtual_Art_Gallery\\obj\\",
+=======
+    "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual_Art_Gallery\\Virtual_Art_Gallery.csproj": {}
+  },
+  "projects": {
+    "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual_Art_Gallery\\Virtual_Art_Gallery.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual_Art_Gallery\\Virtual_Art_Gallery.csproj",
+        "projectName": "Virtual_Art_Gallery",
+        "projectPath": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual_Art_Gallery\\Virtual_Art_Gallery.csproj",
+        "packagesPath": "C:\\Users\\abado\\.nuget\\packages\\",
+        "outputPath": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual_Art_Gallery\\obj\\",
+>>>>>>> d1f00500bb6eae7508b2a57093cd6394d69326b9
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -45,6 +59,32 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "SixLabors.ImageSharp": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
