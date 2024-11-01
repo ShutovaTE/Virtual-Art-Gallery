@@ -1,7 +1,6 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
     "D:\\C# project\\Virtual-Art-Gallery\\Код\\Virtual_Art_Gallery\\Virtual_Art_Gallery.csproj": {}
   },
   "projects": {
@@ -13,19 +12,6 @@
         "projectPath": "D:\\C# project\\Virtual-Art-Gallery\\Код\\Virtual_Art_Gallery\\Virtual_Art_Gallery.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
         "outputPath": "D:\\C# project\\Virtual-Art-Gallery\\Код\\Virtual_Art_Gallery\\obj\\",
-=======
-    "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual_Art_Gallery\\Virtual_Art_Gallery.csproj": {}
-  },
-  "projects": {
-    "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual_Art_Gallery\\Virtual_Art_Gallery.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual_Art_Gallery\\Virtual_Art_Gallery.csproj",
-        "projectName": "Virtual_Art_Gallery",
-        "projectPath": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual_Art_Gallery\\Virtual_Art_Gallery.csproj",
-        "packagesPath": "C:\\Users\\abado\\.nuget\\packages\\",
-        "outputPath": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual_Art_Gallery\\obj\\",
->>>>>>> d1f00500bb6eae7508b2a57093cd6394d69326b9
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",

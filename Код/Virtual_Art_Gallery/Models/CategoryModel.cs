@@ -1,6 +1,6 @@
 ﻿namespace Virtual_Art_Gallery.Models
 {
-    public class Category
+    public class CategoryModel
     {
         public string Name { get; set; }
 
