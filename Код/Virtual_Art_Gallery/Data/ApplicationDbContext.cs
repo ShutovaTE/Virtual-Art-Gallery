@@ -15,6 +15,5 @@ namespace Virtual_Art_Gallery.Data
     public DbSet<ArtworkModel> Artworkmodels { get; set; }
     public DbSet<CategoryModel> Categorymodels { get; set; }
     public DbSet<StatisticModel> Statisticmodels { get; set; }
-    public DbSet<PublicationModel> Publicationmodels { get; set; }
-}
+    }
 }
