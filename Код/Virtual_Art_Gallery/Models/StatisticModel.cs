@@ -1,10 +1,11 @@
-﻿namespace Virtual_Art_Gallery.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace Virtual_Art_Gallery.Models
 {
     public class StatisticModel
     {
-        public class Statistic
-        {
-            public DateTime VisitData { get; set; }
-        }
+        [Key]
+        public int Id { get; set; }
+        public DateTime VisitData { get; set; }
     }
 }

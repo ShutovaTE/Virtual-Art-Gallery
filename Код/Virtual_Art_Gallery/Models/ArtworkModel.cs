@@ -18,7 +18,7 @@ namespace Virtual_Art_Gallery.Models
 
         private DateTime DateCreated { get; set; }
 
-        public byte[]? ImageData { get; set; }
+        public byte ImageData { get; set; }
         private int Width;
         private int Height;
     }

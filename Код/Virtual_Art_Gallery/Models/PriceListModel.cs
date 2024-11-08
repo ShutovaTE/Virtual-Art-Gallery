@@ -7,7 +7,7 @@ namespace Virtual_Art_Gallery.Models
         [Key]
         public int Id { get; set; }
 
-        [Required]
-        public List<ItemModel> Items { get; set; }
+        //[Required]
+        //public List<ItemModel> Items { get; set; }
     }
 }

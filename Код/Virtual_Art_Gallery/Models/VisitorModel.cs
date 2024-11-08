@@ -2,14 +2,14 @@
 {
     public class VisitorModel : UserModel
     {
-        public List<PublicationModel> ViewPublicationModels(List<PublicationModel> publicationmodels)
-        {
-            return publicationmodels;
-        }
+        //public List<ArtworkModel> ViewArtworkModels(List<ArtworkModel> artworkModels)
+        //{
+        //    return artworkModels;
+        //}
 
-        public int ViewRating(PublicationModel publicationmodel)
-        {
-            return publicationmodel.Rating;
-        }
+        //public int ViewRating(ArtworkModel artworkModel)
+        //{
+        //    return artworkModel.Rating;
+        //}
     }
 }

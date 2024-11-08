@@ -16,6 +16,6 @@ namespace Virtual_Art_Gallery.Models
         [Required]
         public bool IsClosed { get; set; }
 
-        public List<ArtworkModel> Artwork { get; set; }
+        //public List<ArtworkModel> Artwork { get; set; }
     }
 }

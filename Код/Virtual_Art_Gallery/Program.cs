@@ -1,7 +1,13 @@
+using Microsoft.EntityFrameworkCore;
+using Virtual_Art_Gallery;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddDbContext<GalleryContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("GalleryContext")));
 
 var app = builder.Build();
 
