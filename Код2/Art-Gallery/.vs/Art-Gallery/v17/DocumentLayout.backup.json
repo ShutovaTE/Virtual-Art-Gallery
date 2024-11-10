@@ -3,32 +3,32 @@
   "WorkspaceRootPath": "D:\\C# project\\Virtual-Art-Gallery\\\u041A\u043E\u04342\\Art-Gallery\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{02A286AA-7119-456D-BD36-BE44A3F71B67}|Art-Gallery\\Art-Gallery.csproj|d:\\c# project\\virtual-art-gallery\\\u043A\u043E\u04342\\art-gallery\\art-gallery\\art-gallery.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
-      "RelativeMoniker": "D:0:0:{02A286AA-7119-456D-BD36-BE44A3F71B67}|Art-Gallery\\Art-Gallery.csproj|solutionrelative:art-gallery\\art-gallery.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{02A286AA-7119-456D-BD36-BE44A3F71B67}|Art-Gallery\\Art-Gallery.csproj|d:\\c# project\\virtual-art-gallery\\\u043A\u043E\u04342\\art-gallery\\art-gallery\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{02A286AA-7119-456D-BD36-BE44A3F71B67}|Art-Gallery\\Art-Gallery.csproj|solutionrelative:art-gallery\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{02A286AA-7119-456D-BD36-BE44A3F71B67}|Art-Gallery\\Art-Gallery.csproj|d:\\c# project\\virtual-art-gallery\\\u043A\u043E\u04342\\art-gallery\\art-gallery\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{02A286AA-7119-456D-BD36-BE44A3F71B67}|Art-Gallery\\Art-Gallery.csproj|solutionrelative:art-gallery\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{02A286AA-7119-456D-BD36-BE44A3F71B67}|Art-Gallery\\Art-Gallery.csproj|d:\\c# project\\virtual-art-gallery\\\u043A\u043E\u04342\\art-gallery\\art-gallery\\controllers\\gallerycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02A286AA-7119-456D-BD36-BE44A3F71B67}|Art-Gallery\\Art-Gallery.csproj|solutionrelative:art-gallery\\controllers\\gallerycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{02A286AA-7119-456D-BD36-BE44A3F71B67}|Art-Gallery\\Art-Gallery.csproj|d:\\c# project\\virtual-art-gallery\\\u043A\u043E\u04342\\art-gallery\\art-gallery\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{02A286AA-7119-456D-BD36-BE44A3F71B67}|Art-Gallery\\Art-Gallery.csproj|solutionrelative:art-gallery\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{02A286AA-7119-456D-BD36-BE44A3F71B67}|Art-Gallery\\Art-Gallery.csproj|d:\\c# project\\virtual-art-gallery\\\u043A\u043E\u04342\\art-gallery\\art-gallery\\art-gallery.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{02A286AA-7119-456D-BD36-BE44A3F71B67}|Art-Gallery\\Art-Gallery.csproj|solutionrelative:art-gallery\\art-gallery.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02A286AA-7119-456D-BD36-BE44A3F71B67}|Art-Gallery\\Art-Gallery.csproj|d:\\c# project\\virtual-art-gallery\\\u043A\u043E\u04342\\art-gallery\\art-gallery\\gallerycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02A286AA-7119-456D-BD36-BE44A3F71B67}|Art-Gallery\\Art-Gallery.csproj|solutionrelative:art-gallery\\gallerycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{02A286AA-7119-456D-BD36-BE44A3F71B67}|Art-Gallery\\Art-Gallery.csproj|d:\\c# project\\virtual-art-gallery\\\u043A\u043E\u04342\\art-gallery\\art-gallery\\views\\gallery\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{02A286AA-7119-456D-BD36-BE44A3F71B67}|Art-Gallery\\Art-Gallery.csproj|solutionrelative:art-gallery\\views\\gallery\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{02A286AA-7119-456D-BD36-BE44A3F71B67}|Art-Gallery\\Art-Gallery.csproj|d:\\c# project\\virtual-art-gallery\\\u043A\u043E\u04342\\art-gallery\\art-gallery\\views\\gallery\\publications.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{02A286AA-7119-456D-BD36-BE44A3F71B67}|Art-Gallery\\Art-Gallery.csproj|solutionrelative:art-gallery\\views\\gallery\\publications.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{02A286AA-7119-456D-BD36-BE44A3F71B67}|Art-Gallery\\Art-Gallery.csproj|d:\\c# project\\virtual-art-gallery\\\u043A\u043E\u04342\\art-gallery\\art-gallery\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{02A286AA-7119-456D-BD36-BE44A3F71B67}|Art-Gallery\\Art-Gallery.csproj|solutionrelative:art-gallery\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02A286AA-7119-456D-BD36-BE44A3F71B67}|Art-Gallery\\Art-Gallery.csproj|d:\\c# project\\virtual-art-gallery\\\u043A\u043E\u04342\\art-gallery\\art-gallery\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{02A286AA-7119-456D-BD36-BE44A3F71B67}|Art-Gallery\\Art-Gallery.csproj|solutionrelative:art-gallery\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{02A286AA-7119-456D-BD36-BE44A3F71B67}|Art-Gallery\\Art-Gallery.csproj|d:\\c# project\\virtual-art-gallery\\\u043A\u043E\u04342\\art-gallery\\art-gallery\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -39,8 +39,12 @@
       "RelativeMoniker": "D:0:0:{02A286AA-7119-456D-BD36-BE44A3F71B67}|Art-Gallery\\Art-Gallery.csproj|solutionrelative:art-gallery\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{02A286AA-7119-456D-BD36-BE44A3F71B67}|Art-Gallery\\Art-Gallery.csproj|d:\\c# project\\virtual-art-gallery\\\u043A\u043E\u04342\\art-gallery\\art-gallery\\gallerycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{02A286AA-7119-456D-BD36-BE44A3F71B67}|Art-Gallery\\Art-Gallery.csproj|solutionrelative:art-gallery\\gallerycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{02A286AA-7119-456D-BD36-BE44A3F71B67}|Art-Gallery\\Art-Gallery.csproj|d:\\c# project\\virtual-art-gallery\\\u043A\u043E\u04342\\art-gallery\\art-gallery\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{02A286AA-7119-456D-BD36-BE44A3F71B67}|Art-Gallery\\Art-Gallery.csproj|solutionrelative:art-gallery\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02A286AA-7119-456D-BD36-BE44A3F71B67}|Art-Gallery\\Art-Gallery.csproj|d:\\c# project\\virtual-art-gallery\\\u043A\u043E\u04342\\art-gallery\\art-gallery\\views\\gallery\\publications.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{02A286AA-7119-456D-BD36-BE44A3F71B67}|Art-Gallery\\Art-Gallery.csproj|solutionrelative:art-gallery\\views\\gallery\\publications.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{02A286AA-7119-456D-BD36-BE44A3F71B67}|Art-Gallery\\Art-Gallery.csproj|d:\\c# project\\virtual-art-gallery\\\u043A\u043E\u04342\\art-gallery\\art-gallery\\art-gallery.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
@@ -102,7 +106,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -114,12 +118,25 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\C# project\\Virtual-Art-Gallery\\\u041A\u043E\u04342\\Art-Gallery\\Art-Gallery\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Art-Gallery\\Controllers\\HomeController.cs",
-              "ToolTip": "D:\\C# project\\Virtual-Art-Gallery\\\u041A\u043E\u04342\\Art-Gallery\\Art-Gallery\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Art-Gallery\\Controllers\\HomeController.cs",
+              "DocumentIndex": 9,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\C# project\\Virtual-Art-Gallery\\\u041A\u043E\u04342\\Art-Gallery\\Art-Gallery\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Art-Gallery\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\C# project\\Virtual-Art-Gallery\\\u041A\u043E\u04342\\Art-Gallery\\Art-Gallery\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Art-Gallery\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-10T11:25:20.356Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GalleryController.cs",
+              "DocumentMoniker": "D:\\C# project\\Virtual-Art-Gallery\\\u041A\u043E\u04342\\Art-Gallery\\Art-Gallery\\Controllers\\GalleryController.cs",
+              "RelativeDocumentMoniker": "Art-Gallery\\Controllers\\GalleryController.cs",
+              "ToolTip": "D:\\C# project\\Virtual-Art-Gallery\\\u041A\u043E\u04342\\Art-Gallery\\Art-Gallery\\Controllers\\GalleryController.cs*",
+              "RelativeToolTip": "Art-Gallery\\Controllers\\GalleryController.cs*",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-10T11:16:44.334Z",
@@ -127,45 +144,44 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "launchSettings.json",
               "DocumentMoniker": "D:\\C# project\\Virtual-Art-Gallery\\\u041A\u043E\u04342\\Art-Gallery\\Art-Gallery\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Art-Gallery\\Properties\\launchSettings.json",
               "ToolTip": "D:\\C# project\\Virtual-Art-Gallery\\\u041A\u043E\u04342\\Art-Gallery\\Art-Gallery\\Properties\\launchSettings.json*",
               "RelativeToolTip": "Art-Gallery\\Properties\\launchSettings.json*",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACIAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-11-10T11:02:19.497Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Art-Gallery",
               "DocumentMoniker": "D:\\C# project\\Virtual-Art-Gallery\\\u041A\u043E\u04342\\Art-Gallery\\Art-Gallery\\Art-Gallery.csproj",
               "RelativeDocumentMoniker": "Art-Gallery\\Art-Gallery.csproj",
               "ToolTip": "D:\\C# project\\Virtual-Art-Gallery\\\u041A\u043E\u04342\\Art-Gallery\\Art-Gallery\\Art-Gallery.csproj",
               "RelativeToolTip": "Art-Gallery\\Art-Gallery.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-11-10T11:02:14.95Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-10T11:02:14.95Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Art-Gallery.http",
               "DocumentMoniker": "D:\\C# project\\Virtual-Art-Gallery\\\u041A\u043E\u04342\\Art-Gallery\\Art-Gallery\\Art-Gallery.http",
               "RelativeDocumentMoniker": "Art-Gallery\\Art-Gallery.http",
               "ToolTip": "D:\\C# project\\Virtual-Art-Gallery\\\u041A\u043E\u04342\\Art-Gallery\\Art-Gallery\\Art-Gallery.http*",
               "RelativeToolTip": "Art-Gallery\\Art-Gallery.http*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
               "WhenOpened": "2024-11-10T10:59:25.151Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "Privacy.cshtml",
               "DocumentMoniker": "D:\\C# project\\Virtual-Art-Gallery\\\u041A\u043E\u04342\\Art-Gallery\\Art-Gallery\\Views\\Home\\Privacy.cshtml",
               "RelativeDocumentMoniker": "Art-Gallery\\Views\\Home\\Privacy.cshtml",
@@ -178,20 +194,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\C# project\\Virtual-Art-Gallery\\\u041A\u043E\u04342\\Art-Gallery\\Art-Gallery\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Art-Gallery\\Views\\Home\\Index.cshtml",
               "ToolTip": "D:\\C# project\\Virtual-Art-Gallery\\\u041A\u043E\u04342\\Art-Gallery\\Art-Gallery\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Art-Gallery\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-10T10:56:37.201Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\C# project\\Virtual-Art-Gallery\\\u041A\u043E\u04342\\Art-Gallery\\Art-Gallery\\appsettings.json",
               "RelativeDocumentMoniker": "Art-Gallery\\appsettings.json",
@@ -199,12 +215,11 @@
               "RelativeToolTip": "Art-Gallery\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-10T10:51:50.91Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-10T10:51:50.91Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 3,
               "Title": "GalleryContext.cs",
               "DocumentMoniker": "D:\\C# project\\Virtual-Art-Gallery\\\u041A\u043E\u04342\\Art-Gallery\\Art-Gallery\\GalleryContext.cs",
               "RelativeDocumentMoniker": "Art-Gallery\\GalleryContext.cs",
@@ -217,7 +232,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\C# project\\Virtual-Art-Gallery\\\u041A\u043E\u04342\\Art-Gallery\\Art-Gallery\\Program.cs",
               "RelativeDocumentMoniker": "Art-Gallery\\Program.cs",
@@ -225,12 +240,11 @@
               "RelativeToolTip": "Art-Gallery\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T10:51:41.783Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-10T10:51:41.783Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "Publications.cshtml",
               "DocumentMoniker": "D:\\C# project\\Virtual-Art-Gallery\\\u041A\u043E\u04342\\Art-Gallery\\Art-Gallery\\Views\\Gallery\\Publications.cshtml",
               "RelativeDocumentMoniker": "Art-Gallery\\Views\\Gallery\\Publications.cshtml",
@@ -249,7 +263,7 @@
               "RelativeDocumentMoniker": "Art-Gallery\\Views\\Gallery\\Index.cshtml",
               "ToolTip": "D:\\C# project\\Virtual-Art-Gallery\\\u041A\u043E\u04342\\Art-Gallery\\Art-Gallery\\Views\\Gallery\\Index.cshtml",
               "RelativeToolTip": "Art-Gallery\\Views\\Gallery\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-10T10:51:26.803Z",
               "EditorCaption": ""
@@ -282,7 +296,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "PriceListModel.cs",
               "DocumentMoniker": "D:\\C# project\\Virtual-Art-Gallery\\\u041A\u043E\u04342\\Art-Gallery\\Art-Gallery\\Models\\PriceListModel.cs",
               "RelativeDocumentMoniker": "Art-Gallery\\Models\\PriceListModel.cs",
@@ -290,12 +304,11 @@
               "RelativeToolTip": "Art-Gallery\\Models\\PriceListModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T10:50:31.907Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-10T10:50:31.907Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "ExhibitionModel.cs",
               "DocumentMoniker": "D:\\C# project\\Virtual-Art-Gallery\\\u041A\u043E\u04342\\Art-Gallery\\Art-Gallery\\Models\\ExhibitionModel.cs",
               "RelativeDocumentMoniker": "Art-Gallery\\Models\\ExhibitionModel.cs",
@@ -303,12 +316,11 @@
               "RelativeToolTip": "Art-Gallery\\Models\\ExhibitionModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T10:50:23.089Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-10T10:50:23.089Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "ErrorViewModel.cs",
               "DocumentMoniker": "D:\\C# project\\Virtual-Art-Gallery\\\u041A\u043E\u04342\\Art-Gallery\\Art-Gallery\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "Art-Gallery\\Models\\ErrorViewModel.cs",
@@ -316,12 +328,11 @@
               "RelativeToolTip": "Art-Gallery\\Models\\ErrorViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T10:50:21.831Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-10T10:50:21.831Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "ArtworkModel.cs",
               "DocumentMoniker": "D:\\C# project\\Virtual-Art-Gallery\\\u041A\u043E\u04342\\Art-Gallery\\Art-Gallery\\Models\\ArtworkModel.cs",
               "RelativeDocumentMoniker": "Art-Gallery\\Models\\ArtworkModel.cs",
@@ -329,12 +340,11 @@
               "RelativeToolTip": "Art-Gallery\\Models\\ArtworkModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T10:50:19.391Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-10T10:50:19.391Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "ArtistModel.cs",
               "DocumentMoniker": "D:\\C# project\\Virtual-Art-Gallery\\\u041A\u043E\u04342\\Art-Gallery\\Art-Gallery\\Models\\ArtistModel.cs",
               "RelativeDocumentMoniker": "Art-Gallery\\Models\\ArtistModel.cs",
@@ -342,12 +352,11 @@
               "RelativeToolTip": "Art-Gallery\\Models\\ArtistModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T10:50:18.237Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-10T10:50:18.237Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "CategoryModel.cs",
               "DocumentMoniker": "D:\\C# project\\Virtual-Art-Gallery\\\u041A\u043E\u04342\\Art-Gallery\\Art-Gallery\\Models\\CategoryModel.cs",
               "RelativeDocumentMoniker": "Art-Gallery\\Models\\CategoryModel.cs",
@@ -355,12 +364,11 @@
               "RelativeToolTip": "Art-Gallery\\Models\\CategoryModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T10:50:08.973Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-10T10:50:08.973Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "AdminModel.cs",
               "DocumentMoniker": "D:\\C# project\\Virtual-Art-Gallery\\\u041A\u043E\u04342\\Art-Gallery\\Art-Gallery\\Models\\AdminModel.cs",
               "RelativeDocumentMoniker": "Art-Gallery\\Models\\AdminModel.cs",
@@ -368,12 +376,11 @@
               "RelativeToolTip": "Art-Gallery\\Models\\AdminModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T10:50:05.265Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-10T10:50:05.265Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "VisitorModel.cs",
               "DocumentMoniker": "D:\\C# project\\Virtual-Art-Gallery\\\u041A\u043E\u04342\\Art-Gallery\\Art-Gallery\\Models\\VisitorModel.cs",
               "RelativeDocumentMoniker": "Art-Gallery\\Models\\VisitorModel.cs",
@@ -381,12 +388,11 @@
               "RelativeToolTip": "Art-Gallery\\Models\\VisitorModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T10:49:57.49Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-10T10:49:57.49Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "UserModel.cs",
               "DocumentMoniker": "D:\\C# project\\Virtual-Art-Gallery\\\u041A\u043E\u04342\\Art-Gallery\\Art-Gallery\\Models\\UserModel.cs",
               "RelativeDocumentMoniker": "Art-Gallery\\Models\\UserModel.cs",
@@ -394,12 +400,11 @@
               "RelativeToolTip": "Art-Gallery\\Models\\UserModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T10:49:39.028Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-10T10:49:39.028Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "ItemModel.cs",
               "DocumentMoniker": "D:\\C# project\\Virtual-Art-Gallery\\\u041A\u043E\u04342\\Art-Gallery\\Art-Gallery\\Models\\ItemModel.cs",
               "RelativeDocumentMoniker": "Art-Gallery\\Models\\ItemModel.cs",
@@ -407,8 +412,7 @@
               "RelativeToolTip": "Art-Gallery\\Models\\ItemModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T10:48:34.467Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-10T10:48:34.467Z"
             }
           ]
         }

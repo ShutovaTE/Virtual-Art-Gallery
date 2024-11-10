@@ -2,7 +2,7 @@
 
 namespace Art_Gallery.Controllers
 {
-    public class HomeController : Controller
+    public class GalleryController : Controller
     {
         public IActionResult Index()
         {
