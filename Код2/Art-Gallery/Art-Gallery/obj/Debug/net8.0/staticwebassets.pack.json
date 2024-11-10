@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\C# project\\Virtual-Art-Gallery\\Код2\\Art-Gallery\\Art-Gallery\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Art-Gallery.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Art-Gallery.bundle.scp.css"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Art-Gallery.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Art-Gallery.props",
+      "PackagePath": "build\\Art-Gallery.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Art-Gallery.props",
+      "PackagePath": "buildMultiTargeting\\Art-Gallery.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Art-Gallery.props",
+      "PackagePath": "buildTransitive\\Art-Gallery.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

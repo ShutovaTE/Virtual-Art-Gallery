@@ -300,3 +300,5 @@ D:\Коды и чертежи\ТП\5 семестр\Курсовик\Virtual-Art
 D:\Коды и чертежи\ТП\5 семестр\Курсовик\Virtual-Art-Gallery\Код\Virtual_Art_Gallery\obj\Debug\net8.0\Virtual_Art_Gallery.genruntimeconfig.cache
 D:\Коды и чертежи\ТП\5 семестр\Курсовик\Virtual-Art-Gallery\Код\Virtual_Art_Gallery\obj\Debug\net8.0\ref\Virtual_Art_Gallery.dll
 >>>>>>> d1f00500bb6eae7508b2a57093cd6394d69326b9
+D:\C# project\Virtual-Art-Gallery\Код\Virtual_Art_Gallery\obj\Debug\net8.0\Virtual_Art_Gallery.csproj.AssemblyReference.cache
+D:\C# project\Virtual-Art-Gallery\Код\Virtual_Art_Gallery\obj\Debug\net8.0\Virtual_Art_Gallery.MvcApplicationPartsAssemblyInfo.cs
