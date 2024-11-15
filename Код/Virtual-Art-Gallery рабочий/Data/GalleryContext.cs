@@ -1,9 +1,10 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using Virtual_Art_Gallery.Models;
 
 namespace Virtual_Art_Gallery.Data
 {
-    public class GalleryContext : DbContext
+    public class GalleryContext : IdentityDbContext
     {
         public GalleryContext(DbContextOptions<GalleryContext> options) : base(options) { }
         public DbSet<ArtworkModel> Artworks { get; set; }
