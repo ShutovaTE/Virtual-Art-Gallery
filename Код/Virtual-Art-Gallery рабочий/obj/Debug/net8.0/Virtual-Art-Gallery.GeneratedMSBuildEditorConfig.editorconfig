@@ -26,6 +26,14 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\Все связанное с ВЛГУ\Учеба\ТП 3 курс 5 семестр\Virtual-Art-Gallery\Код\Virtual-Art-Gallery рабочий
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/Все связанное с ВЛГУ/Учеба/ТП 3 курс 5 семестр/Virtual-Art-Gallery/Код/Virtual-Art-Gallery рабочий/Areas/Identity/Pages/Account/ForgotPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxGb3Jnb3RQYXNzd29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Все связанное с ВЛГУ/Учеба/ТП 3 курс 5 семестр/Virtual-Art-Gallery/Код/Virtual-Art-Gallery рабочий/Areas/Identity/Pages/Account/ForgotPasswordConfirmation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxGb3Jnb3RQYXNzd29yZENvbmZpcm1hdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Все связанное с ВЛГУ/Учеба/ТП 3 курс 5 семестр/Virtual-Art-Gallery/Код/Virtual-Art-Gallery рабочий/Areas/Identity/Pages/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
