@@ -7,7 +7,7 @@ namespace Virtual_Art_Gallery.Models
         [Key]
         public int Id { get; set; }
         public string Name { get; set; }
-
+        public string Description { get; set; }
         //public void CreateNewCategory(string name) { }
         //public void EditCategory() { }
         //public void DeleteCategory() { }
