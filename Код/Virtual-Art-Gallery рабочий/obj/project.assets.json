@@ -8715,11 +8715,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Все связанное с ВЛГУ\\Учеба\\ТП 3 курс 5 семестр\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\Virtual-Art-Gallery.csproj",
+      "projectUniqueName": "D:\\Все связанное с ВЛГУ\\Учеба\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\Virtual-Art-Gallery.csproj",
       "projectName": "Virtual-Art-Gallery",
-      "projectPath": "D:\\Все связанное с ВЛГУ\\Учеба\\ТП 3 курс 5 семестр\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\Virtual-Art-Gallery.csproj",
+      "projectPath": "D:\\Все связанное с ВЛГУ\\Учеба\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\Virtual-Art-Gallery.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "D:\\Все связанное с ВЛГУ\\Учеба\\ТП 3 курс 5 семестр\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\obj\\",
+      "outputPath": "D:\\Все связанное с ВЛГУ\\Учеба\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",

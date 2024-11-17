@@ -44,6 +44,10 @@ namespace Virtual_Art_Gallery.Areas.Identity.Pages.Account
         public class InputModel
         {
             [Required]
+            [Display(Name = "Имя пользователя")]
+            public string Username { get; set; }
+
+            [Required]
             [EmailAddress]
             [Display(Name = "Электронная почта")]
             public string Email { get; set; }
@@ -58,7 +62,21 @@ namespace Virtual_Art_Gallery.Areas.Identity.Pages.Account
             [Display(Name = "Подтвердите пароль")]
             [Compare("Password", ErrorMessage = "Пароль и его подтверждение не совпадают.")]
             public string ConfirmPassword { get; set; }
+
+            [Required]
+            [Display(Name = "Контактные данные")]
+            public string Contact { get; set; }
+
+            [Display(Name = "О себе")]
+            public string AboutMe { get; set; }
         }
+
+        public class ApplicationUser : IdentityUser
+        {
+            public string Contact { get; set; }
+            public string AboutMe { get; set; }
+        }
+
 
         public async Task OnGetAsync(string returnUrl = null)
         {
@@ -75,8 +93,17 @@ namespace Virtual_Art_Gallery.Areas.Identity.Pages.Account
             {
                 var user = CreateUser();
 
+                user.UserName = Input.Username;  // Set Username
                 await _userStore.SetUserNameAsync(user, Input.Email, CancellationToken.None);
                 await _emailStore.SetEmailAsync(user, Input.Email, CancellationToken.None);
+
+                var applicationUser = user as ApplicationUser;
+                if (applicationUser != null)
+                {
+                    applicationUser.Contact = Input.Contact;
+                    applicationUser.AboutMe = Input.AboutMe;
+                }
+
                 var result = await _userManager.CreateAsync(user, Input.Password);
 
                 if (result.Succeeded)
@@ -95,6 +122,7 @@ namespace Virtual_Art_Gallery.Areas.Identity.Pages.Account
 
             return Page();
         }
+
 
         private IdentityUser CreateUser()
         {
