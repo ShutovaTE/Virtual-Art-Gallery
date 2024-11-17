@@ -12,14 +12,19 @@ namespace Virtual_Art_Gallery.Models
 
         public string? Description { get; set; }
 
-        public bool IsPublished { get; set; }
+        [Required]
+        public int CategoryId { get; set; }
+        public CategoryModel Category { get; set; }
 
-        public int rating { get; set; }
+        //public bool IsPublished { get; set; }
 
-        private DateTime DateCreated { get; set; }
+        //public int Rating { get; set; }
 
-        public byte ImageData { get; set; }
-        private int Width;
-        private int Height;
+        //public DateTime DateCreated { get; set; } = DateTime.Now;
+
+        public string ImagePath { get; set; }
+
+        public int Width { get; set; }
+        public int Height { get; set; }
     }
 }

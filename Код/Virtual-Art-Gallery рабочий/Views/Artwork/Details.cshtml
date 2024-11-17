@@ -1,0 +1,9 @@
+﻿@model Virtual_Art_Gallery.Models.ArtworkModel
+
+<h1>@Model.Title</h1>
+
+<img src="@Model.ImagePath" alt="Artwork Image" class="img-fluid" />
+<p>@Model.Description</p>
+<p>Category: @Model.Category.Name</p>
+@* <p>Created on: @Model.DateCreated</p>
+ *@<p>Dimensions: @Model.Width x @Model.Height</p>

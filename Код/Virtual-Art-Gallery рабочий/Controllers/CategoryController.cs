@@ -46,6 +46,7 @@ namespace Virtual_Art_Gallery.Controllers
         // GET: Category/Create
         public IActionResult Create()
         {
+            ViewData["CategoryList"] = new SelectList(_context.Categories, "Id", "Name");
             return View();
         }
 

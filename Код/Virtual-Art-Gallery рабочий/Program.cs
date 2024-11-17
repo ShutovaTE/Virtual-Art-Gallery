@@ -10,7 +10,9 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<GalleryContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("GalleryContext")));
 
-builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = false).AddEntityFrameworkStores<GalleryContext>();
+builder.Services.AddDefaultIdentity<IdentityUser>()
+        .AddEntityFrameworkStores<GalleryContext>()
+        .AddDefaultUI();
 
 var app = builder.Build();
 
