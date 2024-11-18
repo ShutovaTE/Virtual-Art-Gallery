@@ -4,6 +4,9 @@
 
 <img src="@Model.ImagePath" alt="Artwork Image" class="img-fluid" />
 <p>@Model.Description</p>
-<p>Category: @Model.Category.Name</p>
-@* <p>Created on: @Model.DateCreated</p>
- *@<p>Dimensions: @Model.Width x @Model.Height</p>
+<p>Категория: @Model.Category.Name</p>
+<p><strong>Дата создания:</strong> @Model.DateCreated.ToString("dd.MM.yyyy HH:mm")</p>
+<p>Размеры: @Model.Width x @Model.Height</p>
+<div class="mt-4">
+    <a asp-action="Index" class="btn btn-secondary">Вернуться ко всем публикациям</a>
+</div>

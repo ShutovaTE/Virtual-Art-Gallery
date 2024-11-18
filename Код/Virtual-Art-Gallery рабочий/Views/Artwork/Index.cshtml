@@ -19,7 +19,7 @@
             <tr>
                 <td>@item.Title</td>
                 <td>@item.Category?.Name</td>
-               @*  <td>@item.DateCreated.ToString("dd.MM.yyyy")</td> *@
+                <td>@item.DateCreated.ToString("dd.MM.yyyy HH:mm")</td> 
                 <td>
                     <a asp-action="Details" asp-route-id="@item.Id">Просмотреть</a> |
                     <a asp-action="Edit" asp-route-id="@item.Id">Редактировать</a> |
@@ -28,6 +28,7 @@
             </tr>
         }
     </tbody>
+
 </table>
 
 <div>

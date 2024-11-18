@@ -1,29 +1,29 @@
 ﻿@model Virtual_Art_Gallery.Models.ArtworkModel
 
-<h1>Delete Artwork</h1>
+@{
+    ViewData["Title"] = "Delete Artwork";
+}
 
+<h1>Удаление публикации</h1>
 
-
-<button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#confirmDeleteModal">Удалить</button>
-
-<div class="modal fade" id="confirmDeleteModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Подтверждение удаления</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                Вы уверены, что хотите удалить публикацию?
-            </div>
-            <div class="modal-footer">
-                <form asp-action="DeleteConfirmed" method="post">
-                    <input type="hidden" asp-for="Id" />
-                    <button type="submit" class="btn btn-danger">Удалить</button>
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Отмена</button>
-                </form>
-            </div>
-        </div>
+<div>
+    <h4>Вы уверены, что хотите удалить эту публикацию?</h4>
+    <div>
+        <strong>Название:</strong> @Model.Title
     </div>
-</div>
+    <div>
+        <strong>Категория:</strong> @Model.Category.Name
+    </div>
+    <div>
+        <strong>Описание:</strong> @Model.Description
+    </div>
+    <div>
+        <img src="@Model.ImagePath" alt="Artwork Image" style="max-width: 300px;" />
+    </div>
 
+    <form asp-action="Delete" asp-route-id="@Model.Id" method="post">
+        <input type="hidden" name="Id" value="@Model.Id" />
+        <button type="submit" class="btn btn-danger">Удалить</button>
+        <a asp-action="Index" class="btn btn-secondary">Отменить</a>
+    </form>
+</div>

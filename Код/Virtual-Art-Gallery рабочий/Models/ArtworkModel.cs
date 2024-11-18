@@ -21,6 +21,12 @@ namespace Virtual_Art_Gallery.Models
 
         public int Width { get; set; }
         public int Height { get; set; }
-    }
 
+        [Required]
+        public DateTime DateCreated
+        {
+            get; set;
+        }
+
+    }
 }
