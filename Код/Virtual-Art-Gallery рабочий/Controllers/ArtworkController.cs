@@ -54,7 +54,7 @@ namespace Virtual_Art_Gallery.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Title,Description,CategoryId,ImagePath")] ArtworkModel artwork, IFormFile imageFile)
+        public async Task<IActionResult> Create([Bind("Title,Description,CategoryId")] ArtworkModel artwork, IFormFile imageFile)
         {
             try
             {
@@ -63,8 +63,6 @@ namespace Virtual_Art_Gallery.Controllers
                     // Проверяем, был ли загружен файл
                     if (imageFile != null && imageFile.Length > 0)
                     {
-                        Console.WriteLine($"Получен файл: {imageFile.FileName}, размер: {imageFile.Length} байт");
-
                         // Проверка расширения файла (только изображения)
                         var allowedExtensions = new[] { ".jpg", ".jpeg", ".png", ".gif" };
                         var fileExtension = Path.GetExtension(imageFile.FileName).ToLower();
@@ -78,62 +76,31 @@ namespace Virtual_Art_Gallery.Controllers
                         // Генерация уникального имени файла
                         var fileName = Path.GetFileNameWithoutExtension(imageFile.FileName) + "_" + Guid.NewGuid() + fileExtension;
                         var imagesFolder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images");
-
-                        // Создаем папку, если она не существует
                         if (!Directory.Exists(imagesFolder))
                         {
                             Directory.CreateDirectory(imagesFolder);
-                            Console.WriteLine("Папка для изображений создана.");
                         }
 
                         var filePath = Path.Combine(imagesFolder, fileName);
-                        Console.WriteLine($"Путь сохранения файла: {filePath}");
-
-                        // Сохраняем файл на диск
-                        try
+                        using (var fileStream = new FileStream(filePath, FileMode.Create))
                         {
-                            using (var fileStream = new FileStream(filePath, FileMode.Create))
-                            {
-                                await imageFile.CopyToAsync(fileStream);
-                            }
-                            Console.WriteLine("Файл успешно сохранен.");
-                        }
-                        catch (Exception fileEx)
-                        {
-                            Console.WriteLine($"Ошибка при сохранении файла: {fileEx.Message}");
-                            ModelState.AddModelError("ImageFile", "Ошибка при сохранении изображения.");
-                            ViewData["CategoryList"] = new SelectList(_context.Categories, "Id", "Name", artwork.CategoryId);
-                            return View(artwork);
+                            await imageFile.CopyToAsync(fileStream);
                         }
 
-                        // Обработка изображения с помощью ImageSharp
-                        try
+                        using (var img = Image.Load(filePath))
                         {
-                            using (var img = Image.Load(filePath))
-                            {
-                                artwork.Width = img.Width;
-                                artwork.Height = img.Height;
-                            }
-                            artwork.ImagePath = "/images/" + fileName;
-                            Console.WriteLine($"Размер изображения: {artwork.Width}x{artwork.Height}");
+                            artwork.Width = img.Width;
+                            artwork.Height = img.Height;
                         }
-                        catch (Exception imageEx)
-                        {
-                            Console.WriteLine($"Ошибка при обработке изображения: {imageEx.Message}");
-                            ModelState.AddModelError("ImageFile", "Ошибка при обработке изображения.");
-                            ViewData["CategoryList"] = new SelectList(_context.Categories, "Id", "Name", artwork.CategoryId);
-                            return View(artwork);
-                        }
-                    }
-                    else
-                    {
-                        ModelState.AddModelError("ImageFile", "Изображение не загружено.");
+
+                        artwork.ImagePath = "/images/" + fileName;
                     }
 
                     _context.Add(artwork);
                     await _context.SaveChangesAsync();
                     return RedirectToAction(nameof(Index));
                 }
+
                 ViewData["CategoryList"] = new SelectList(_context.Categories, "Id", "Name", artwork.CategoryId);
                 return View(artwork);
             }
@@ -144,6 +111,7 @@ namespace Virtual_Art_Gallery.Controllers
                 return View(artwork);
             }
         }
+
 
 
         // GET: Artwork/Edit/5
@@ -180,7 +148,6 @@ namespace Virtual_Art_Gallery.Controllers
                 {
                     if (imageFile != null)
                     {
-                        // Генерация уникального имени для файла
                         var fileName = Path.GetFileNameWithoutExtension(imageFile.FileName) + Guid.NewGuid() + Path.GetExtension(imageFile.FileName);
                         var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images", fileName);
 
@@ -189,10 +156,8 @@ namespace Virtual_Art_Gallery.Controllers
                             await imageFile.CopyToAsync(fileStream);
                         }
 
-                        // Сохраняем путь изображения в базе данных
                         artwork.ImagePath = "/images/" + fileName;
 
-                        // Получаем размеры изображения
                         using (var img = Image.Load(filePath))
                         {
                             artwork.Width = img.Width;
