@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "PJ1EGiTil6wknUVSAxg/dUvNfwbhpLjUljhqJtBKy3M=",
+  "Hash": "Dy0gl+L04YYx91z1K7exWZLF2zIdzUvXpsCbGj7MNRQ=",
   "Source": "Virtual-Art-Gallery",
   "BasePath": "_content/Virtual-Art-Gallery",
   "Mode": "Default",
@@ -1516,6 +1516,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\4_de6060a4-fa24-477c-b5a6-e851956ea0fd.jpg"
+    },
+    {
+      "Identity": "D:\\Все связанное с ВЛГУ\\Учеба\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_e0aff518-f24a-4e46-b6ad-d35a1937bdac.jpg",
+      "SourceId": "Virtual-Art-Gallery",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Все связанное с ВЛГУ\\Учеба\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "BasePath": "_content/Virtual-Art-Gallery",
+      "RelativePath": "images/4_e0aff518-f24a-4e46-b6ad-d35a1937bdac.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\4_e0aff518-f24a-4e46-b6ad-d35a1937bdac.jpg"
     },
     {
       "Identity": "D:\\Все связанное с ВЛГУ\\Учеба\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\js\\site.js",
