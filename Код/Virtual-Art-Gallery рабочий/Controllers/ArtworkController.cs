@@ -149,46 +149,38 @@ namespace Virtual_Art_Gallery.Controllers
                         return NotFound();
                     }
 
-                    // Обновляем основные поля
                     existingArtwork.Title = artwork.Title;
                     existingArtwork.Description = artwork.Description;
                     existingArtwork.CategoryId = artwork.CategoryId;
 
                     if (imageFile != null && imageFile.Length > 0)
                     {
-                        // Генерация имени для нового файла
                         var fileName = Path.GetFileNameWithoutExtension(imageFile.FileName) + "_" + Guid.NewGuid() + Path.GetExtension(imageFile.FileName);
                         var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images", fileName);
 
-                        // Копирование нового изображения
                         using (var fileStream = new FileStream(filePath, FileMode.Create))
                         {
                             await imageFile.CopyToAsync(fileStream);
                         }
 
-                        // Обновление пути к изображению
                         existingArtwork.ImagePath = "/images/" + fileName;
 
-                        // Обновление размеров изображения
                         using (var img = Image.Load(filePath))
                         {
                             existingArtwork.Width = img.Width;
                             existingArtwork.Height = img.Height;
                         }
 
-                        // Обновляем дату изменения
                         existingArtwork.DateCreated = DateTime.Now;
                     }
                     else
                     {
-                        // Если изображение не загружается, сохраняем старые значения
                         artwork.ImagePath = existingArtwork.ImagePath;
                         artwork.Width = existingArtwork.Width;
                         artwork.Height = existingArtwork.Height;
                         artwork.DateCreated = existingArtwork.DateCreated;
                     }
 
-                    // Обновляем запись в базе данных
                     _context.Update(existingArtwork);
                     await _context.SaveChangesAsync();
                 }
@@ -206,7 +198,6 @@ namespace Virtual_Art_Gallery.Controllers
                 return RedirectToAction(nameof(Index));
             }
 
-            // Если модель не валидна, повторно передаем список категорий
             ViewData["CategoryList"] = new SelectList(_context.Categories, "Id", "Name", artwork.CategoryId);
             return View(artwork);
         }

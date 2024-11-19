@@ -222,18 +222,11 @@ namespace Virtual_Art_Gallery.Migrations
                     ImagePath = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Width = table.Column<int>(type: "int", nullable: false),
                     Height = table.Column<int>(type: "int", nullable: false),
-                    DateCreated = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    UserId = table.Column<string>(type: "nvarchar(450)", nullable: false)
+                    DateCreated = table.Column<DateTime>(type: "datetime2", nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Artworks", x => x.Id);
-                    table.ForeignKey(
-                        name: "FK_Artworks_AspNetUsers_UserId",
-                        column: x => x.UserId,
-                        principalTable: "AspNetUsers",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
                         name: "FK_Artworks_Categories_CategoryId",
                         column: x => x.CategoryId,
@@ -246,11 +239,6 @@ namespace Virtual_Art_Gallery.Migrations
                 name: "IX_Artworks_CategoryId",
                 table: "Artworks",
                 column: "CategoryId");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_Artworks_UserId",
-                table: "Artworks",
-                column: "UserId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_AspNetRoleClaims_RoleId",

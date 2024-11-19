@@ -84,8 +84,7 @@ namespace Virtual_Art_Gallery.Areas.Identity.Pages.Account
             ReturnUrl = returnUrl;
             ExternalLogins = (await _signInManager.GetExternalAuthenticationSchemesAsync()).ToList();
         }
-
-        public async Task<IActionResult> OnPostAsync(string returnUrl = null)
+                public async Task<IActionResult> OnPostAsync(string returnUrl = null)
         {
             returnUrl ??= Url.Content("~/");
             ExternalLogins = (await _signInManager.GetExternalAuthenticationSchemesAsync()).ToList();
@@ -109,16 +108,13 @@ namespace Virtual_Art_Gallery.Areas.Identity.Pages.Account
                 {
                     _logger.LogInformation("User created a new account with password.");
 
-                    // Check if this is the first user
                     var users = await _userManager.Users.ToListAsync();
                     if (users.Count == 1)
                     {
-                        // First user, assign the Administrator role
                         await _userManager.AddToRoleAsync(user, "Administrator");
                     }
                     else
                     {
-                        // Other users, assign the User role
                         await _userManager.AddToRoleAsync(user, "User");
                     }
 
@@ -134,9 +130,6 @@ namespace Virtual_Art_Gallery.Areas.Identity.Pages.Account
 
             return Page();
         }
-
-
-
 
         private IdentityUser CreateUser()
         {
