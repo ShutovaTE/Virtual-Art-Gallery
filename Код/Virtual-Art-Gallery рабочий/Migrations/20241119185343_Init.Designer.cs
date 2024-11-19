@@ -12,8 +12,8 @@ using Virtual_Art_Gallery.Data;
 namespace Virtual_Art_Gallery.Migrations
 {
     [DbContext(typeof(GalleryContext))]
-    [Migration("20241119183445_init")]
-    partial class init
+    [Migration("20241119185343_Init")]
+    partial class Init
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
