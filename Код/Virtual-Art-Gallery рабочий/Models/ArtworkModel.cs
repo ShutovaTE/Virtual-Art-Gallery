@@ -28,10 +28,6 @@ namespace Virtual_Art_Gallery.Models
         {
             get; set;
         }
-        [Required]
-        public string UserId { get; set; } 
-
-        public IdentityUser? User { get; set; } 
 
     }
 }

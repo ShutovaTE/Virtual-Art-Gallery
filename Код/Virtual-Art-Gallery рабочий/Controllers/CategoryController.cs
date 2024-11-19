@@ -11,7 +11,7 @@ using Virtual_Art_Gallery.Models;
 
 namespace Virtual_Art_Gallery.Controllers
 {
-    [Authorize(Roles = "Admin")]
+    [Authorize(Roles = "Administrator")]
     public class CategoryController : Controller
     {
         private readonly GalleryContext _context;

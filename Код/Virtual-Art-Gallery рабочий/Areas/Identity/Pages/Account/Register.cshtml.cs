@@ -9,6 +9,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 
 namespace Virtual_Art_Gallery.Areas.Identity.Pages.Account
@@ -92,7 +93,6 @@ namespace Virtual_Art_Gallery.Areas.Identity.Pages.Account
             if (ModelState.IsValid)
             {
                 var user = CreateUser();
-
                 await _userStore.SetUserNameAsync(user, Input.Username, CancellationToken.None);
                 await _emailStore.SetEmailAsync(user, Input.Email, CancellationToken.None);
 
@@ -109,6 +109,19 @@ namespace Virtual_Art_Gallery.Areas.Identity.Pages.Account
                 {
                     _logger.LogInformation("User created a new account with password.");
 
+                    // Check if this is the first user
+                    var users = await _userManager.Users.ToListAsync();
+                    if (users.Count == 1)
+                    {
+                        // First user, assign the Administrator role
+                        await _userManager.AddToRoleAsync(user, "Administrator");
+                    }
+                    else
+                    {
+                        // Other users, assign the User role
+                        await _userManager.AddToRoleAsync(user, "User");
+                    }
+
                     await _signInManager.SignInAsync(user, isPersistent: false);
                     return LocalRedirect(returnUrl);
                 }
@@ -121,6 +134,8 @@ namespace Virtual_Art_Gallery.Areas.Identity.Pages.Account
 
             return Page();
         }
+
+
 
 
         private IdentityUser CreateUser()
