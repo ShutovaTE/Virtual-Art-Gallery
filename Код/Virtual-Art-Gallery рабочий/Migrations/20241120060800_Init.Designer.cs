@@ -12,7 +12,7 @@ using Virtual_Art_Gallery.Data;
 namespace Virtual_Art_Gallery.Migrations
 {
     [DbContext(typeof(GalleryContext))]
-    [Migration("20241119185343_Init")]
+    [Migration("20241120060800_Init")]
     partial class Init
     {
         /// <inheritdoc />
