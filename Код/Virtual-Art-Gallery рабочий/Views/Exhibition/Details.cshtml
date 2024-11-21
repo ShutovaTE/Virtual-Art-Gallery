@@ -1,0 +1,35 @@
+﻿@model Virtual_Art_Gallery.Models.ExhibitionModel
+
+@{
+    ViewData["Title"] = "О выставке";
+}
+
+<h1>@Html.DisplayFor(model => model.Title)</h1>
+
+<div>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            Название
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Title)
+        </dd>
+        <dt class = "col-sm-2">
+            Описание
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Description)
+        </dd>
+        <dt class = "col-sm-2">
+            Открытость
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.IsClosed)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.Id">Изменить</a> |
+    <a asp-action="Index">Вернуться к выставкам</a>
+</div>

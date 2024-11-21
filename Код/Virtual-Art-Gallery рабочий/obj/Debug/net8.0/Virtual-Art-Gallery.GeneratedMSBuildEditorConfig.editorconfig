@@ -17,123 +17,143 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Virtual_Art_Gallery
 build_property.RootNamespace = Virtual_Art_Gallery
-build_property.ProjectDir = D:\Virtual-Art-Gallery\Код\Virtual-Art-Gallery рабочий\
+build_property.ProjectDir = D:\Коды и чертежи\ТП\5 семестр\Курсовик\Virtual-Art-Gallery\Код\Virtual-Art-Gallery рабочий\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\Virtual-Art-Gallery\Код\Virtual-Art-Gallery рабочий
+build_property.MSBuildProjectDirectory = D:\Коды и чертежи\ТП\5 семестр\Курсовик\Virtual-Art-Gallery\Код\Virtual-Art-Gallery рабочий
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Virtual-Art-Gallery/Код/Virtual-Art-Gallery рабочий/Areas/Identity/Pages/Account/Login.cshtml]
+[D:/Коды и чертежи/ТП/5 семестр/Курсовик/Virtual-Art-Gallery/Код/Virtual-Art-Gallery рабочий/Areas/Identity/Pages/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Virtual-Art-Gallery/Код/Virtual-Art-Gallery рабочий/Areas/Identity/Pages/Account/Logout.cshtml]
+[D:/Коды и чертежи/ТП/5 семестр/Курсовик/Virtual-Art-Gallery/Код/Virtual-Art-Gallery рабочий/Areas/Identity/Pages/Account/Logout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Virtual-Art-Gallery/Код/Virtual-Art-Gallery рабочий/Areas/Identity/Pages/Account/Register.cshtml]
+[D:/Коды и чертежи/ТП/5 семестр/Курсовик/Virtual-Art-Gallery/Код/Virtual-Art-Gallery рабочий/Areas/Identity/Pages/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Virtual-Art-Gallery/Код/Virtual-Art-Gallery рабочий/Areas/Identity/Pages/Account/ResetPassword.cshtml]
+[D:/Коды и чертежи/ТП/5 семестр/Курсовик/Virtual-Art-Gallery/Код/Virtual-Art-Gallery рабочий/Areas/Identity/Pages/Account/ResetPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZXNldFBhc3N3b3JkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Virtual-Art-Gallery/Код/Virtual-Art-Gallery рабочий/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+[D:/Коды и чертежи/ТП/5 семестр/Курсовик/Virtual-Art-Gallery/Код/Virtual-Art-Gallery рабочий/Areas/Identity/Pages/Account/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Virtual-Art-Gallery/Код/Virtual-Art-Gallery рабочий/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+[D:/Коды и чертежи/ТП/5 семестр/Курсовик/Virtual-Art-Gallery/Код/Virtual-Art-Gallery рабочий/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Virtual-Art-Gallery/Код/Virtual-Art-Gallery рабочий/Areas/Identity/Pages/_ViewImports.cshtml]
+[D:/Коды и чертежи/ТП/5 семестр/Курсовик/Virtual-Art-Gallery/Код/Virtual-Art-Gallery рабочий/Areas/Identity/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Virtual-Art-Gallery/Код/Virtual-Art-Gallery рабочий/Areas/Identity/Pages/_ViewStart.cshtml]
+[D:/Коды и чертежи/ТП/5 семестр/Курсовик/Virtual-Art-Gallery/Код/Virtual-Art-Gallery рабочий/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Virtual-Art-Gallery/Код/Virtual-Art-Gallery рабочий/Views/Artwork/Create.cshtml]
+[D:/Коды и чертежи/ТП/5 семестр/Курсовик/Virtual-Art-Gallery/Код/Virtual-Art-Gallery рабочий/Views/Artwork/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJ0d29ya1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Virtual-Art-Gallery/Код/Virtual-Art-Gallery рабочий/Views/Artwork/Delete.cshtml]
+[D:/Коды и чертежи/ТП/5 семестр/Курсовик/Virtual-Art-Gallery/Код/Virtual-Art-Gallery рабочий/Views/Artwork/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJ0d29ya1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Virtual-Art-Gallery/Код/Virtual-Art-Gallery рабочий/Views/Artwork/Details.cshtml]
+[D:/Коды и чертежи/ТП/5 семестр/Курсовик/Virtual-Art-Gallery/Код/Virtual-Art-Gallery рабочий/Views/Artwork/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJ0d29ya1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Virtual-Art-Gallery/Код/Virtual-Art-Gallery рабочий/Views/Artwork/Edit.cshtml]
+[D:/Коды и чертежи/ТП/5 семестр/Курсовик/Virtual-Art-Gallery/Код/Virtual-Art-Gallery рабочий/Views/Artwork/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJ0d29ya1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Virtual-Art-Gallery/Код/Virtual-Art-Gallery рабочий/Views/Artwork/Index.cshtml]
+[D:/Коды и чертежи/ТП/5 семестр/Курсовик/Virtual-Art-Gallery/Код/Virtual-Art-Gallery рабочий/Views/Artwork/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJ0d29ya1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Virtual-Art-Gallery/Код/Virtual-Art-Gallery рабочий/Views/Category/Create.cshtml]
+[D:/Коды и чертежи/ТП/5 семестр/Курсовик/Virtual-Art-Gallery/Код/Virtual-Art-Gallery рабочий/Views/Category/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Virtual-Art-Gallery/Код/Virtual-Art-Gallery рабочий/Views/Category/Delete.cshtml]
+[D:/Коды и чертежи/ТП/5 семестр/Курсовик/Virtual-Art-Gallery/Код/Virtual-Art-Gallery рабочий/Views/Category/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Virtual-Art-Gallery/Код/Virtual-Art-Gallery рабочий/Views/Category/Details.cshtml]
+[D:/Коды и чертежи/ТП/5 семестр/Курсовик/Virtual-Art-Gallery/Код/Virtual-Art-Gallery рабочий/Views/Category/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Virtual-Art-Gallery/Код/Virtual-Art-Gallery рабочий/Views/Category/Edit.cshtml]
+[D:/Коды и чертежи/ТП/5 семестр/Курсовик/Virtual-Art-Gallery/Код/Virtual-Art-Gallery рабочий/Views/Category/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Virtual-Art-Gallery/Код/Virtual-Art-Gallery рабочий/Views/Category/Index.cshtml]
+[D:/Коды и чертежи/ТП/5 семестр/Курсовик/Virtual-Art-Gallery/Код/Virtual-Art-Gallery рабочий/Views/Category/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Virtual-Art-Gallery/Код/Virtual-Art-Gallery рабочий/Views/Gallery/Index.cshtml]
+[D:/Коды и чертежи/ТП/5 семестр/Курсовик/Virtual-Art-Gallery/Код/Virtual-Art-Gallery рабочий/Views/Exhibition/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhoaWJpdGlvblxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Коды и чертежи/ТП/5 семестр/Курсовик/Virtual-Art-Gallery/Код/Virtual-Art-Gallery рабочий/Views/Exhibition/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhoaWJpdGlvblxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Коды и чертежи/ТП/5 семестр/Курсовик/Virtual-Art-Gallery/Код/Virtual-Art-Gallery рабочий/Views/Exhibition/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhoaWJpdGlvblxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Коды и чертежи/ТП/5 семестр/Курсовик/Virtual-Art-Gallery/Код/Virtual-Art-Gallery рабочий/Views/Exhibition/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhoaWJpdGlvblxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Коды и чертежи/ТП/5 семестр/Курсовик/Virtual-Art-Gallery/Код/Virtual-Art-Gallery рабочий/Views/Exhibition/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhoaWJpdGlvblxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Коды и чертежи/ТП/5 семестр/Курсовик/Virtual-Art-Gallery/Код/Virtual-Art-Gallery рабочий/Views/Gallery/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FsbGVyeVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Virtual-Art-Gallery/Код/Virtual-Art-Gallery рабочий/Views/Home/Index.cshtml]
+[D:/Коды и чертежи/ТП/5 семестр/Курсовик/Virtual-Art-Gallery/Код/Virtual-Art-Gallery рабочий/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Virtual-Art-Gallery/Код/Virtual-Art-Gallery рабочий/Views/Home/Privacy.cshtml]
+[D:/Коды и чертежи/ТП/5 семестр/Курсовик/Virtual-Art-Gallery/Код/Virtual-Art-Gallery рабочий/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Virtual-Art-Gallery/Код/Virtual-Art-Gallery рабочий/Views/Shared/Error.cshtml]
+[D:/Коды и чертежи/ТП/5 семестр/Курсовик/Virtual-Art-Gallery/Код/Virtual-Art-Gallery рабочий/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Virtual-Art-Gallery/Код/Virtual-Art-Gallery рабочий/Views/Shared/_LoginPartial.cshtml]
+[D:/Коды и чертежи/ТП/5 семестр/Курсовик/Virtual-Art-Gallery/Код/Virtual-Art-Gallery рабочий/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Virtual-Art-Gallery/Код/Virtual-Art-Gallery рабочий/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/Коды и чертежи/ТП/5 семестр/Курсовик/Virtual-Art-Gallery/Код/Virtual-Art-Gallery рабочий/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Virtual-Art-Gallery/Код/Virtual-Art-Gallery рабочий/Views/_ValidationScriptsPartial.cshtml]
+[D:/Коды и чертежи/ТП/5 семестр/Курсовик/Virtual-Art-Gallery/Код/Virtual-Art-Gallery рабочий/Views/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Virtual-Art-Gallery/Код/Virtual-Art-Gallery рабочий/Views/_ViewImports.cshtml]
+[D:/Коды и чертежи/ТП/5 семестр/Курсовик/Virtual-Art-Gallery/Код/Virtual-Art-Gallery рабочий/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Virtual-Art-Gallery/Код/Virtual-Art-Gallery рабочий/Views/_ViewStart.cshtml]
+[D:/Коды и чертежи/ТП/5 семестр/Курсовик/Virtual-Art-Gallery/Код/Virtual-Art-Gallery рабочий/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Virtual-Art-Gallery/Код/Virtual-Art-Gallery рабочий/Views/Shared/_Layout.cshtml]
+[D:/Коды и чертежи/ТП/5 семестр/Курсовик/Virtual-Art-Gallery/Код/Virtual-Art-Gallery рабочий/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-h06xy4fquw
