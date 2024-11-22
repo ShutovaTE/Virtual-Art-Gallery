@@ -19,15 +19,11 @@ namespace Virtual_Art_Gallery.Models
         public CategoryModel? Category { get; set; }
 
         public string? ImagePath { get; set; }
-
         public int Width { get; set; }
         public int Height { get; set; }
 
         [Required]
-        public DateTime DateCreated
-        {
-            get; set;
-        }
+        public DateTime DateCreated { get; set; }
 
     }
 }
