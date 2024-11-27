@@ -24,6 +24,8 @@ namespace Virtual_Art_Gallery.Models
 
         [Required]
         public DateTime DateCreated { get; set; }
+        public int? ExhibitionId { get; set; }
+        public virtual ExhibitionModel? Exhibition { get; set; }
 
     }
 }

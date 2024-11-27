@@ -2,11 +2,17 @@
 
 @{
     ViewData["Title"] = "Создать новую публикацию";
+    var exhibitionId = ViewData["ExhibitionId"] as int?;
 }
 
 <h1>@ViewData["Title"]</h1>
 
 <form asp-action="Create" method="post" enctype="multipart/form-data">
+    @* Скрытое поле для передачи ExhibitionId *@
+    @if (exhibitionId.HasValue)
+    {
+        <input type="hidden" name="exhibitionId" value="@exhibitionId" />
+    }
     <div class="form-group">
         <label asp-for="Title">Название</label>
         <input asp-for="Title" class="form-control" />

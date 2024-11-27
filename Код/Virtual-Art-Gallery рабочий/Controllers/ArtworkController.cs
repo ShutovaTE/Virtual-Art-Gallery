@@ -46,21 +46,23 @@ namespace Virtual_Art_Gallery.Controllers
         }
 
         // GET: Artwork/Create
-        public IActionResult Create()
+        public IActionResult Create(int? exhibitionId)
         {
+            ViewData["ExhibitionId"] = exhibitionId;
             ViewData["CategoryList"] = new SelectList(_context.Categories, "Id", "Name");
             return View(new ArtworkModel()); 
         }
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Title,Description,CategoryId")] ArtworkModel artwork, IFormFile imageFile)
+        public async Task<IActionResult> Create([Bind("Title,Description,CategoryId")] ArtworkModel artwork, IFormFile imageFile, int? exhibitionId) 
         {
             {
                 try
                 {
                     if (ModelState.IsValid)
                     {
+                        artwork.ExhibitionId = exhibitionId;
                         artwork.DateCreated = DateTime.Now;
 
                         if (imageFile != null && imageFile.Length > 0)
@@ -98,7 +100,14 @@ namespace Virtual_Art_Gallery.Controllers
 
                         _context.Add(artwork);
                         await _context.SaveChangesAsync();
-                        return RedirectToAction(nameof(Index));
+                        if (exhibitionId.HasValue)
+                        {
+                            return RedirectToAction("Details", "Exhibition", new { id = exhibitionId });
+                        }
+                        else
+                        {
+                            return RedirectToAction(nameof(Index));
+                        }
                     }
 
                     ViewData["CategoryList"] = new SelectList(_context.Categories, "Id", "Name", artwork.CategoryId);
@@ -243,6 +252,31 @@ namespace Virtual_Art_Gallery.Controllers
         private bool ArtworkModelExists(int id)
         {
             return _context.Artworks.Any(e => e.Id == id);
+        }
+
+        public async Task<IActionResult> UnassignedArtworks()
+        {
+            var artworks = await _context.Artworks
+                .Where(a => a.ExhibitionId == null)
+                .ToListAsync();
+
+            return View(artworks);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> AssignToExhibition(int artworkId, int exhibitionId)
+        {
+            var artwork = await _context.Artworks.FindAsync(artworkId);
+            if (artwork == null)
+            {
+                return NotFound();
+            }
+
+            artwork.ExhibitionId = exhibitionId;
+            await _context.SaveChangesAsync();
+
+            return RedirectToAction(nameof(Index));
         }
 
     }

@@ -256,6 +256,102 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\4_c6e6d601-6f63-46d8-85fc-9e2886892d1e.jpg))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\666_e49d4419-4aae-4795-a3fa-51ca5bd1f4c7.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>Virtual-Art-Gallery</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Virtual-Art-Gallery</BasePath>
+      <RelativePath>images/666_e49d4419-4aae-4795-a3fa-51ca5bd1f4c7.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\666_e49d4419-4aae-4795-a3fa-51ca5bd1f4c7.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\Kmgzc6A8EYo_45695289-a9e4-4bbb-a355-b355e73ea114.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Virtual-Art-Gallery</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Virtual-Art-Gallery</BasePath>
+      <RelativePath>images/Kmgzc6A8EYo_45695289-a9e4-4bbb-a355-b355e73ea114.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\Kmgzc6A8EYo_45695289-a9e4-4bbb-a355-b355e73ea114.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\rDd76chF8a48FkNUJ6PkVbgjaPSwHzp3R4jZiSraxJ91UbA2b1qJMw4xRhtAm4Y9y5XsqI919mqZ2WUj1_wXnff7_3b8273ff-eb49-4da2-a8b3-9f5a0c2db380.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Virtual-Art-Gallery</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Virtual-Art-Gallery</BasePath>
+      <RelativePath>images/rDd76chF8a48FkNUJ6PkVbgjaPSwHzp3R4jZiSraxJ91UbA2b1qJMw4xRhtAm4Y9y5XsqI919mqZ2WUj1_wXnff7_3b8273ff-eb49-4da2-a8b3-9f5a0c2db380.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\rDd76chF8a48FkNUJ6PkVbgjaPSwHzp3R4jZiSraxJ91UbA2b1qJMw4xRhtAm4Y9y5XsqI919mqZ2WUj1_wXnff7_3b8273ff-eb49-4da2-a8b3-9f5a0c2db380.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\краши_42fae859-c905-4c3b-aac6-3d6aa1805fdc.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>Virtual-Art-Gallery</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Virtual-Art-Gallery</BasePath>
+      <RelativePath>images/краши_42fae859-c905-4c3b-aac6-3d6aa1805fdc.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\краши_42fae859-c905-4c3b-aac6-3d6aa1805fdc.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\краши_bb6b6024-3656-4f63-adfb-cd87b389c9db.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>Virtual-Art-Gallery</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Virtual-Art-Gallery</BasePath>
+      <RelativePath>images/краши_bb6b6024-3656-4f63-adfb-cd87b389c9db.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\краши_bb6b6024-3656-4f63-adfb-cd87b389c9db.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\краши_f4b9a313-2e9b-499f-8a7d-cc1869294175.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>Virtual-Art-Gallery</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Virtual-Art-Gallery</BasePath>
+      <RelativePath>images/краши_f4b9a313-2e9b-499f-8a7d-cc1869294175.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\краши_f4b9a313-2e9b-499f-8a7d-cc1869294175.png))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\js\site.js))">
       <SourceType>Package</SourceType>
       <SourceId>Virtual-Art-Gallery</SourceId>

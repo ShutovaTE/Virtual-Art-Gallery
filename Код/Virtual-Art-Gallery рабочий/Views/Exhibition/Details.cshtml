@@ -9,27 +9,54 @@
 <div>
     <hr />
     <dl class="row">
-        <dt class = "col-sm-2">
+        <dt class="col-sm-2">
             Название
         </dt>
-        <dd class = "col-sm-10">
+        <dd class="col-sm-10">
             @Html.DisplayFor(model => model.Title)
         </dd>
-        <dt class = "col-sm-2">
+        <dt class="col-sm-2">
             Описание
         </dt>
-        <dd class = "col-sm-10">
+        <dd class="col-sm-10">
             @Html.DisplayFor(model => model.Description)
         </dd>
-        <dt class = "col-sm-2">
+        <dt class="col-sm-2">
             Открытость
         </dt>
-        <dd class = "col-sm-10">
+        <dd class="col-sm-10">
             @Html.DisplayFor(model => model.IsClosed)
         </dd>
     </dl>
+    <h3>Публикации</h3>
+    <ul>
+        @if (Model.Artworks != null && Model.Artworks.Any())
+        {
+            foreach (var artwork in Model.Artworks)
+            {
+                <h1>@artwork.Title</h1>
+
+                <img src="@(string.IsNullOrEmpty(artwork.ImagePath) ? "/images/default.png" : artwork.ImagePath)"
+                     alt="Artwork Image"
+                     class="img-fluid" />
+                <p>@artwork.Description</p>
+                <p>Категория: @(artwork.Category != null ? artwork.Category.Name : "Без категории")</p>
+                <p><strong>Дата создания:</strong> @artwork.DateCreated.ToString("dd.MM.yyyy HH:mm")</p>
+                <p>Размеры: @artwork.Width x @artwork.Height</p>
+            }
+        }
+        else
+        {
+            <p>Выставка пустая.</p>
+        }
+    </ul>
 </div>
 <div>
     <a asp-action="Edit" asp-route-id="@Model?.Id">Изменить</a> |
     <a asp-action="Index">Вернуться к выставкам</a>
+</div>
+<div>
+    <a asp-action="Create" asp-controller="Artwork" asp-route-exhibitionId="@Model.Id" class="btn btn-success">
+        Добавить публикацию
+    </a>
 </div>

@@ -16,16 +16,19 @@
     <tbody>
         @foreach (var item in Model)
         {
-            <tr>
-                <td>@item.Title</td>
-                <td>@item.Category?.Name</td>
-                <td>@item.DateCreated.ToString("dd.MM.yyyy HH:mm")</td> 
+@*             @if (@item.ExhibitionId.IsNullOrEmpty)
+            { *@
+                <tr>
+                    <td>@item.Title</td>
+                    <td>@item.Category?.Name</td>
+                    <td>@item.DateCreated.ToString("dd.MM.yyyy HH:mm")</td> 
                 <td>
                     <a asp-action="Details" asp-route-id="@item.Id">Просмотреть</a> |
                     <a asp-action="Edit" asp-route-id="@item.Id">Редактировать</a> |
                     <a asp-action="Delete" asp-route-id="@item.Id">Удалить</a>
                 </td>
             </tr>
+            @* } *@
         }
     </tbody>
 

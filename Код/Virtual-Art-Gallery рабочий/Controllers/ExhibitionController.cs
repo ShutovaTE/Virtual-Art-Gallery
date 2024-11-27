@@ -28,19 +28,17 @@ namespace Virtual_Art_Gallery.Controllers
         // GET: Exhibition/Details/5
         public async Task<IActionResult> Details(int id)
         {
-            if (id == null)
+            var exhibition = _context.Exhibitions
+                .Include(e => e.Artworks)
+                .ThenInclude(a => a.Category)
+                .FirstOrDefault(e => e.Id == id);
+
+            if (exhibition == null)
             {
                 return NotFound();
             }
 
-            var exhibitionModel = await _context.Exhibitions
-                .FirstOrDefaultAsync(m => m.Id == id);
-            if (exhibitionModel == null)
-            {
-                return NotFound();
-            }
-
-            return View(exhibitionModel);
+            return View(exhibition);
         }
 
         // GET: Exhibition/Create
