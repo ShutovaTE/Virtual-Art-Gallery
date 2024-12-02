@@ -8592,23 +8592,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\abado\\.nuget\\packages\\": {},
+    "C:\\Users\\user\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\Virtual-Art-Gallery.csproj",
+      "projectUniqueName": "D:\\Все связанное с ВЛГУ\\Учеба\\ТП 3 курс 5 семестр\\Курсач\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\Virtual-Art-Gallery.csproj",
       "projectName": "Virtual-Art-Gallery",
-      "projectPath": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\Virtual-Art-Gallery.csproj",
-      "packagesPath": "C:\\Users\\abado\\.nuget\\packages\\",
-      "outputPath": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\obj\\",
+      "projectPath": "D:\\Все связанное с ВЛГУ\\Учеба\\ТП 3 курс 5 семестр\\Курсач\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\Virtual-Art-Gallery.csproj",
+      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+      "outputPath": "D:\\Все связанное с ВЛГУ\\Учеба\\ТП 3 курс 5 семестр\\Курсач\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\abado\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -8617,7 +8617,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -8634,8 +8633,9 @@
       "restoreAuditProperties": {
         "enableAudit": "true",
         "auditLevel": "low",
-        "auditMode": "direct"
-      }
+        "auditMode": "all"
+      },
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net8.0": {
@@ -8703,11 +8703,31 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
   },
   "logs": [
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "У пакета \"Microsoft.Owin.Security.Cookies\" 3.0.1 есть известная уязвимость https://github.com/advisories/GHSA-3rq8-h3gj-r5c6 (уровень серьезности: высокий)",
+      "libraryId": "Microsoft.Owin.Security.Cookies",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "У пакета \"System.Text.Json\" 7.0.3 есть известная уязвимость https://github.com/advisories/GHSA-hh2w-p6rv-4g7w (уровень серьезности: высокий)",
+      "libraryId": "System.Text.Json",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
     {
       "code": "NU1701",
       "level": "Warning",

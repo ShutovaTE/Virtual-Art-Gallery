@@ -8,6 +8,7 @@ using System;
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
+using System.Security.Claims;
 
 namespace Virtual_Art_Gallery.Controllers
 {
@@ -55,72 +56,84 @@ namespace Virtual_Art_Gallery.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Title,Description,CategoryId")] ArtworkModel artwork, IFormFile imageFile, int? exhibitionId) 
+        public async Task<IActionResult> Create(
+      [Bind("Title,Description,CategoryId")] ArtworkModel artwork,
+      IFormFile imageFile,
+      int? exhibitionId)
         {
+            try
             {
-                try
+                if (ModelState.IsValid)
                 {
-                    if (ModelState.IsValid)
+                    artwork.ExhibitionId = exhibitionId;
+                    artwork.DateCreated = DateTime.Now;
+
+                    var userId = User?.FindFirstValue(ClaimTypes.NameIdentifier); 
+                    if (userId == null)
                     {
-                        artwork.ExhibitionId = exhibitionId;
-                        artwork.DateCreated = DateTime.Now;
-
-                        if (imageFile != null && imageFile.Length > 0)
-                        {
-                            var allowedExtensions = new[] { ".jpg", ".jpeg", ".png", ".gif" };
-                            var fileExtension = Path.GetExtension(imageFile.FileName).ToLower();
-                            if (!allowedExtensions.Contains(fileExtension))
-                            {
-                                ModelState.AddModelError("ImageFile", "Недопустимый формат файла.");
-                                ViewData["CategoryList"] = new SelectList(_context.Categories, "Id", "Name", artwork.CategoryId);
-                                return View(artwork);
-                            }
-
-                            var fileName = Path.GetFileNameWithoutExtension(imageFile.FileName) + "_" + Guid.NewGuid() + fileExtension;
-                            var imagesFolder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images");
-                            if (!Directory.Exists(imagesFolder))
-                            {
-                                Directory.CreateDirectory(imagesFolder);
-                            }
-
-                            var filePath = Path.Combine(imagesFolder, fileName);
-                            using (var fileStream = new FileStream(filePath, FileMode.Create))
-                            {
-                                await imageFile.CopyToAsync(fileStream);
-                            }
-
-                            using (var img = Image.Load(filePath))
-                            {
-                                artwork.Width = img.Width;
-                                artwork.Height = img.Height;
-                            }
-
-                            artwork.ImagePath = "/images/" + fileName;
-                        }
-
-                        _context.Add(artwork);
-                        await _context.SaveChangesAsync();
-                        if (exhibitionId.HasValue)
-                        {
-                            return RedirectToAction("Details", "Exhibition", new { id = exhibitionId });
-                        }
-                        else
-                        {
-                            return RedirectToAction(nameof(Index));
-                        }
+                        ModelState.AddModelError("", "Не удалось определить текущего пользователя.");
+                        ViewData["CategoryList"] = new SelectList(_context.Categories, "Id", "Name", artwork.CategoryId);
+                        return View(artwork);
                     }
 
-                    ViewData["CategoryList"] = new SelectList(_context.Categories, "Id", "Name", artwork.CategoryId);
-                    return View(artwork);
+                    artwork.CreatorId = userId; 
+
+                    if (imageFile != null && imageFile.Length > 0)
+                    {
+                        var allowedExtensions = new[] { ".jpg", ".jpeg", ".png", ".gif" };
+                        var fileExtension = Path.GetExtension(imageFile.FileName).ToLower();
+                        if (!allowedExtensions.Contains(fileExtension))
+                        {
+                            ModelState.AddModelError("ImageFile", "Недопустимый формат файла.");
+                            ViewData["CategoryList"] = new SelectList(_context.Categories, "Id", "Name", artwork.CategoryId);
+                            return View(artwork);
+                        }
+
+                        var fileName = Path.GetFileNameWithoutExtension(imageFile.FileName) + "_" + Guid.NewGuid() + fileExtension;
+                        var imagesFolder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images");
+                        if (!Directory.Exists(imagesFolder))
+                        {
+                            Directory.CreateDirectory(imagesFolder);
+                        }
+
+                        var filePath = Path.Combine(imagesFolder, fileName);
+                        using (var fileStream = new FileStream(filePath, FileMode.Create))
+                        {
+                            await imageFile.CopyToAsync(fileStream);
+                        }
+
+                        using (var img = Image.Load(filePath))
+                        {
+                            artwork.Width = img.Width;
+                            artwork.Height = img.Height;
+                        }
+
+                        artwork.ImagePath = "/images/" + fileName;
+                    }
+
+                    _context.Add(artwork);
+                    await _context.SaveChangesAsync();
+                    if (exhibitionId.HasValue)
+                    {
+                        return RedirectToAction("Details", "Exhibition", new { id = exhibitionId });
+                    }
+                    else
+                    {
+                        return RedirectToAction(nameof(Index));
+                    }
                 }
-                catch (Exception ex)
-                {
-                    Console.WriteLine($"Общая ошибка: {ex.Message}");
-                    ViewData["CategoryList"] = new SelectList(_context.Categories, "Id", "Name", artwork.CategoryId);
-                    return View(artwork);
-                }
+
+                ViewData["CategoryList"] = new SelectList(_context.Categories, "Id", "Name", artwork.CategoryId);
+                return View(artwork);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Общая ошибка: {ex.Message}");
+                ViewData["CategoryList"] = new SelectList(_context.Categories, "Id", "Name", artwork.CategoryId);
+                return View(artwork);
             }
         }
+
         // GET: Artwork/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {

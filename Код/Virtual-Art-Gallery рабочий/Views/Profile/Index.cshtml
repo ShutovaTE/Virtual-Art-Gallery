@@ -1,0 +1,28 @@
+﻿@model Virtual_Art_Gallery.Models.ProfileViewModel
+
+<h1>Профиль: @Model.Username</h1>
+
+<p><strong>Email:</strong> @Model.Email</p>
+<p><strong>Контакты:</strong> @Model.Contact</p>
+<p><strong>О себе:</strong> @Model.AboutMe</p>
+
+<h2>Публикации</h2>
+@if (Model.Artworks.Any())
+{
+    <ul>
+        @foreach (var artwork in Model.Artworks)
+        {
+            <li>
+                <strong>@artwork.Title</strong> - @artwork.DateCreated.ToShortDateString()
+                @if (!string.IsNullOrEmpty(artwork.ImagePath))
+                {
+                    <img src="@artwork.ImagePath" alt="@artwork.Title" style="max-width: 200px;" />
+                }
+            </li>
+        }
+    </ul>
+}
+else
+{
+    <p>Публикации отсутствуют.</p>
+}

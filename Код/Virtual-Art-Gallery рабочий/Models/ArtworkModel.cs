@@ -27,5 +27,8 @@ namespace Virtual_Art_Gallery.Models
         public int? ExhibitionId { get; set; }
         public virtual ExhibitionModel? Exhibition { get; set; }
 
+
+        public string CreatorId { get; set; } 
+        public ApplicationUser? Creator { get; set; } 
     }
 }

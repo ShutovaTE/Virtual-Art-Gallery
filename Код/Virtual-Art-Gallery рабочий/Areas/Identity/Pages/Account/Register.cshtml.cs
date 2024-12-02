@@ -11,6 +11,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
+using Virtual_Art_Gallery.Models;
 
 namespace Virtual_Art_Gallery.Areas.Identity.Pages.Account
 {
@@ -72,11 +73,6 @@ namespace Virtual_Art_Gallery.Areas.Identity.Pages.Account
             public string AboutMe { get; set; }
         }
 
-        public class ApplicationUser : IdentityUser
-        {
-            public string Contact { get; set; }
-            public string AboutMe { get; set; }
-        }
 
 
         public async Task OnGetAsync(string returnUrl = null)
