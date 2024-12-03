@@ -13,5 +13,17 @@ namespace Virtual_Art_Gallery.Data
         public DbSet<ItemModel> Items { get; set; }
         public DbSet<CategoryModel> Categories { get; set; }
 
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+
+            modelBuilder.Entity<ArtworkModel>()
+                .HasOne(a => a.Creator)
+                .WithMany() // Если пользователь может создавать много публикаций
+                .HasForeignKey(a => a.CreatorId)
+                .OnDelete(DeleteBehavior.Restrict); // Укажите поведение удаления
+        }
+
+
     }
 }

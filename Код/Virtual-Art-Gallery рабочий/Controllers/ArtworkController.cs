@@ -1,23 +1,21 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using Virtual_Art_Gallery.Data;
 using SixLabors.ImageSharp;
+using Virtual_Art_Gallery.Data;
 using Virtual_Art_Gallery.Models;
-using System;
-using System.IO;
-using System.Linq;
-using System.Threading.Tasks;
-using System.Security.Claims;
 
 namespace Virtual_Art_Gallery.Controllers
 {
     public class ArtworkController : Controller
     {
+        private readonly UserManager<IdentityUser> _userManager;
         private readonly GalleryContext _context;
 
-        public ArtworkController(GalleryContext context)
+        public ArtworkController(UserManager<IdentityUser> userManager, GalleryContext context)
         {
+            _userManager = userManager;
             _context = context;
         }
 
@@ -57,26 +55,34 @@ namespace Virtual_Art_Gallery.Controllers
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(
-      [Bind("Title,Description,CategoryId")] ArtworkModel artwork,
-      IFormFile imageFile,
-      int? exhibitionId)
+          [Bind("Title,Description,CategoryId,CreatorId")] ArtworkModel artwork,
+          IFormFile imageFile,
+          int? exhibitionId)
         {
             try
             {
                 if (ModelState.IsValid)
                 {
+
+                    if (!User.Identity.IsAuthenticated)
+                    {
+                        return Unauthorized("Вы должны быть авторизованы для создания публикации.");
+                    }
+
                     artwork.ExhibitionId = exhibitionId;
                     artwork.DateCreated = DateTime.Now;
 
-                    var userId = User?.FindFirstValue(ClaimTypes.NameIdentifier); 
-                    if (userId == null)
-                    {
-                        ModelState.AddModelError("", "Не удалось определить текущего пользователя.");
-                        ViewData["CategoryList"] = new SelectList(_context.Categories, "Id", "Name", artwork.CategoryId);
-                        return View(artwork);
-                    }
+                    //var userId = _userManager.GetUserId(User);
+                    //var user = await _userManager.Users.FirstOrDefaultAsync(u => u.Id == userId);
 
-                    artwork.CreatorId = userId; 
+                    //if (user == null)
+                    //{
+                    //    ModelState.AddModelError("", "Не удалось определить текущего пользователя.");
+                    //    ViewData["CategoryList"] = new SelectList(_context.Categories, "Id", "Name", artwork.CategoryId);
+                    //    return View(artwork);
+                    //}
+
+                    //artwork.CreatorId = userId; 
 
                     if (imageFile != null && imageFile.Length > 0)
                     {

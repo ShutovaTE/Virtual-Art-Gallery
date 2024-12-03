@@ -10,10 +10,10 @@ using System.Linq;
 [Authorize]
 public class ProfileController : Controller
 {
-    private readonly UserManager<ApplicationUser> _userManager;
+    private readonly UserManager<IdentityUser> _userManager;
     private readonly GalleryContext _context;
 
-    public ProfileController(UserManager<ApplicationUser> userManager, GalleryContext context)
+    public ProfileController(UserManager<IdentityUser> userManager, GalleryContext context)
     {
         _userManager = userManager;
         _context = context;
@@ -37,8 +37,8 @@ public class ProfileController : Controller
         {
             Username = user.UserName,
             Email = user.Email,
-            Contact = user.Contact,
-            AboutMe = user.AboutMe,
+            //Contact = user.Contact,
+            //AboutMe = user.AboutMe,
             Artworks = artworks
         };
 

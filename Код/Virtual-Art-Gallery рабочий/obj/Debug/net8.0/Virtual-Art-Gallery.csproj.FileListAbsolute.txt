@@ -2329,3 +2329,4 @@ D:\Все связанное с ВЛГУ\Учеба\ТП 3 курс 5 семес
 D:\Все связанное с ВЛГУ\Учеба\ТП 3 курс 5 семестр\Курсач\Virtual-Art-Gallery\Код\Virtual-Art-Gallery рабочий\obj\Debug\net8.0\Virtual-.0CD4C31C.Up2Date
 D:\Все связанное с ВЛГУ\Учеба\ТП 3 курс 5 семестр\Курсач\Virtual-Art-Gallery\Код\Virtual-Art-Gallery рабочий\obj\Debug\net8.0\Virtual-Art-Gallery.genruntimeconfig.cache
 D:\Все связанное с ВЛГУ\Учеба\ТП 3 курс 5 семестр\Курсач\Virtual-Art-Gallery\Код\Virtual-Art-Gallery рабочий\obj\Debug\net8.0\ref\Virtual-Art-Gallery.dll
+D:\Коды и чертежи\ТП\5 семестр\Курсовик\Virtual-Art-Gallery\Код\Virtual-Art-Gallery рабочий\bin\Debug\net8.0\System.Text.Json.dll
