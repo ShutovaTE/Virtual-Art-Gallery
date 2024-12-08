@@ -19,9 +19,9 @@ namespace Virtual_Art_Gallery.Data
 
             modelBuilder.Entity<ArtworkModel>()
                 .HasOne(a => a.Creator)
-                .WithMany() // Если пользователь может создавать много публикаций
+                .WithMany() 
                 .HasForeignKey(a => a.CreatorId)
-                .OnDelete(DeleteBehavior.Restrict); // Укажите поведение удаления
+                .OnDelete(DeleteBehavior.Restrict); 
         }
 
 

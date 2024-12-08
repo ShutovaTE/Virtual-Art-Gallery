@@ -37,8 +37,6 @@ public class ProfileController : Controller
         {
             Username = user.UserName,
             Email = user.Email,
-            //Contact = user.Contact,
-            //AboutMe = user.AboutMe,
             Artworks = artworks
         };
 

@@ -91,12 +91,6 @@ namespace Virtual_Art_Gallery.Areas.Identity.Pages.Account
                 await _userStore.SetUserNameAsync(user, Input.Username, CancellationToken.None);
                 await _emailStore.SetEmailAsync(user, Input.Email, CancellationToken.None);
 
-                var applicationUser = user as ApplicationUser;
-                if (applicationUser != null)
-                {
-                    applicationUser.Contact = Input.Contact;
-                    applicationUser.AboutMe = Input.AboutMe;
-                }
 
                 var result = await _userManager.CreateAsync(user, Input.Password);
 
