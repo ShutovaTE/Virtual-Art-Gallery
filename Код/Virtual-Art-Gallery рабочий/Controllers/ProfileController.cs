@@ -42,4 +42,25 @@ public class ProfileController : Controller
 
         return View(model);
     }
+    [HttpPost]
+    [ValidateAntiForgeryToken]
+    public async Task<IActionResult> SubmitForApproval(int id)
+    {
+        var artwork = await _context.Artworks.FindAsync(id);
+        if (artwork == null || artwork.CreatorId != _userManager.GetUserId(User))
+        {
+            return NotFound();
+        }
+
+        if (artwork.Status == ArtworkStatus.Draft)
+        {
+            artwork.Status = ArtworkStatus.Submitted;
+            _context.Update(artwork);
+            await _context.SaveChangesAsync();
+        }
+
+        return RedirectToAction("Index", "Profile");
+    }
+
+
 }

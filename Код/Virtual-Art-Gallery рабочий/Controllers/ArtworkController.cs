@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -22,9 +23,21 @@ namespace Virtual_Art_Gallery.Controllers
         // GET: Artwork
         public async Task<IActionResult> Index()
         {
-            var artworks = await _context.Artworks.Include(a => a.Category).ToListAsync();
-            return View(artworks);
+            IQueryable<ArtworkModel> artworks;
+
+            if (User.IsInRole("Administrator"))
+            {
+                artworks = _context.Artworks.Include(a => a.Category);
+            }
+            else
+            {
+                artworks = _context.Artworks.Include(a => a.Category).Where(a => a.Status == ArtworkStatus.Approved);
+            }
+
+            return View(await artworks.ToListAsync());
         }
+
+
 
         // GET: Artwork/Details/5
         public async Task<IActionResult> Details(int? id)
@@ -49,7 +62,7 @@ namespace Virtual_Art_Gallery.Controllers
         {
             ViewData["ExhibitionId"] = exhibitionId;
             ViewData["CategoryList"] = new SelectList(_context.Categories, "Id", "Name");
-            return View(new ArtworkModel()); 
+            return View(new ArtworkModel());
         }
 
         [HttpPost]
@@ -117,6 +130,7 @@ namespace Virtual_Art_Gallery.Controllers
                         artwork.ImagePath = "/images/" + fileName;
                     }
 
+                    artwork.Status = ArtworkStatus.Draft;
                     _context.Add(artwork);
                     await _context.SaveChangesAsync();
                     if (exhibitionId.HasValue)
@@ -149,18 +163,19 @@ namespace Virtual_Art_Gallery.Controllers
             }
 
             var artwork = await _context.Artworks.FindAsync(id);
-            if (artwork == null)
+            if (artwork == null || artwork.CreatorId != _userManager.GetUserId(User))
             {
-                return NotFound();
+                return Unauthorized("Вы не имеете права редактировать эту публикацию.");
             }
 
             ViewData["CategoryList"] = new SelectList(_context.Categories, "Id", "Name", artwork.CategoryId);
             return View(artwork);
         }
 
+
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Title,Description,CategoryId,ImagePath")] ArtworkModel artwork, IFormFile imageFile)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Title,Description,CategoryId,ImagePath,CreatorId")] ArtworkModel artwork, IFormFile imageFile)
         {
             if (id != artwork.Id)
             {
@@ -175,6 +190,16 @@ namespace Virtual_Art_Gallery.Controllers
                     if (existingArtwork == null)
                     {
                         return NotFound();
+                    }
+
+                    if (existingArtwork.Status != ArtworkStatus.Draft)
+                    {
+                        return Unauthorized("Вы не можете редактировать публикацию, так как её статус не является черновиком.");
+                    }
+
+                    if (existingArtwork.CreatorId != artwork.CreatorId)
+                    {
+                        return Unauthorized("Вы не можете изменить создателя этой публикации.");
                     }
 
                     existingArtwork.Title = artwork.Title;
@@ -232,6 +257,7 @@ namespace Virtual_Art_Gallery.Controllers
 
 
 
+
         // GET: Artwork/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
@@ -256,15 +282,15 @@ namespace Virtual_Art_Gallery.Controllers
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
             var artwork = await _context.Artworks.FindAsync(id);
-            if (artwork == null)
+            if (artwork == null || artwork.CreatorId != _userManager.GetUserId(User))
             {
-                return NotFound();
+                return Unauthorized("Вы не имеете права удалять эту публикацию.");
             }
 
             _context.Artworks.Remove(artwork);
             await _context.SaveChangesAsync();
 
-            return RedirectToAction(nameof(Index));
+            return RedirectToAction("Index", "Profile");
         }
 
 
@@ -297,6 +323,27 @@ namespace Virtual_Art_Gallery.Controllers
 
             return RedirectToAction(nameof(Index));
         }
+        [HttpPost]
+        [Authorize(Roles = "Administrator")]
+        public async Task<IActionResult> UpdateStatus(int id, ArtworkStatus status)
+        {
+            var artwork = await _context.Artworks.FindAsync(id);
+            if (artwork == null)
+            {
+                return NotFound();
+            }
+
+            artwork.Status = status;
+            await _context.SaveChangesAsync();
+            return RedirectToAction(nameof(Index));
+        }
+        [Authorize(Roles = "Administrator")]
+        public async Task<IActionResult> AllArtworks()
+        {
+            var artworks = await _context.Artworks.Include(a => a.Category).ToListAsync();
+            return View(artworks);
+        }
+
 
     }
 }
