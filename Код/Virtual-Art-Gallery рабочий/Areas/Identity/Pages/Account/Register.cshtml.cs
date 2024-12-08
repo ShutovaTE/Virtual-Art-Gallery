@@ -65,12 +65,12 @@ namespace Virtual_Art_Gallery.Areas.Identity.Pages.Account
             [Compare("Password", ErrorMessage = "Пароль и его подтверждение не совпадают.")]
             public string ConfirmPassword { get; set; }
 
-            [Required]
-            [Display(Name = "Контактные данные")]
-            public string Contact { get; set; }
+            //[Required]
+            //[Display(Name = "Контактные данные")]
+            //public string Contact { get; set; }
 
-            [Display(Name = "О себе")]
-            public string AboutMe { get; set; }
+            //[Display(Name = "О себе")]
+            //public string AboutMe { get; set; }
         }
 
 

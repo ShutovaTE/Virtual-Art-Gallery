@@ -27,11 +27,12 @@ namespace Virtual_Art_Gallery.Controllers
 
             if (User.IsInRole("Administrator"))
             {
-                artworks = _context.Artworks.Include(a => a.Category);
+                artworks = _context.Artworks.Include(a => a.Category)
+                    .Include(a => a.Creator); ;
             }
             else
             {
-                artworks = _context.Artworks.Include(a => a.Category).Where(a => a.Status == ArtworkStatus.Approved);
+                artworks = _context.Artworks.Include(a => a.Category).Include(a => a.Creator).Where(a => a.Status == ArtworkStatus.Approved);
             }
 
             return View(await artworks.ToListAsync());
@@ -48,6 +49,7 @@ namespace Virtual_Art_Gallery.Controllers
             }
 
             var artwork = await _context.Artworks.Include(a => a.Category)
+                .Include(a => a.Creator)
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (artwork == null)
             {

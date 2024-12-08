@@ -62,5 +62,55 @@ public class ProfileController : Controller
         return RedirectToAction("Index", "Profile");
     }
 
+    [AllowAnonymous]
+    public async Task<IActionResult> AllProfiles()
+    {
+        var profiles = await _userManager.Users
+            .Where(user => _context.Artworks.Any(a => a.CreatorId == user.Id && a.Status == ArtworkStatus.Approved))
+            .Select(user => new ProfileViewModel
+            {
+                Username = user.UserName,
+                Email = user.Email,
+                Artworks = _context.Artworks
+                    .Where(a => a.CreatorId == user.Id && a.Status == ArtworkStatus.Approved)
+                    .OrderByDescending(a => a.DateCreated) 
+                    .Take(3) 
+                    .ToList()
+            })
+            .ToListAsync();
+
+        return View(profiles);
+    }
+
+
+    [AllowAnonymous]
+    public async Task<IActionResult> ViewProfile(string userId)
+    {
+        if (string.IsNullOrEmpty(userId))
+        {
+            return NotFound();
+        }
+
+        var user = await _userManager.Users.FirstOrDefaultAsync(u => u.Id == userId);
+
+        if (user == null)
+        {
+            return NotFound();
+        }
+
+        var artworks = await _context.Artworks
+            .Where(a => a.CreatorId == userId && a.Status == ArtworkStatus.Approved) 
+            .ToListAsync();
+
+        var model = new ProfileViewModel
+        {
+            Username = user.UserName,
+            Email = user.Email,
+            Artworks = artworks
+        };
+
+        return View(model);
+    }
+
 
 }

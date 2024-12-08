@@ -7,6 +7,7 @@
 <table class="table">
     <thead>
         <tr>
+            <th>Автор</th>
             <th>Название</th>
             <th>Категория</th>
             <th>Дата создания</th>
@@ -18,6 +19,7 @@
         @foreach (var item in Model)
         {
             <tr>
+                <td>@item.Creator?.UserName</td>
                 <td>@item.Title</td>
                 <td>@item.Category?.Name</td>
                 <td>@item.DateCreated.ToString("dd.MM.yyyy HH:mm")</td>

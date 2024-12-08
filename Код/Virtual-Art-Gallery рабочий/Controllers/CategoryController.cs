@@ -1,17 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Authorization;
+﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Virtual_Art_Gallery.Data;
 using Virtual_Art_Gallery.Models;
 
 namespace Virtual_Art_Gallery.Controllers
 {
-    [Authorize(Roles = "Administrator")]
     public class CategoryController : Controller
     {
         private readonly GalleryContext _context;
@@ -21,40 +15,22 @@ namespace Virtual_Art_Gallery.Controllers
             _context = context;
         }
 
-        // GET: Category
+        // GET: Category (доступно всем)
         public async Task<IActionResult> Index()
         {
             return View(await _context.Categories.ToListAsync());
         }
 
-        // GET: Category/Details/5
-        public async Task<IActionResult> Details(int? id)
-        {
-            if (id == null)
-            {
-                return NotFound();
-            }
-
-            var categoryModel = await _context.Categories
-                .FirstOrDefaultAsync(m => m.Id == id);
-            if (categoryModel == null)
-            {
-                return NotFound();
-            }
-
-            return View(categoryModel);
-        }
-
-        // GET: Category/Create
+        // Только администратор может создать категорию
+        [Authorize(Roles = "Administrator")]
         public IActionResult Create()
         {
-            ViewData["CategoryList"] = new SelectList(_context.Categories, "Id", "Name");
             return View();
         }
 
-        // POST: Category/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Administrator")]
         public async Task<IActionResult> Create([Bind("Id,Name,Description")] CategoryModel categoryModel)
         {
             if (ModelState.IsValid)
@@ -66,31 +42,24 @@ namespace Virtual_Art_Gallery.Controllers
             return View(categoryModel);
         }
 
-        // GET: Category/Edit/5
+        // Только администратор может редактировать категорию
+        [Authorize(Roles = "Administrator")]
         public async Task<IActionResult> Edit(int? id)
         {
-            if (id == null)
-            {
-                return NotFound();
-            }
+            if (id == null) return NotFound();
 
             var categoryModel = await _context.Categories.FindAsync(id);
-            if (categoryModel == null)
-            {
-                return NotFound();
-            }
+            if (categoryModel == null) return NotFound();
+
             return View(categoryModel);
         }
 
-        // POST: Category/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Administrator")]
         public async Task<IActionResult> Edit(int id, [Bind("Id,Name,Description")] CategoryModel categoryModel)
         {
-            if (id != categoryModel.Id)
-            {
-                return NotFound();
-            }
+            if (id != categoryModel.Id) return NotFound();
 
             if (ModelState.IsValid)
             {
@@ -101,50 +70,37 @@ namespace Virtual_Art_Gallery.Controllers
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!CategoryModelExists(categoryModel.Id))
-                    {
-                        return NotFound();
-                    }
-                    else
-                    {
-                        throw;
-                    }
+                    if (!CategoryModelExists(categoryModel.Id)) return NotFound();
+                    else throw;
                 }
                 return RedirectToAction(nameof(Index));
             }
             return View(categoryModel);
         }
 
-        // GET: Category/Delete/5
+        // Только администратор может удалять категорию
+        [Authorize(Roles = "Administrator")]
         public async Task<IActionResult> Delete(int? id)
         {
-            if (id == null)
-            {
-                return NotFound();
-            }
+            if (id == null) return NotFound();
 
-            var categoryModel = await _context.Categories
-                .FirstOrDefaultAsync(m => m.Id == id);
-            if (categoryModel == null)
-            {
-                return NotFound();
-            }
+            var categoryModel = await _context.Categories.FirstOrDefaultAsync(m => m.Id == id);
+            if (categoryModel == null) return NotFound();
 
             return View(categoryModel);
         }
 
-        // POST: Category/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Administrator")]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
             var categoryModel = await _context.Categories.FindAsync(id);
             if (categoryModel != null)
             {
                 _context.Categories.Remove(categoryModel);
+                await _context.SaveChangesAsync();
             }
-
-            await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
