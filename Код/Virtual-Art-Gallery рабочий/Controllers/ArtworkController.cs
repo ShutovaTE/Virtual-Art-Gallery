@@ -258,8 +258,6 @@ namespace Virtual_Art_Gallery.Controllers
         }
 
 
-
-
         // GET: Artwork/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
@@ -344,6 +342,44 @@ namespace Virtual_Art_Gallery.Controllers
         {
             var artworks = await _context.Artworks.Include(a => a.Category).ToListAsync();
             return View(artworks);
+        }
+
+        // GET: Artwork/AdminDelete/5
+        [Authorize(Roles = "Administrator")]
+        public async Task<IActionResult> AdminDelete(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var artwork = await _context.Artworks.Include(a => a.Category)
+                .Include(a => a.Creator)
+                .FirstOrDefaultAsync(m => m.Id == id);
+
+            if (artwork == null)
+            {
+                return NotFound();
+            }
+
+            return View(artwork);  
+        }
+
+        [HttpPost, ActionName("AdminDelete")]
+        [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Administrator")]
+        public async Task<IActionResult> AdminDeleteConfirmed(int id)
+        {
+            var artwork = await _context.Artworks.FindAsync(id);
+            if (artwork == null)
+            {
+                return NotFound();
+            }
+
+            _context.Artworks.Remove(artwork);
+            await _context.SaveChangesAsync();
+
+            return RedirectToAction(nameof(Index));
         }
 
 
