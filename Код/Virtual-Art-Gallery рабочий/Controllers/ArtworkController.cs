@@ -323,6 +323,22 @@ namespace Virtual_Art_Gallery.Controllers
 
             return RedirectToAction(nameof(Index));
         }
+        //[HttpPost]
+        //[Authorize(Roles = "Administrator")]
+        //public async Task<IActionResult> UpdateStatus(int id, ArtworkStatus status)
+        //{
+        //    var artwork = await _context.Artworks.FindAsync(id);
+        //    if (artwork == null)
+        //    {
+        //        return NotFound();
+        //    }
+
+        //    artwork.Status = status;
+        //    await _context.SaveChangesAsync();
+        //    return RedirectToAction(nameof(Index));
+        //}
+        //[Authorize(Roles = "Administrator")]
+
         [HttpPost]
         [Authorize(Roles = "Administrator")]
         public async Task<IActionResult> UpdateStatus(int id, ArtworkStatus status)
@@ -333,11 +349,32 @@ namespace Virtual_Art_Gallery.Controllers
                 return NotFound();
             }
 
-            artwork.Status = status;
+            switch (status)
+            {
+                case ArtworkStatus.Draft:
+                    artwork.Status = ArtworkStatus.Draft;
+                    break;
+
+                case ArtworkStatus.Submitted:
+                    artwork.Status = ArtworkStatus.Submitted;
+                    break;
+
+                case ArtworkStatus.Approved:
+                    artwork.Status = ArtworkStatus.Approved;
+                    break;
+
+                case ArtworkStatus.Rejected:
+                    artwork.Status = ArtworkStatus.Rejected;
+                    break;
+
+                default:
+                    return BadRequest("Некорректный статус.");
+            }
+
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
-        [Authorize(Roles = "Administrator")]
+
         public async Task<IActionResult> AllArtworks()
         {
             var artworks = await _context.Artworks.Include(a => a.Category).ToListAsync();

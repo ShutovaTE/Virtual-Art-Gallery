@@ -1,4 +1,13 @@
 ﻿@model Virtual_Art_Gallery.Models.ProfileViewModel
+@{
+    var statusTranslations = new Dictionary<ArtworkStatus, string>
+    {
+        { ArtworkStatus.Draft, "Черновик" },
+        { ArtworkStatus.Submitted, "На модерации" },
+        { ArtworkStatus.Approved, "Подтверждено" },
+        { ArtworkStatus.Rejected, "Отклонено" }
+    };
+}
 
 <h1>Профиль: @Model.Username</h1>
 
@@ -16,12 +25,13 @@
                 {
                     <img src="@artwork.ImagePath" alt="@artwork.Title" style="max-width: 200px;" />
                 }
-                <p>Статус: @artwork.Status</p>
+                <p>Статус: @statusTranslations[artwork.Status]</p>
+
                 @if (artwork.Status == ArtworkStatus.Draft)
                 {
                     <form asp-action="SubmitForApproval" method="post">
                         <input type="hidden" name="id" value="@artwork.Id" />
-                        <button type="submit" class="btn btn-primary">Отправить на подтверждение</button>
+                        <button type="submit" class="btn btn-primary">Отправить на модерацию</button>
                     </form>
 
                     <a asp-action="Edit" asp-controller="Artwork" asp-route-id="@artwork.Id" class="btn btn-secondary">Редактировать</a>
