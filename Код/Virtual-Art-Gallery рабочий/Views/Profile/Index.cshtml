@@ -12,6 +12,9 @@
 <h1>Профиль: @Model.Username</h1>
 
 <p><strong>Email:</strong> @Model.Email</p>
+<form asp-action="DeleteProfile" method="post" style="margin-top: 20px;">
+    <button type="submit" class="btn btn-danger" onclick="return confirm('Вы уверены, что хотите удалить профиль?')">Удалить профиль</button>
+</form>
 
 <h2>Публикации</h2>
 @if (Model.Artworks.Any())

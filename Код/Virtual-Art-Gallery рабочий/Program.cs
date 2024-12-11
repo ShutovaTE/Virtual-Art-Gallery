@@ -75,4 +75,6 @@ async Task AssignAdminRoleToFirstUser(UserManager<IdentityUser> userManager)
             await userManager.AddToRoleAsync(firstUser, "Administrator");
         }
     }
+
+
 }

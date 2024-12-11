@@ -38,6 +38,15 @@
             {
                 <p>Нет публикаций.</p>
             }
+            @if (User.IsInRole("Administrator"))
+            {
+                <form asp-action="DeleteArtistProfile" asp-controller="Profile" method="post" style="margin-top: 10px;">
+                    <input type="hidden" name="userId" value="@profile.Artworks.FirstOrDefault()?.CreatorId" />
+                    <button type="submit" class="btn btn-danger" onclick="return confirm('Вы уверены, что хотите удалить профиль художника?');">
+                        Удалить профиль
+                    </button>
+                </form>
+            }
         </div>
     }
 }

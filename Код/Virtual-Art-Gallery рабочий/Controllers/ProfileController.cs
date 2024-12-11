@@ -6,6 +6,7 @@ using Virtual_Art_Gallery.Data;
 using Virtual_Art_Gallery.Models;
 using System.Threading.Tasks;
 using System.Linq;
+using Microsoft.AspNetCore.Authentication;
 
 [Authorize]
 public class ProfileController : Controller
@@ -111,6 +112,67 @@ public class ProfileController : Controller
 
         return View(model);
     }
+    [HttpPost]
+    [ValidateAntiForgeryToken]
+    public async Task<IActionResult> DeleteProfile()
+    {
+        var userId = _userManager.GetUserId(User);
+        var user = await _userManager.Users.FirstOrDefaultAsync(u => u.Id == userId);
 
+        if (user == null)
+        {
+            return NotFound();
+        }
+
+        var artworks = _context.Artworks.Where(a => a.CreatorId == userId);
+        _context.Artworks.RemoveRange(artworks);
+
+        var result = await _userManager.DeleteAsync(user);
+
+        if (!result.Succeeded)
+        {
+            ModelState.AddModelError("", "Не удалось удалить профиль. Пожалуйста, попробуйте еще раз.");
+            return RedirectToAction("Index");
+        }
+
+        await _context.SaveChangesAsync();
+
+        await HttpContext.SignOutAsync(IdentityConstants.ApplicationScheme);
+
+        return RedirectToAction("Index", "Gallery"); 
+    }
+
+    [Authorize(Roles = "Administrator")]
+    [HttpPost]
+    [ValidateAntiForgeryToken]
+    public async Task<IActionResult> DeleteArtistProfile(string userId)
+    {
+        if (string.IsNullOrEmpty(userId))
+        {
+            return NotFound();
+        }
+
+        var user = await _userManager.Users.FirstOrDefaultAsync(u => u.Id == userId);
+
+        if (user == null)
+        {
+            return NotFound();
+        }
+
+        var artworks = _context.Artworks.Where(a => a.CreatorId == userId);
+        _context.Artworks.RemoveRange(artworks);
+
+        var result = await _userManager.DeleteAsync(user);
+
+        if (!result.Succeeded)
+        {
+            ModelState.AddModelError("", "Не удалось удалить профиль. Пожалуйста, попробуйте снова.");
+            return RedirectToAction("AllProfiles");
+        }
+
+        await _context.SaveChangesAsync();
+
+        return RedirectToAction("AllProfiles");
+    }
 
 }
