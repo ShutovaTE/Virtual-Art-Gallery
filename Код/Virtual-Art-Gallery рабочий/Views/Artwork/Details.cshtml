@@ -7,8 +7,12 @@
 <p>Категория: @Model.Category.Name</p>
 <p><strong>Дата создания:</strong> @Model.DateCreated.ToString("dd.MM.yyyy HH:mm")</p>
 <p>Размеры: @Model.Width x @Model.Height</p>
-<p><strong>Автор:</strong> @Model.Creator?.UserName</p>
-
+<p>
+    <strong>Автор:</strong>
+    <a asp-action="ViewProfile" asp-controller="Profile" asp-route-userId="@Model.CreatorId">
+        @Model.Creator?.UserName
+    </a>
+</p>
 
 <div class="mt-4">
     <a asp-action="Index" class="btn btn-secondary">Вернуться ко всем публикациям</a>

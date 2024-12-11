@@ -1,8 +1,51 @@
-﻿@{
-    ViewData["Title"] = "Главная страница";
+﻿@model Virtual_Art_Gallery.Models.GalleryIndexViewModel
+
+<h1>Галерея</h1>
+
+<h2>Публикации</h2>
+@if (ViewBag.NoArtworksMessage != null)
+{
+    <p>@ViewBag.NoArtworksMessage</p>
+}
+else
+{
+    <div style="display: flex; flex-wrap: wrap; gap: 20px;">
+        @foreach (var artwork in Model.Artworks)
+        {
+            <div style="border: 1px solid #ccc; padding: 10px; width: 23%; text-align: center; box-sizing: border-box;">
+                <a asp-action="Details" asp-controller="Artwork" asp-route-id="@artwork.Id">
+                    <strong>@artwork.Title</strong>
+                </a>
+                @if (!string.IsNullOrEmpty(artwork.ImagePath))
+                {
+                    <a asp-action="Details" asp-controller="Artwork" asp-route-id="@artwork.Id">
+                        <img src="@artwork.ImagePath" alt="@artwork.Title" style="width: 100%; height: auto; max-height: 200px;" />
+                    </a>
+                }
+                <p><strong>Категория:</strong> @artwork.Category?.Name</p>
+                <p><strong>Автор:</strong> @artwork.Creator?.UserName</p>
+                <p>Дата: @artwork.DateCreated.ToShortDateString()</p>
+            </div>
+        }
+    </div>
 }
 
-<div class="text-center">
-    <h1 class="display-4">Проверка работоспособности</h1>
-    <p></p>
-</div>
+<h2>Художники</h2>
+@if (ViewBag.NoProfilesMessage != null)
+{
+    <p>@ViewBag.NoProfilesMessage</p>
+}
+else
+{
+    <div style="display: flex; flex-wrap: wrap; gap: 20px;">
+        @foreach (var artist in Model.ArtistProfiles)
+        {
+            <div style="border: 1px solid #ccc; padding: 10px; width: 30%; text-align: center;">
+                <a asp-action="ViewProfile" asp-controller="Profile" asp-route-userId="@artist.Id">
+                    <strong>@artist.UserName</strong>
+                </a>
+                <p>Email: @artist.Email</p>
+            </div>
+        }
+    </div>
+}
