@@ -27,6 +27,8 @@
                 @if (!string.IsNullOrEmpty(artwork.ImagePath))
                 {
                     <img src="@artwork.ImagePath" alt="@artwork.Title" style="max-width: 200px;" />
+                    <p>Лайки: @artwork.LikeCount</p>
+
                 }
                 <p>Статус: @statusTranslations[artwork.Status]</p>
 

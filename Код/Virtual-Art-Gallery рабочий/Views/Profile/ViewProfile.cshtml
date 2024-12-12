@@ -18,6 +18,7 @@
                 {
                     <a asp-action="Details" asp-controller="Artwork" asp-route-id="@artwork.Id">
                         <img src="@artwork.ImagePath" alt="@artwork.Title" style="width: 100%; height: auto; max-height: 200px;" />
+                        <p>Лайки: @artwork.LikeCount</p>
                     </a>
                 }
                 <p>Дата: @artwork.DateCreated.ToShortDateString()</p>

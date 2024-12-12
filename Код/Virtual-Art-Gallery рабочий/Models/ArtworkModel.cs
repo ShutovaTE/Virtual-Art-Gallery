@@ -33,6 +33,7 @@ namespace Virtual_Art_Gallery.Models
 
         public ArtworkStatus Status { get; set; } = ArtworkStatus.Draft;
 
+        public int LikeCount { get; set; }
 
     }
 }

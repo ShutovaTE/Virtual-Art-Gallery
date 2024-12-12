@@ -39,6 +39,27 @@ namespace Virtual_Art_Gallery.Controllers
         }
 
         // GET: Artwork/Details/5
+        //public async Task<IActionResult> Details(int? id)
+        //{
+        //    if (id == null)
+        //    {
+        //        return NotFound();
+        //    }
+
+        //    var artwork = await _context.Artworks.Include(a => a.Category)
+        //        .Include(a => a.Creator)
+        //        .FirstOrDefaultAsync(m => m.Id == id);
+        //    if (artwork == null)
+        //    {
+        //        return NotFound();
+        //    }
+
+        //    var likesCount = await _context.Likes.CountAsync(l => l.ArtworkId == artwork.Id);
+
+        //    ViewData["LikesCount"] = likesCount;
+
+        //    return View(artwork);
+        //}
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
@@ -46,23 +67,25 @@ namespace Virtual_Art_Gallery.Controllers
                 return NotFound();
             }
 
-            var artwork = await _context.Artworks.Include(a => a.Category)
+            var artwork = await _context.Artworks
+                .Include(a => a.Category)
                 .Include(a => a.Creator)
                 .FirstOrDefaultAsync(m => m.Id == id);
+
             if (artwork == null)
             {
                 return NotFound();
             }
 
-            // Подсчитываем количество лайков
-            var likesCount = await _context.Likes.CountAsync(l => l.ArtworkId == artwork.Id);
+            var userId = _userManager.GetUserId(User); 
+            var userLiked = await _context.Likes.AnyAsync(l => l.ArtworkId == artwork.Id && l.UserId == userId); 
 
-            // Добавляем количество лайков в модель
-            ViewData["LikesCount"] = likesCount;
+            artwork.LikeCount = await _context.Likes.CountAsync(l => l.ArtworkId == artwork.Id);
+
+            ViewData["UserLiked"] = userLiked; 
 
             return View(artwork);
         }
-
 
         // GET: Artwork/Create
         public IActionResult Create(int? exhibitionId)
@@ -402,13 +425,12 @@ namespace Virtual_Art_Gallery.Controllers
             return await _context.Likes.CountAsync(l => l.ArtworkId == artworkId);
         }
 
-        [HttpPost]
         [Authorize]
+        [HttpPost]
         public async Task<IActionResult> Like(int id)
         {
             var userId = _userManager.GetUserId(User);
 
-            // Проверяем, существует ли уже лайк от этого пользователя
             var existingLike = await _context.Likes.FirstOrDefaultAsync(l => l.ArtworkId == id && l.UserId == userId);
             if (existingLike != null)
             {
@@ -420,12 +442,44 @@ namespace Virtual_Art_Gallery.Controllers
                 ArtworkId = id,
                 UserId = userId
             };
-
             _context.Likes.Add(like);
+
+            var artwork = await _context.Artworks.FindAsync(id);
+            if (artwork != null)
+            {
+                artwork.LikeCount++;
+            }
+
             await _context.SaveChangesAsync();
 
             return RedirectToAction("Details", new { id });
         }
+
+        [Authorize]
+        [HttpPost]
+        public async Task<IActionResult> Unlike(int id)
+        {
+            var userId = _userManager.GetUserId(User);
+
+            var existingLike = await _context.Likes.FirstOrDefaultAsync(l => l.ArtworkId == id && l.UserId == userId);
+            if (existingLike == null)
+            {
+                return BadRequest("Вы еще не поставили лайк этому произведению.");
+            }
+
+            _context.Likes.Remove(existingLike);
+
+            var artwork = await _context.Artworks.FindAsync(id);
+            if (artwork != null && artwork.LikeCount > 0)
+            {
+                artwork.LikeCount--;
+            }
+
+            await _context.SaveChangesAsync();
+
+            return RedirectToAction("Details", new { id });
+        }
+
 
     }
 }

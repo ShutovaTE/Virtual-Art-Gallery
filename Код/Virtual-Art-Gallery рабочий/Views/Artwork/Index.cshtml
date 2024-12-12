@@ -21,6 +21,8 @@
             <th>Категория</th>
             <th>Дата создания</th>
             <th>Статус</th>
+            <th>Лайки</th>
+
             <th>Действия</th>
         </tr>
     </thead>
@@ -33,6 +35,8 @@
                 <td>@item.Category?.Name</td>
                 <td>@item.DateCreated.ToString("dd.MM.yyyy HH:mm")</td>
                 <td>@statusTranslations[item.Status]</td>
+                <td>@item.LikeCount</td>
+
 
                 <td>
                     <a asp-action="Details" asp-route-id="@item.Id">Просмотреть</a>
@@ -48,7 +52,7 @@
                         <form asp-action="UpdateStatus" method="post" style="display:inline;">
                             <input type="hidden" name="id" value="@item.Id" />
                             <input type="hidden" name="status" value="Approved" />
-                            <button type="submit" class="btn btn-success">Утвердить</button>
+                            <button type="submit" class="btn btn-success">Одобрить</button>
                         </form>
                         <form asp-action="UpdateStatus" method="post" style="display:inline;">
                             <input type="hidden" name="id" value="@item.Id" />

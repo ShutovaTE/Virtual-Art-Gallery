@@ -25,6 +25,8 @@
                             @if (!string.IsNullOrEmpty(artwork.ImagePath))
                             {
                                 <img src="@artwork.ImagePath" alt="@artwork.Title" style="width: 100%; max-height: 200px; object-fit: cover;" />
+                                <p>Лайки: @artwork.LikeCount</p>
+
                             }
                             else
                             {
