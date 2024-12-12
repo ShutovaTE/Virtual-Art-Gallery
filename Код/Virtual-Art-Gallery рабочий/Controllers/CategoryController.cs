@@ -21,7 +21,6 @@ namespace Virtual_Art_Gallery.Controllers
             return View(await _context.Categories.ToListAsync());
         }
 
-        // Только администратор может создать категорию
         [Authorize(Roles = "Administrator")]
         public IActionResult Create()
         {
@@ -42,7 +41,6 @@ namespace Virtual_Art_Gallery.Controllers
             return View(categoryModel);
         }
 
-        // Только администратор может редактировать категорию
         [Authorize(Roles = "Administrator")]
         public async Task<IActionResult> Edit(int? id)
         {
@@ -78,7 +76,6 @@ namespace Virtual_Art_Gallery.Controllers
             return View(categoryModel);
         }
 
-        // Только администратор может удалять категорию
         [Authorize(Roles = "Administrator")]
         public async Task<IActionResult> Delete(int? id)
         {

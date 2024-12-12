@@ -12,7 +12,7 @@ using Virtual_Art_Gallery.Data;
 namespace Virtual_Art_Gallery.Migrations
 {
     [DbContext(typeof(GalleryContext))]
-    [Migration("20241212192554_Init")]
+    [Migration("20241212202950_Init")]
     partial class Init
     {
         /// <inheritdoc />
@@ -287,6 +287,9 @@ namespace Virtual_Art_Gallery.Migrations
                         .HasColumnType("int");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("Count")
+                        .HasColumnType("int");
 
                     b.Property<string>("Description")
                         .IsRequired()

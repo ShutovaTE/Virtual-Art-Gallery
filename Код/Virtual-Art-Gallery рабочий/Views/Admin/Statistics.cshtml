@@ -1,0 +1,43 @@
+﻿
+<h1>Статистика</h1>
+
+<h2>Самая популярная публикация</h2>
+@if (Model.MostViewedArtwork != null)
+{
+    <p><strong>@Model.MostViewedArtwork.Title</strong> — @Model.MostViewedArtwork.ViewCount просмотров</p>
+}
+
+<h2>Использование категорий</h2>
+<table>
+    <thead>
+        <tr>
+            <th>Категория</th>
+            <th>Количество использований</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var category in Model.CategoryUsage)
+        {
+            <tr>
+                <td>@category.CategoryName</td>
+                <td>@category.Count</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<h2>Топ-5 публикаций</h2>
+<ol>
+    @foreach (var artwork in Model.TopArtworks)
+    {
+        <li>@artwork.Title — @artwork.ViewCount просмотров</li>
+    }
+</ol>
+<h2>Топ-5 публикаций по лайкам</h2>
+<ol>
+    @foreach (var artwork in Model.TopLikedArtworks)
+    {
+        <li>@artwork.Title — @artwork.LikeCount лайков</li>
+    }
+</ol>
+

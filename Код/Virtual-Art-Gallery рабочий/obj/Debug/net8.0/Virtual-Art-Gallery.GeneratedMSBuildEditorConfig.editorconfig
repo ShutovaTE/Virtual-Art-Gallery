@@ -60,6 +60,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Все связанное с ВЛГУ/Учеба/ТП 3 курс 5 семестр/Курсач/Virtual-Art-Gallery/Код/Virtual-Art-Gallery рабочий/Views/Admin/Statistics.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cU3RhdGlzdGljcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Все связанное с ВЛГУ/Учеба/ТП 3 курс 5 семестр/Курсач/Virtual-Art-Gallery/Код/Virtual-Art-Gallery рабочий/Views/Artwork/AdminDelete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJ0d29ya1xBZG1pbkRlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -130,14 +134,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/Все связанное с ВЛГУ/Учеба/ТП 3 курс 5 семестр/Курсач/Virtual-Art-Gallery/Код/Virtual-Art-Gallery рабочий/Views/Gallery/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FsbGVyeVxJbmRleC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/Все связанное с ВЛГУ/Учеба/ТП 3 курс 5 семестр/Курсач/Virtual-Art-Gallery/Код/Virtual-Art-Gallery рабочий/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/Все связанное с ВЛГУ/Учеба/ТП 3 курс 5 семестр/Курсач/Virtual-Art-Gallery/Код/Virtual-Art-Gallery рабочий/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Все связанное с ВЛГУ/Учеба/ТП 3 курс 5 семестр/Курсач/Virtual-Art-Gallery/Код/Virtual-Art-Gallery рабочий/Views/Profile/AllProfiles.cshtml]
