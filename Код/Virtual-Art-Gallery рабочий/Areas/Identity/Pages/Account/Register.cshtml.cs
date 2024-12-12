@@ -64,39 +64,44 @@ namespace Virtual_Art_Gallery.Areas.Identity.Pages.Account
             [Display(Name = "Подтвердите пароль")]
             [Compare("Password", ErrorMessage = "Пароль и его подтверждение не совпадают.")]
             public string ConfirmPassword { get; set; }
-
-            //[Required]
-            //[Display(Name = "Контактные данные")]
-            //public string Contact { get; set; }
-
-            //[Display(Name = "О себе")]
-            //public string AboutMe { get; set; }
         }
-
-
 
         public async Task OnGetAsync(string returnUrl = null)
         {
             ReturnUrl = returnUrl;
             ExternalLogins = (await _signInManager.GetExternalAuthenticationSchemesAsync()).ToList();
         }
-                public async Task<IActionResult> OnPostAsync(string returnUrl = null)
+
+        public async Task<IActionResult> OnPostAsync(string returnUrl = null)
         {
             returnUrl ??= Url.Content("~/");
             ExternalLogins = (await _signInManager.GetExternalAuthenticationSchemesAsync()).ToList();
 
             if (ModelState.IsValid)
             {
+                var existingUser = await _userManager.FindByNameAsync(Input.Username);
+                if (existingUser != null)
+                {
+                    ModelState.AddModelError("Input.Username", "Это имя пользователя уже занято.");
+                    return Page();
+                }
+
+                var existingEmail = await _userManager.FindByEmailAsync(Input.Email);
+                if (existingEmail != null)
+                {
+                    ModelState.AddModelError("Input.Email", "Этот адрес электронной почты уже зарегистрирован.");
+                    return Page();
+                }
+
                 var user = CreateUser();
                 await _userStore.SetUserNameAsync(user, Input.Username, CancellationToken.None);
                 await _emailStore.SetEmailAsync(user, Input.Email, CancellationToken.None);
-
 
                 var result = await _userManager.CreateAsync(user, Input.Password);
 
                 if (result.Succeeded)
                 {
-                    _logger.LogInformation("User created a new account with password.");
+                    _logger.LogInformation("Пользователь создал новую учетную запись с паролем.");
 
                     var users = await _userManager.Users.ToListAsync();
                     if (users.Count == 1)
@@ -129,9 +134,8 @@ namespace Virtual_Art_Gallery.Areas.Identity.Pages.Account
             }
             catch
             {
-                throw new InvalidOperationException($"Can't create an instance of '{nameof(IdentityUser)}'. " +
-                    $"Ensure that '{nameof(IdentityUser)}' is not an abstract class and has a parameterless constructor, or alternatively " +
-                    $"override the register page in /Areas/Identity/Pages/Account/Register.cshtml");
+                throw new InvalidOperationException($"Невозможно создать экземпляр '{nameof(IdentityUser)}'. " +
+                    $"Убедитесь, что '{nameof(IdentityUser)}' не является абстрактным классом и имеет конструктор без параметров.");
             }
         }
 
@@ -139,7 +143,7 @@ namespace Virtual_Art_Gallery.Areas.Identity.Pages.Account
         {
             if (!_userManager.SupportsUserEmail)
             {
-                throw new NotSupportedException("The default UI requires a user store with email support.");
+                throw new NotSupportedException("Для этой UI требуется хранилище пользователей с поддержкой электронной почты.");
             }
             return (IUserEmailStore<IdentityUser>)_userStore;
         }

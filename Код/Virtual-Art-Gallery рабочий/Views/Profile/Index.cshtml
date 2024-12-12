@@ -19,39 +19,48 @@
 <h2>Публикации</h2>
 @if (Model.Artworks.Any())
 {
-    <ul>
+    <div style="display: flex; flex-wrap: wrap; gap: 20px;">
         @foreach (var artwork in Model.Artworks)
         {
-            <li>
-                <strong>@artwork.Title</strong> - @artwork.DateCreated.ToShortDateString()
+            <div style="border: 1px solid #ccc; padding: 15px; border-radius: 10px; width: 300px; text-align: center;">
                 @if (!string.IsNullOrEmpty(artwork.ImagePath))
                 {
-                    <img src="@artwork.ImagePath" alt="@artwork.Title" style="max-width: 200px;" />
-                    <p>Лайки: @artwork.LikeCount</p>
-
+                    <img src="@artwork.ImagePath" alt="@artwork.Title" style="width: 100%; max-height: 200px; object-fit: cover; border-radius: 5px;" />
                 }
-                <p>Статус: @statusTranslations[artwork.Status]</p>
-
-                @if (artwork.Status == ArtworkStatus.Draft)
+                else
                 {
-                    <form asp-action="SubmitForApproval" method="post">
-                        <input type="hidden" name="id" value="@artwork.Id" />
-                        <button type="submit" class="btn btn-primary">Отправить на модерацию</button>
-                    </form>
-
-                    <a asp-action="Edit" asp-controller="Artwork" asp-route-id="@artwork.Id" class="btn btn-secondary">Редактировать</a>
+                    <p style="font-style: italic; color: gray;">Изображение отсутствует</p>
                 }
 
-                <form asp-action="Delete" asp-controller="Artwork" method="post" style="display:inline;">
-                    <input type="hidden" name="id" value="@artwork.Id" />
-                    <button type="submit" class="btn btn-danger">Удалить</button>
-                </form>
-            </li>
+                <h3>@artwork.Title</h3>
+                <p><strong>Дата создания:</strong> @artwork.DateCreated.ToShortDateString()</p>
+                <p><strong>Лайков:</strong> @artwork.LikeCount</p>
+                <p><strong>Статус:</strong> @statusTranslations[artwork.Status]</p>
+
+                <div style="margin-top: 10px;">
+                    @if (artwork.Status == ArtworkStatus.Draft)
+                    {
+                        <form asp-action="SubmitForApproval" method="post" style="margin-bottom: 10px;">
+                            <input type="hidden" name="id" value="@artwork.Id" />
+                            <button type="submit" class="btn btn-primary">Отправить на модерацию</button>
+                        </form>
+
+                        <a asp-action="Edit" asp-controller="Artwork" asp-route-id="@artwork.Id" class="btn btn-secondary" style="margin-right: 10px;">Редактировать</a>
+                    }
+                    <form asp-action="Details" asp-controller="Artwork" method="post" style="display: inline;">
+                        <input type="hidden" name="id" value="@artwork.Id" />
+                        <button type="submit" class="btn btn-primary">Посмотреть</button>
+                    </form>
+                    <form asp-action="Delete" asp-controller="Artwork" method="post" style="display: inline;">
+                        <input type="hidden" name="id" value="@artwork.Id" />
+                        <button type="submit" class="btn btn-danger">Удалить</button>
+                    </form>
+                </div>
+            </div>
         }
-    </ul>
+    </div>
 }
 else
 {
     <p>Публикации отсутствуют.</p>
 }
-

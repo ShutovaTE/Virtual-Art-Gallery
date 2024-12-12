@@ -16,7 +16,7 @@ using System.ComponentModel.DataAnnotations;
             [Required]
             public string UserId { get; set; }
             public virtual IdentityUser User { get; set; }
-        }
+    }
     }
 
 

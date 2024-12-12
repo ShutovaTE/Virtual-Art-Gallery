@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "zYciuixUDOkar9WZ7UBAzmv+BUxHkoALnqFPwGkzboA=",
+  "Hash": "geYL8kfZvAhdVaaxhOZLKCmCcIZHGtSk55VHg3NY+M8=",
   "Source": "Virtual-Art-Gallery",
   "BasePath": "_content/Virtual-Art-Gallery",
   "Mode": "Default",
@@ -1550,6 +1550,27 @@
       "OriginalItemSpec": "wwwroot\\images\\112_2899ad03-91ae-4dc8-82a6-7b040f89fe10.jpg"
     },
     {
+      "Identity": "D:\\Все связанное с ВЛГУ\\Учеба\\ТП 3 курс 5 семестр\\Курсач\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\112_2acd3412-c805-4707-8458-48e5de1ac10d.jpg",
+      "SourceId": "Virtual-Art-Gallery",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Все связанное с ВЛГУ\\Учеба\\ТП 3 курс 5 семестр\\Курсач\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "BasePath": "_content/Virtual-Art-Gallery",
+      "RelativePath": "images/112_2acd3412-c805-4707-8458-48e5de1ac10d#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ko03uamejr",
+      "Integrity": "zLOgNQNfH0PLurd903ZTxEQ5qvK1eB1dDf9hT9zJNOw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\112_2acd3412-c805-4707-8458-48e5de1ac10d.jpg"
+    },
+    {
       "Identity": "D:\\Все связанное с ВЛГУ\\Учеба\\ТП 3 курс 5 семестр\\Курсач\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\112_2b579455-1372-4cde-b8ea-17b09b2451ec.jpg",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
@@ -1611,6 +1632,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\112_3693626a-9e91-4400-ba09-331dd13aa616.jpg"
+    },
+    {
+      "Identity": "D:\\Все связанное с ВЛГУ\\Учеба\\ТП 3 курс 5 семестр\\Курсач\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\112_3ac36e1e-80e1-4d73-9966-68e5347844ba.jpg",
+      "SourceId": "Virtual-Art-Gallery",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Все связанное с ВЛГУ\\Учеба\\ТП 3 курс 5 семестр\\Курсач\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "BasePath": "_content/Virtual-Art-Gallery",
+      "RelativePath": "images/112_3ac36e1e-80e1-4d73-9966-68e5347844ba#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ko03uamejr",
+      "Integrity": "zLOgNQNfH0PLurd903ZTxEQ5qvK1eB1dDf9hT9zJNOw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\112_3ac36e1e-80e1-4d73-9966-68e5347844ba.jpg"
     },
     {
       "Identity": "D:\\Все связанное с ВЛГУ\\Учеба\\ТП 3 курс 5 семестр\\Курсач\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\112_3c1688fe-db52-4aa9-bda7-bc05b26b8a65.jpg",
@@ -2831,6 +2873,27 @@
       "OriginalItemSpec": "wwwroot\\images\\4_f6e8494b-e438-4bda-9549-2f180f27a84c.jpg"
     },
     {
+      "Identity": "D:\\Все связанное с ВЛГУ\\Учеба\\ТП 3 курс 5 семестр\\Курсач\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\5_1cbe90a6-b8e5-4347-8f4a-732181bc1203.jpg",
+      "SourceId": "Virtual-Art-Gallery",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Все связанное с ВЛГУ\\Учеба\\ТП 3 курс 5 семестр\\Курсач\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "BasePath": "_content/Virtual-Art-Gallery",
+      "RelativePath": "images/5_1cbe90a6-b8e5-4347-8f4a-732181bc1203#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "d0d2kf467f",
+      "Integrity": "XZ7GwG5pnkoUS6lTOKbRTnV+KcKiPvCsHi1JwXI7Z+s=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\5_1cbe90a6-b8e5-4347-8f4a-732181bc1203.jpg"
+    },
+    {
       "Identity": "D:\\Все связанное с ВЛГУ\\Учеба\\ТП 3 курс 5 семестр\\Курсач\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\5_566c702a-7732-4f26-adea-9fbad1732049.jpg",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
@@ -2871,6 +2934,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\5_b5db66a4-a41f-4be7-a3ea-7ce75ff30647.jpg"
+    },
+    {
+      "Identity": "D:\\Все связанное с ВЛГУ\\Учеба\\ТП 3 курс 5 семестр\\Курсач\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\5_da601ddc-c3b4-46af-b2f0-0a2baf0fc023.jpg",
+      "SourceId": "Virtual-Art-Gallery",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Все связанное с ВЛГУ\\Учеба\\ТП 3 курс 5 семестр\\Курсач\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "BasePath": "_content/Virtual-Art-Gallery",
+      "RelativePath": "images/5_da601ddc-c3b4-46af-b2f0-0a2baf0fc023#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "d0d2kf467f",
+      "Integrity": "XZ7GwG5pnkoUS6lTOKbRTnV+KcKiPvCsHi1JwXI7Z+s=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\5_da601ddc-c3b4-46af-b2f0-0a2baf0fc023.jpg"
     },
     {
       "Identity": "D:\\Все связанное с ВЛГУ\\Учеба\\ТП 3 курс 5 семестр\\Курсач\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\5_f679cea1-afb0-4815-98c6-11604318438a.jpg",
@@ -7446,6 +7530,88 @@
       ]
     },
     {
+      "Route": "images/112_2acd3412-c805-4707-8458-48e5de1ac10d.jpg",
+      "AssetFile": "D:\\Все связанное с ВЛГУ\\Учеба\\ТП 3 курс 5 семестр\\Курсач\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\112_2acd3412-c805-4707-8458-48e5de1ac10d.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "172558"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zLOgNQNfH0PLurd903ZTxEQ5qvK1eB1dDf9hT9zJNOw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 12 Dec 2024 18:52:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zLOgNQNfH0PLurd903ZTxEQ5qvK1eB1dDf9hT9zJNOw="
+        }
+      ]
+    },
+    {
+      "Route": "images/112_2acd3412-c805-4707-8458-48e5de1ac10d.ko03uamejr.jpg",
+      "AssetFile": "D:\\Все связанное с ВЛГУ\\Учеба\\ТП 3 курс 5 семестр\\Курсач\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\112_2acd3412-c805-4707-8458-48e5de1ac10d.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "172558"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zLOgNQNfH0PLurd903ZTxEQ5qvK1eB1dDf9hT9zJNOw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 12 Dec 2024 18:52:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ko03uamejr"
+        },
+        {
+          "Name": "label",
+          "Value": "images/112_2acd3412-c805-4707-8458-48e5de1ac10d.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zLOgNQNfH0PLurd903ZTxEQ5qvK1eB1dDf9hT9zJNOw="
+        }
+      ]
+    },
+    {
       "Route": "images/112_2b579455-1372-4cde-b8ea-17b09b2451ec.jpg",
       "AssetFile": "D:\\Все связанное с ВЛГУ\\Учеба\\ТП 3 курс 5 семестр\\Курсач\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\112_2b579455-1372-4cde-b8ea-17b09b2451ec.jpg",
       "Selectors": [],
@@ -7684,6 +7850,88 @@
         {
           "Name": "label",
           "Value": "images/112_3693626a-9e91-4400-ba09-331dd13aa616.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zLOgNQNfH0PLurd903ZTxEQ5qvK1eB1dDf9hT9zJNOw="
+        }
+      ]
+    },
+    {
+      "Route": "images/112_3ac36e1e-80e1-4d73-9966-68e5347844ba.jpg",
+      "AssetFile": "D:\\Все связанное с ВЛГУ\\Учеба\\ТП 3 курс 5 семестр\\Курсач\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\112_3ac36e1e-80e1-4d73-9966-68e5347844ba.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "172558"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zLOgNQNfH0PLurd903ZTxEQ5qvK1eB1dDf9hT9zJNOw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 12 Dec 2024 18:53:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zLOgNQNfH0PLurd903ZTxEQ5qvK1eB1dDf9hT9zJNOw="
+        }
+      ]
+    },
+    {
+      "Route": "images/112_3ac36e1e-80e1-4d73-9966-68e5347844ba.ko03uamejr.jpg",
+      "AssetFile": "D:\\Все связанное с ВЛГУ\\Учеба\\ТП 3 курс 5 семестр\\Курсач\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\112_3ac36e1e-80e1-4d73-9966-68e5347844ba.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "172558"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zLOgNQNfH0PLurd903ZTxEQ5qvK1eB1dDf9hT9zJNOw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 12 Dec 2024 18:53:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ko03uamejr"
+        },
+        {
+          "Name": "label",
+          "Value": "images/112_3ac36e1e-80e1-4d73-9966-68e5347844ba.jpg"
         },
         {
           "Name": "integrity",
@@ -12448,6 +12696,88 @@
       ]
     },
     {
+      "Route": "images/5_1cbe90a6-b8e5-4347-8f4a-732181bc1203.d0d2kf467f.jpg",
+      "AssetFile": "D:\\Все связанное с ВЛГУ\\Учеба\\ТП 3 курс 5 семестр\\Курсач\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\5_1cbe90a6-b8e5-4347-8f4a-732181bc1203.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "118553"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XZ7GwG5pnkoUS6lTOKbRTnV+KcKiPvCsHi1JwXI7Z+s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 12 Dec 2024 19:12:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "d0d2kf467f"
+        },
+        {
+          "Name": "label",
+          "Value": "images/5_1cbe90a6-b8e5-4347-8f4a-732181bc1203.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-XZ7GwG5pnkoUS6lTOKbRTnV+KcKiPvCsHi1JwXI7Z+s="
+        }
+      ]
+    },
+    {
+      "Route": "images/5_1cbe90a6-b8e5-4347-8f4a-732181bc1203.jpg",
+      "AssetFile": "D:\\Все связанное с ВЛГУ\\Учеба\\ТП 3 курс 5 семестр\\Курсач\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\5_1cbe90a6-b8e5-4347-8f4a-732181bc1203.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "118553"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XZ7GwG5pnkoUS6lTOKbRTnV+KcKiPvCsHi1JwXI7Z+s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 12 Dec 2024 19:12:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-XZ7GwG5pnkoUS6lTOKbRTnV+KcKiPvCsHi1JwXI7Z+s="
+        }
+      ]
+    },
+    {
       "Route": "images/5_566c702a-7732-4f26-adea-9fbad1732049.d0d2kf467f.jpg",
       "AssetFile": "D:\\Все связанное с ВЛГУ\\Учеба\\ТП 3 курс 5 семестр\\Курсач\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\5_566c702a-7732-4f26-adea-9fbad1732049.jpg",
       "Selectors": [],
@@ -12598,6 +12928,88 @@
         {
           "Name": "Last-Modified",
           "Value": "Thu, 12 Dec 2024 11:30:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-XZ7GwG5pnkoUS6lTOKbRTnV+KcKiPvCsHi1JwXI7Z+s="
+        }
+      ]
+    },
+    {
+      "Route": "images/5_da601ddc-c3b4-46af-b2f0-0a2baf0fc023.d0d2kf467f.jpg",
+      "AssetFile": "D:\\Все связанное с ВЛГУ\\Учеба\\ТП 3 курс 5 семестр\\Курсач\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\5_da601ddc-c3b4-46af-b2f0-0a2baf0fc023.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "118553"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XZ7GwG5pnkoUS6lTOKbRTnV+KcKiPvCsHi1JwXI7Z+s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 12 Dec 2024 18:34:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "d0d2kf467f"
+        },
+        {
+          "Name": "label",
+          "Value": "images/5_da601ddc-c3b4-46af-b2f0-0a2baf0fc023.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-XZ7GwG5pnkoUS6lTOKbRTnV+KcKiPvCsHi1JwXI7Z+s="
+        }
+      ]
+    },
+    {
+      "Route": "images/5_da601ddc-c3b4-46af-b2f0-0a2baf0fc023.jpg",
+      "AssetFile": "D:\\Все связанное с ВЛГУ\\Учеба\\ТП 3 курс 5 семестр\\Курсач\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\5_da601ddc-c3b4-46af-b2f0-0a2baf0fc023.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "118553"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XZ7GwG5pnkoUS6lTOKbRTnV+KcKiPvCsHi1JwXI7Z+s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 12 Dec 2024 18:34:03 GMT"
         },
         {
           "Name": "Cache-Control",

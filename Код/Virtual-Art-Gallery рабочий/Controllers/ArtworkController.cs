@@ -38,28 +38,6 @@ namespace Virtual_Art_Gallery.Controllers
             return View(await artworks.ToListAsync());
         }
 
-        // GET: Artwork/Details/5
-        //public async Task<IActionResult> Details(int? id)
-        //{
-        //    if (id == null)
-        //    {
-        //        return NotFound();
-        //    }
-
-        //    var artwork = await _context.Artworks.Include(a => a.Category)
-        //        .Include(a => a.Creator)
-        //        .FirstOrDefaultAsync(m => m.Id == id);
-        //    if (artwork == null)
-        //    {
-        //        return NotFound();
-        //    }
-
-        //    var likesCount = await _context.Likes.CountAsync(l => l.ArtworkId == artwork.Id);
-
-        //    ViewData["LikesCount"] = likesCount;
-
-        //    return View(artwork);
-        //}
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
@@ -480,6 +458,20 @@ namespace Virtual_Art_Gallery.Controllers
             return RedirectToAction("Details", new { id });
         }
 
+        [Authorize]
+        public async Task<IActionResult> LikedArtworks()
+        {
+            var userId = _userManager.GetUserId(User);
+
+            var likedArtworks = await _context.Likes
+                .Where(like => like.UserId == userId)
+                .Include(like => like.Artwork)
+                .ThenInclude(artwork => artwork.Category)
+                .Select(like => like.Artwork)
+                .ToListAsync();
+
+            return View(likedArtworks);
+        }
 
     }
 }

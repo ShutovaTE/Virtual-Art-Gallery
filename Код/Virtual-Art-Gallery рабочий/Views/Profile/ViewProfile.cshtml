@@ -10,17 +10,19 @@
     <div style="display: flex; flex-wrap: wrap; gap: 20px;">
         @foreach (var artwork in Model.Artworks)
         {
-            <div style="border: 1px solid #ccc; padding: 10px; width: 30%; text-align: center;">
-                <a asp-action="Details" asp-controller="Artwork" asp-route-id="@artwork.Id">
-                    <strong>@artwork.Title</strong>
-                </a>
+            <div style="border: 1px solid #ccc; padding: 15px; border-radius: 10px; width: 300px; text-align: center;">
+
                 @if (!string.IsNullOrEmpty(artwork.ImagePath))
                 {
                     <a asp-action="Details" asp-controller="Artwork" asp-route-id="@artwork.Id">
                         <img src="@artwork.ImagePath" alt="@artwork.Title" style="width: 100%; height: auto; max-height: 200px;" />
-                        <p>Лайки: @artwork.LikeCount</p>
-                    </a>
+                    </a>                
+                    <h3 asp-action="Details" asp-controller="Artwork" asp-route-id="@artwork.Id">
+                        <strong>@artwork.Title</strong>
+                    </h3>
                 }
+
+                <p>Лайки: @artwork.LikeCount</p>
                 <p>Дата: @artwork.DateCreated.ToShortDateString()</p>
             </div>
         }

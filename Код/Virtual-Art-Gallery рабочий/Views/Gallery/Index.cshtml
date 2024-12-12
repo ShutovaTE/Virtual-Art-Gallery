@@ -12,16 +12,18 @@ else
     <div style="display: flex; flex-wrap: wrap; gap: 20px;">
         @foreach (var artwork in Model.Artworks)
         {
-            <div style="border: 1px solid #ccc; padding: 10px; width: 23%; text-align: center; box-sizing: border-box;">
-                <a asp-action="Details" asp-controller="Artwork" asp-route-id="@artwork.Id">
-                    <strong>@artwork.Title</strong>
-                </a>
+            <div style="border: 1px solid #ccc; padding: 15px; border-radius: 10px; width: 300px; text-align: center;">
+
                 @if (!string.IsNullOrEmpty(artwork.ImagePath))
                 {
                     <a asp-action="Details" asp-controller="Artwork" asp-route-id="@artwork.Id">
                         <img src="@artwork.ImagePath" alt="@artwork.Title" style="width: 100%; height: auto; max-height: 200px;" />
-                    </a>
-                }
+                    </a>                
+                    <h3 asp-action="Details" asp-controller="Artwork" asp-route-id="@artwork.Id">
+                        <strong>@artwork.Title</strong>
+                    </h3>
+                }                
+
                 <p><strong>Категория:</strong> @artwork.Category?.Name</p>
                 <p><strong>Лайки:</strong> @artwork.LikeCount</p>
                 <p><strong>Автор:</strong> @artwork.Creator?.UserName</p>
@@ -41,7 +43,7 @@ else
     <div style="display: flex; flex-wrap: wrap; gap: 20px;">
         @foreach (var artist in Model.ArtistProfiles)
         {
-            <div style="border: 1px solid #ccc; padding: 10px; width: 30%; text-align: center;">
+            <div style="border: 1px solid #ccc; padding: 15px; border-radius: 10px; width: 300px; text-align: center;">
                 <a asp-action="ViewProfile" asp-controller="Profile" asp-route-userId="@artist.Id">
                     <strong>@artist.UserName</strong>
                 </a>

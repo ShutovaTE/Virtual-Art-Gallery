@@ -174,6 +174,4 @@ public class ProfileController : Controller
 
         return RedirectToAction("AllProfiles");
     }
-
-
 }
