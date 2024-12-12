@@ -55,17 +55,22 @@ namespace Virtual_Art_Gallery.Controllers
                 return NotFound();
             }
 
-            var userId = _userManager.GetUserId(User); 
-            var userLiked = await _context.Likes.AnyAsync(l => l.ArtworkId == artwork.Id && l.UserId == userId); 
+            artwork.ViewCount++;
+            await _context.SaveChangesAsync();
+
+            var userId = _userManager.GetUserId(User);
+            var userLiked = await _context.Likes.AnyAsync(l => l.ArtworkId == artwork.Id && l.UserId == userId);
 
             artwork.LikeCount = await _context.Likes.CountAsync(l => l.ArtworkId == artwork.Id);
 
-            ViewData["UserLiked"] = userLiked; 
+            ViewData["UserLiked"] = userLiked;
 
             return View(artwork);
         }
 
+
         // GET: Artwork/Create
+        [Authorize]
         public IActionResult Create(int? exhibitionId)
         {
             ViewData["ExhibitionId"] = exhibitionId;

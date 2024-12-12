@@ -260,6 +260,9 @@ namespace Virtual_Art_Gallery.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int>("ViewCount")
+                        .HasColumnType("int");
+
                     b.Property<int>("Width")
                         .HasColumnType("int");
 

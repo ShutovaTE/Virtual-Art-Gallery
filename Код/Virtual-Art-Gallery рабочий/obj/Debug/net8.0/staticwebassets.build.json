@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "geYL8kfZvAhdVaaxhOZLKCmCcIZHGtSk55VHg3NY+M8=",
+  "Hash": "+QW6NS94jTChhalEOUoFRGITz833UyH2koZp7qz24xA=",
   "Source": "Virtual-Art-Gallery",
   "BasePath": "_content/Virtual-Art-Gallery",
   "Mode": "Default",
@@ -2871,6 +2871,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\4_f6e8494b-e438-4bda-9549-2f180f27a84c.jpg"
+    },
+    {
+      "Identity": "D:\\Все связанное с ВЛГУ\\Учеба\\ТП 3 курс 5 семестр\\Курсач\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_fa7f28bf-0187-47ca-bdde-9450ff4fbc60.jpg",
+      "SourceId": "Virtual-Art-Gallery",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Все связанное с ВЛГУ\\Учеба\\ТП 3 курс 5 семестр\\Курсач\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "BasePath": "_content/Virtual-Art-Gallery",
+      "RelativePath": "images/4_fa7f28bf-0187-47ca-bdde-9450ff4fbc60#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "58tfo64m7y",
+      "Integrity": "Sw6JzVDFJuapyBAyIUeWZJzWOiErZE7Mk9GWTlWNb34=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\4_fa7f28bf-0187-47ca-bdde-9450ff4fbc60.jpg"
     },
     {
       "Identity": "D:\\Все связанное с ВЛГУ\\Учеба\\ТП 3 курс 5 семестр\\Курсач\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\5_1cbe90a6-b8e5-4347-8f4a-732181bc1203.jpg",
@@ -12682,6 +12703,88 @@
         {
           "Name": "Last-Modified",
           "Value": "Mon, 09 Dec 2024 18:47:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Sw6JzVDFJuapyBAyIUeWZJzWOiErZE7Mk9GWTlWNb34="
+        }
+      ]
+    },
+    {
+      "Route": "images/4_fa7f28bf-0187-47ca-bdde-9450ff4fbc60.58tfo64m7y.jpg",
+      "AssetFile": "D:\\Все связанное с ВЛГУ\\Учеба\\ТП 3 курс 5 семестр\\Курсач\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_fa7f28bf-0187-47ca-bdde-9450ff4fbc60.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7252851"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Sw6JzVDFJuapyBAyIUeWZJzWOiErZE7Mk9GWTlWNb34=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 12 Dec 2024 19:32:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "58tfo64m7y"
+        },
+        {
+          "Name": "label",
+          "Value": "images/4_fa7f28bf-0187-47ca-bdde-9450ff4fbc60.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Sw6JzVDFJuapyBAyIUeWZJzWOiErZE7Mk9GWTlWNb34="
+        }
+      ]
+    },
+    {
+      "Route": "images/4_fa7f28bf-0187-47ca-bdde-9450ff4fbc60.jpg",
+      "AssetFile": "D:\\Все связанное с ВЛГУ\\Учеба\\ТП 3 курс 5 семестр\\Курсач\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_fa7f28bf-0187-47ca-bdde-9450ff4fbc60.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7252851"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Sw6JzVDFJuapyBAyIUeWZJzWOiErZE7Mk9GWTlWNb34=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 12 Dec 2024 19:32:39 GMT"
         },
         {
           "Name": "Cache-Control",

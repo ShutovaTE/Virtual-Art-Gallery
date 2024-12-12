@@ -11,6 +11,7 @@
             <p>@artwork.Description</p>
             <p><strong>Категория:</strong> @artwork.Category.Name</p>
             <p><strong>Лайки:</strong> @artwork.LikeCount</p>
+            <p><strong>Просмотров:</strong> @artwork.ViewCount</p>
 
             <a href="@Url.Action("Details", "Artwork", new { id = artwork.Id })" class="btn btn-primary">Посмотреть</a>
         </div>

@@ -22,7 +22,7 @@
             <th>Дата создания</th>
             <th>Статус</th>
             <th>Лайки</th>
-
+            <th>Просмотры</th>
             <th>Действия</th>
         </tr>
     </thead>
@@ -36,7 +36,7 @@
                 <td>@item.DateCreated.ToString("dd.MM.yyyy HH:mm")</td>
                 <td>@statusTranslations[item.Status]</td>
                 <td>@item.LikeCount</td>
-
+                <td>@item.ViewCount</td>
 
                 <td>
                     <a asp-action="Details" asp-route-id="@item.Id">Просмотреть</a>
@@ -66,7 +66,14 @@
         }
     </tbody>
 </table>
-
 <div>
-    <a asp-action="Create" class="btn btn-primary">Добавить публикацию</a>
+    @if (User.Identity.IsAuthenticated)
+    {
+        <a asp-action="Create" class="btn btn-primary">Добавить публикацию</a>
+    }
+    else
+    {
+        <button class="btn btn-primary" onclick="alert('Вы не авторизованы!')">Добавить публикацию</button>
+    }
 </div>
+
