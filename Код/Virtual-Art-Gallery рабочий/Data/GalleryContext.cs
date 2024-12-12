@@ -12,6 +12,7 @@ namespace Virtual_Art_Gallery.Data
         public DbSet<PriceListModel> Prices { get; set; }
         public DbSet<ItemModel> Items { get; set; }
         public DbSet<CategoryModel> Categories { get; set; }
+        public DbSet<LikeModel> Likes { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

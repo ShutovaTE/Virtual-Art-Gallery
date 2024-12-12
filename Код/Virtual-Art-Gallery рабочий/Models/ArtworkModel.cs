@@ -32,5 +32,7 @@ namespace Virtual_Art_Gallery.Models
         public IdentityUser? Creator { get; set; }
 
         public ArtworkStatus Status { get; set; } = ArtworkStatus.Draft;
+
+
     }
 }

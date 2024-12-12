@@ -12,8 +12,8 @@ using Virtual_Art_Gallery.Data;
 namespace Virtual_Art_Gallery.Migrations
 {
     [DbContext(typeof(GalleryContext))]
-    [Migration("20241211201615_Init1")]
-    partial class Init1
+    [Migration("20241212082435_init")]
+    partial class init
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -355,6 +355,30 @@ namespace Virtual_Art_Gallery.Migrations
                     b.ToTable("Items");
                 });
 
+            modelBuilder.Entity("Virtual_Art_Gallery.Models.LikeModel", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("ArtworkId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("UserId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ArtworkId");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("Likes");
+                });
+
             modelBuilder.Entity("Virtual_Art_Gallery.Models.PriceListModel", b =>
                 {
                     b.Property<int>("Id")
@@ -442,6 +466,25 @@ namespace Virtual_Art_Gallery.Migrations
                     b.Navigation("Creator");
 
                     b.Navigation("Exhibition");
+                });
+
+            modelBuilder.Entity("Virtual_Art_Gallery.Models.LikeModel", b =>
+                {
+                    b.HasOne("Virtual_Art_Gallery.Models.ArtworkModel", "Artwork")
+                        .WithMany()
+                        .HasForeignKey("ArtworkId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Microsoft.AspNetCore.Identity.IdentityUser", "User")
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Artwork");
+
+                    b.Navigation("User");
                 });
 
             modelBuilder.Entity("Virtual_Art_Gallery.Models.ExhibitionModel", b =>

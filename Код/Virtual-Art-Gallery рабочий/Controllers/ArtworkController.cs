@@ -38,8 +38,6 @@ namespace Virtual_Art_Gallery.Controllers
             return View(await artworks.ToListAsync());
         }
 
-
-
         // GET: Artwork/Details/5
         public async Task<IActionResult> Details(int? id)
         {
@@ -56,8 +54,15 @@ namespace Virtual_Art_Gallery.Controllers
                 return NotFound();
             }
 
+            // Подсчитываем количество лайков
+            var likesCount = await _context.Likes.CountAsync(l => l.ArtworkId == artwork.Id);
+
+            // Добавляем количество лайков в модель
+            ViewData["LikesCount"] = likesCount;
+
             return View(artwork);
         }
+
 
         // GET: Artwork/Create
         public IActionResult Create(int? exhibitionId)
@@ -86,18 +91,6 @@ namespace Virtual_Art_Gallery.Controllers
 
                     artwork.ExhibitionId = exhibitionId;
                     artwork.DateCreated = DateTime.Now;
-
-                    //var userId = _userManager.GetUserId(User);
-                    //var user = await _userManager.Users.FirstOrDefaultAsync(u => u.Id == userId);
-
-                    //if (user == null)
-                    //{
-                    //    ModelState.AddModelError("", "Не удалось определить текущего пользователя.");
-                    //    ViewData["CategoryList"] = new SelectList(_context.Categories, "Id", "Name", artwork.CategoryId);
-                    //    return View(artwork);
-                    //}
-
-                    //artwork.CreatorId = userId; 
 
                     if (imageFile != null && imageFile.Length > 0)
                     {
@@ -323,21 +316,6 @@ namespace Virtual_Art_Gallery.Controllers
 
             return RedirectToAction(nameof(Index));
         }
-        //[HttpPost]
-        //[Authorize(Roles = "Administrator")]
-        //public async Task<IActionResult> UpdateStatus(int id, ArtworkStatus status)
-        //{
-        //    var artwork = await _context.Artworks.FindAsync(id);
-        //    if (artwork == null)
-        //    {
-        //        return NotFound();
-        //    }
-
-        //    artwork.Status = status;
-        //    await _context.SaveChangesAsync();
-        //    return RedirectToAction(nameof(Index));
-        //}
-        //[Authorize(Roles = "Administrator")]
 
         [HttpPost]
         [Authorize(Roles = "Administrator")]
@@ -419,6 +397,35 @@ namespace Virtual_Art_Gallery.Controllers
             return RedirectToAction(nameof(Index));
         }
 
+        public async Task<int> GetLikesCount(int artworkId)
+        {
+            return await _context.Likes.CountAsync(l => l.ArtworkId == artworkId);
+        }
+
+        [HttpPost]
+        [Authorize]
+        public async Task<IActionResult> Like(int id)
+        {
+            var userId = _userManager.GetUserId(User);
+
+            // Проверяем, существует ли уже лайк от этого пользователя
+            var existingLike = await _context.Likes.FirstOrDefaultAsync(l => l.ArtworkId == id && l.UserId == userId);
+            if (existingLike != null)
+            {
+                return BadRequest("Вы уже поставили лайк этому произведению.");
+            }
+
+            var like = new LikeModel
+            {
+                ArtworkId = id,
+                UserId = userId
+            };
+
+            _context.Likes.Add(like);
+            await _context.SaveChangesAsync();
+
+            return RedirectToAction("Details", new { id });
+        }
 
     }
 }
