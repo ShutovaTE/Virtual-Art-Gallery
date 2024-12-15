@@ -22,12 +22,25 @@
             @Html.DisplayFor(model => model.Description)
         </dd>
         <dt class="col-sm-2">
+            Автор
+        </dt>
+        <dd class="col-sm-10">
+            <a asp-action="ViewProfile" asp-controller="Profile" asp-route-userId="@Model.CreatorId">
+            @Model.Creator.UserName
+            </a>
+        </dd>
+        <dt class="col-sm-2">
             Открытость
         </dt>
         <dd class="col-sm-10">
             @Html.DisplayFor(model => model.IsClosed)
         </dd>
     </dl>
+    <div>
+        <a asp-action="Create" asp-controller="Artwork" asp-route-exhibitionId="@Model.Id" class="btn btn-success">
+            Добавить публикацию
+        </a>
+    </div>
     <h3>Публикации</h3>
     <ul>
         @if (Model.Artworks != null && Model.Artworks.Any())
@@ -54,9 +67,4 @@
 <div>
     <a asp-action="Edit" asp-route-id="@Model?.Id">Изменить</a> |
     <a asp-action="Index">Вернуться к выставкам</a>
-</div>
-<div>
-    <a asp-action="Create" asp-controller="Artwork" asp-route-exhibitionId="@Model.Id" class="btn btn-success">
-        Добавить публикацию
-    </a>
 </div>

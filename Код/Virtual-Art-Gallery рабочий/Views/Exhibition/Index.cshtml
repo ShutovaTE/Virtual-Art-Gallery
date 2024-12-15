@@ -19,6 +19,9 @@
                 Описание
             </th>
             <th>
+                Автор
+            </th>
+            <th>
                 Открытость
             </th>
             <th></th>
@@ -32,6 +35,11 @@
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Description)
+            </td>
+            <td>
+                <a asp-action="ViewProfile" asp-controller="Profile" asp-route-userId="@item.CreatorId">
+                    @item.Creator.UserName
+                </a>
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.IsClosed)

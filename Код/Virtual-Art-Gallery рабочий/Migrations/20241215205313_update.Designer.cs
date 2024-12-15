@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Virtual_Art_Gallery.Data;
 
@@ -11,9 +12,11 @@ using Virtual_Art_Gallery.Data;
 namespace Virtual_Art_Gallery.Migrations
 {
     [DbContext(typeof(GalleryContext))]
-    partial class GalleryContextModelSnapshot : ModelSnapshot
+    [Migration("20241215205313_update")]
+    partial class update
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -309,10 +312,6 @@ namespace Virtual_Art_Gallery.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<string>("CreatorId")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(450)");
-
                     b.Property<string>("Description")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -325,8 +324,6 @@ namespace Virtual_Art_Gallery.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("CreatorId");
 
                     b.ToTable("Exhibitions");
                 });
@@ -478,17 +475,6 @@ namespace Virtual_Art_Gallery.Migrations
                     b.Navigation("Creator");
 
                     b.Navigation("Exhibition");
-                });
-
-            modelBuilder.Entity("Virtual_Art_Gallery.Models.ExhibitionModel", b =>
-                {
-                    b.HasOne("Microsoft.AspNetCore.Identity.IdentityUser", "Creator")
-                        .WithMany()
-                        .HasForeignKey("CreatorId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Creator");
                 });
 
             modelBuilder.Entity("Virtual_Art_Gallery.Models.LikeModel", b =>

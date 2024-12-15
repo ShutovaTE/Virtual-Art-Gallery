@@ -1,7 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -12,6 +10,7 @@ namespace Virtual_Art_Gallery.Controllers
 {
     public class ExhibitionController : Controller
     {
+        private readonly UserManager<IdentityUser> _userManager;
         private readonly GalleryContext _context;
 
         public ExhibitionController(GalleryContext context)
@@ -22,7 +21,8 @@ namespace Virtual_Art_Gallery.Controllers
         // GET: Exhibition
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Exhibitions.ToListAsync());
+            var exhibitions = await _context.Exhibitions.Include(c => c.Creator).ToListAsync();
+            return View(exhibitions);
         }
 
         // GET: Exhibition/Details/5
@@ -31,6 +31,7 @@ namespace Virtual_Art_Gallery.Controllers
             var exhibition = _context.Exhibitions
                 .Include(e => e.Artworks)
                 .ThenInclude(a => a.Category)
+                .Include(c => c.Creator)
                 .FirstOrDefault(e => e.Id == id);
 
             if (exhibition == null)
@@ -42,6 +43,7 @@ namespace Virtual_Art_Gallery.Controllers
         }
 
         // GET: Exhibition/Create
+        [Authorize]
         public IActionResult Create()
         {
             return View();
@@ -52,10 +54,15 @@ namespace Virtual_Art_Gallery.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Title,Description,IsClosed")] ExhibitionModel exhibitionModel)
+        public async Task<IActionResult> Create([Bind("Id,Title,Description,IsClosed,CreatorId")] ExhibitionModel exhibitionModel)
         {
             if (ModelState.IsValid)
             {
+                if (!User.Identity.IsAuthenticated)
+                {
+                    return Unauthorized("Вы должны быть авторизованы для создания выставки.");
+                }
+
                 _context.Add(exhibitionModel);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
@@ -64,6 +71,7 @@ namespace Virtual_Art_Gallery.Controllers
         }
 
         // GET: Exhibition/Edit/5
+        [Authorize]
         public async Task<IActionResult> Edit(int id)
         {
             if (id == null)
@@ -115,6 +123,7 @@ namespace Virtual_Art_Gallery.Controllers
         }
 
         // GET: Exhibition/Delete/5
+        [Authorize]
         public async Task<IActionResult> Delete(int id)
         {
             if (id == null)

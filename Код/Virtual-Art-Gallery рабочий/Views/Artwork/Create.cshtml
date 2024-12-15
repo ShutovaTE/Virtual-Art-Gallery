@@ -9,7 +9,6 @@
 <h1>@ViewData["Title"]</h1>
 
 <form asp-action="Create" method="post" enctype="multipart/form-data">
-    @* Скрытое поле для передачи ExhibitionId *@
     @if (exhibitionId.HasValue)
     {
         <input type="hidden" name="exhibitionId" value="@exhibitionId" />

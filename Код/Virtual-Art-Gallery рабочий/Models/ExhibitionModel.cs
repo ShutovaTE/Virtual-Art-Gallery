@@ -1,4 +1,6 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Microsoft.AspNetCore.Identity;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Virtual_Art_Gallery.Models
 {
@@ -17,6 +19,12 @@ namespace Virtual_Art_Gallery.Models
         public bool IsClosed { get; set; }
 
         public virtual ICollection<ArtworkModel> Artworks { get; set; } = new List<ArtworkModel>();
+
+        [Required]
+        public string CreatorId { get; set; }
+
+        [ForeignKey("CreatorId")]
+        public IdentityUser? Creator { get; set; }
     }
 }
 
