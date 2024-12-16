@@ -16,6 +16,9 @@
     <button type="submit" class="btn btn-danger" onclick="return confirm('Вы уверены, что хотите удалить профиль?')">Удалить профиль</button>
 </form>
 
+<a class="nav-link text-dark" asp-area="" asp-controller="PriceList" asp-action="Index">Прайсы</a>
+<a class="nav-link text-dark" asp-area="" asp-controller="Exhibition" asp-action="Index">Выставки</a>
+
 <h2>Публикации</h2>
 @if (Model.Artworks.Any())
 {

@@ -13,8 +13,9 @@ namespace Virtual_Art_Gallery.Controllers
         private readonly UserManager<IdentityUser> _userManager;
         private readonly GalleryContext _context;
 
-        public ExhibitionController(GalleryContext context)
+        public ExhibitionController(GalleryContext context, UserManager<IdentityUser> userManager)
         {
+            _userManager = userManager;
             _context = context;
         }
 

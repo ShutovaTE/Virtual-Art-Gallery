@@ -1,0 +1,56 @@
+﻿@model IEnumerable<Virtual_Art_Gallery.Models.PriceListModel>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Прайсы</h1>
+
+<p>
+    <a asp-action="Create">Добавить прайс</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Название
+            </th>
+            <th>
+                Описание
+            </th>
+            <th>
+                Превью
+            </th>
+            <th>
+                Цена
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @item.Description.Substring(0, Math.Min(item.Description.Length, 100))...
+            </td>
+            <td>
+                @if (!string.IsNullOrEmpty(item.ImagePath))
+                {
+                    <img src="~/uploads/@item.ImagePath" alt="Image Preview" style="max-width: 100px;" />
+                }
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Price)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Редактировать</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Посмотреть</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Удалить</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

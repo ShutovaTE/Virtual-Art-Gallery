@@ -1,0 +1,50 @@
+﻿@model Virtual_Art_Gallery.Models.PriceListModel
+
+@{
+    ViewData["Title"] = "Удалить прайс";
+}
+
+<h1>Удаление</h1>
+
+<h3>Вы уверены, что хотите удалить прайс?</h3>
+<div>
+    <h4>Прайс</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            Название
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+        <dt class = "col-sm-2">
+            Описание
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Description)
+        </dd>
+        <dd class = "col-sm-10">
+            <img src="@Model.ImagePath" alt="Price Image" style="max-width: 300px;" />
+        </dd>
+        <dt class = "col-sm-2">
+            Цена
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Price)
+        </dd>
+        <dt class = "col-sm-2">
+            Автор
+        </dt>
+        <dd class = "col-sm-10">
+            <a asp-action="ViewProfile" asp-controller="Profile" asp-route-userId="@Model.CreatorId">
+                @Model.Creator?.UserName
+            </a>
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="Id" />
+        <input type="submit" value="Удалить" class="btn btn-danger" /> |
+        <a asp-action="Index">Вернуться к прайсам</a>
+    </form>
+</div>

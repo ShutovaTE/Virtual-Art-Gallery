@@ -1,0 +1,47 @@
+﻿@model Virtual_Art_Gallery.Models.PriceListModel
+
+@{
+    ViewData["Title"] = "Детали прайса";
+}
+
+<h1>Детали прайса</h1>
+
+<div>
+    <h4>PriceListModel</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            Название
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+        <dt class="col-sm-2">
+            Описание
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Description)
+        </dd>
+        <dd class="col-sm-10">
+            <img src="@Model.ImagePath" alt="Price Image" style="max-width: 300px;" />
+        </dd>
+        <dt class="col-sm-2">
+            Цена
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Price)
+        </dd>
+        <dt class="col-sm-2">
+            Автор
+        </dt>
+        <dd class="col-sm-10">
+            <a asp-action="ViewProfile" asp-controller="Profile" asp-route-userId="@Model.CreatorId">
+                @Model.Creator?.UserName
+            </a>
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.Id">Обновить прайс</a> |
+    <a asp-action="Index">Вернуться в профиль</a>
+</div>
