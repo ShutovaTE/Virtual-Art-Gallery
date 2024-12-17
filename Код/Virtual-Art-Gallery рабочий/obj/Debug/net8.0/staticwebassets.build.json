@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "OlM+DS3ohh6QrC1avtId6KMza2dQIJ+1z8Kp6UQTRfA=",
+  "Hash": "1HdNneDtkZMaEJwzmk61jKqk3yn0EUrJYnOj73FqwUA=",
   "Source": "Virtual-Art-Gallery",
   "BasePath": "_content/Virtual-Art-Gallery",
   "Mode": "Default",
@@ -2846,6 +2846,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\f f f f f _f195c4fa-15a9-4fcc-ae0b-b34f69b605eb.png"
+    },
+    {
+      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\flaff_9288ee67-078f-4188-b967-b98c886808eb.png",
+      "SourceId": "Virtual-Art-Gallery",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "BasePath": "_content/Virtual-Art-Gallery",
+      "RelativePath": "images/flaff_9288ee67-078f-4188-b967-b98c886808eb.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\flaff_9288ee67-078f-4188-b967-b98c886808eb.png"
     },
     {
       "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\Kmgzc6A8EYo_45695289-a9e4-4bbb-a355-b355e73ea114.jpg",

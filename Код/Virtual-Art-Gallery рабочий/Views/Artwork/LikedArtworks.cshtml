@@ -6,7 +6,7 @@
     @foreach (var artwork in Model)
     {
         <div style="border: 1px solid #ccc; padding: 15px; border-radius: 10px; width: 300px; text-align: center;">
-            <img src="@artwork.ImagePath" alt="@artwork.Title" style="width: 100%; height: auto; max-height: 200px;" />                 
+            <img src="@artwork.ImagePath" alt="@artwork.Title" style="width: 100%; max-height: 200px; object-fit: cover; border-radius: 5px;" />                 
             <h3>@artwork.Title</h3>
             <p>@artwork.Description</p>
             <p><strong>Категория:</strong> @artwork.Category.Name</p>

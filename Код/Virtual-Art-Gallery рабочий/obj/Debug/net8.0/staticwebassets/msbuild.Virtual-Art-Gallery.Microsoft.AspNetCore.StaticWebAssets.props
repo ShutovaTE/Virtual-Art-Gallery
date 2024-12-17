@@ -1392,6 +1392,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\f f f f f _f195c4fa-15a9-4fcc-ae0b-b34f69b605eb.png))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\flaff_9288ee67-078f-4188-b967-b98c886808eb.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>Virtual-Art-Gallery</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Virtual-Art-Gallery</BasePath>
+      <RelativePath>images/flaff_9288ee67-078f-4188-b967-b98c886808eb.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\flaff_9288ee67-078f-4188-b967-b98c886808eb.png))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\Kmgzc6A8EYo_45695289-a9e4-4bbb-a355-b355e73ea114.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>Virtual-Art-Gallery</SourceId>

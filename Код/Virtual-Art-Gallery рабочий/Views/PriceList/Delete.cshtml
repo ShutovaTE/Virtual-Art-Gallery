@@ -24,7 +24,7 @@
             @Html.DisplayFor(model => model.Description)
         </dd>
         <dd class = "col-sm-10">
-            <img src="@Model.ImagePath" alt="Price Image" style="max-width: 300px;" />
+            <img src="@Model.ImagePath" alt="@Model.Name" style="width: 100%; max-height: 200px; object-fit: cover; border-radius: 5px;" />
         </dd>
         <dt class = "col-sm-2">
             Цена

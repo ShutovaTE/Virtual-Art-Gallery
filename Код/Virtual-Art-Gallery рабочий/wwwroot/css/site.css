@@ -1,22 +1,98 @@
 html {
-  font-size: 14px;
+    font-size: 14px;
 }
 
-@media (min-width: 768px) {
-  html {
+min-width: 768px {
+    html
+
+{
     font-size: 16px;
-  }
+}
+
 }
 
 .btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
 }
 
 html {
-  position: relative;
-  min-height: 100%;
+    position: relative;
+    min-height: 100%;
 }
 
 body {
-  margin-bottom: 60px;
+    background-color: #f5f3ff;
+    color: #4a4a77;
+    font-family: Arial, sans-serif;
+}
+
+h1, h2, h3, h4 {
+    color: #6a5acd;
+}
+
+a {
+    color: #9370db;
+    text-decoration: none;
+}
+
+    a:hover {
+        color: #7b68ee;
+        text-decoration: underline;
+    }
+
+.navbar {
+    background-color: #e6e6fa;
+    border-bottom: 2px solid #6a5acd;
+}
+
+.navbar-brand, .nav-link {
+    color: #4a4a77 !important;
+}
+
+    .nav-link:hover {
+        color: #6a5acd !important;
+    }
+
+.btn-primary {
+    background-color: #9370db;
+    border-color: #9370db;
+}
+
+    .btn-primary:hover {
+        background-color: #6a5acd;
+        border-color: #6a5acd;
+    }
+
+.btn-danger {
+    background-color: #d46262;
+    border-color: #d46262;
+}
+
+.btn-secondary {
+    background-color: #cfcfd9;
+    border-color: #cfcfd9;
+    color: #4a4a77;
+}
+
+table {
+    border: 1px solid #ddd;
+    background-color: #ffffff;
+}
+
+    table th {
+        background-color: #dcdff7;
+        color: #4a4a77;
+    }
+
+    table tr:nth-child(even) {
+        background-color: #f7f7fc;
+    }
+
+    table tr:hover {
+        background-color: #eee8f8;
+    }
+
+div {
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }

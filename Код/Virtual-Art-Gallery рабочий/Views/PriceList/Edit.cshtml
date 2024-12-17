@@ -30,7 +30,7 @@
                 @if (!string.IsNullOrEmpty(Model.ImagePath))
                 {
                     <p>Текущее изображение:</p>
-                    <img src="@Model.ImagePath" alt="Price Image" style="max-width: 300px;" />
+                    <img src="@Model.ImagePath" alt="@Model.Name" style="width: 100%; max-height: 200px; object-fit: cover; border-radius: 5px;" />
                 }
                 <span asp-validation-for="ImagePath" class="text-danger"></span>
             </div>

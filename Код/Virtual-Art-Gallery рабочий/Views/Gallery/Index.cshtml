@@ -17,7 +17,7 @@ else
                 @if (!string.IsNullOrEmpty(artwork.ImagePath))
                 {
                     <a asp-action="Details" asp-controller="Artwork" asp-route-id="@artwork.Id">
-                        <img src="@artwork.ImagePath" alt="@artwork.Title" style="width: 100%; height: auto; max-height: 200px;" />
+                        <img src="@artwork.ImagePath" alt="@artwork.Title" style="width: 100%; max-height: 200px; object-fit: cover; border-radius: 5px;" />
                     </a>                
                     <h3 asp-action="Details" asp-controller="Artwork" asp-route-id="@artwork.Id">
                         <strong>@artwork.Title</strong>
