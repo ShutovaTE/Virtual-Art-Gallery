@@ -101,7 +101,7 @@ public class ProfileController : Controller
         }
 
         var artworks = await _context.Artworks
-            .Where(a => a.CreatorId == userId && a.Status == ArtworkStatus.Approved) 
+            .Where(a => a.CreatorId == userId && a.Status == ArtworkStatus.Approved)
             .ToListAsync();
 
         var model = new ProfileViewModel
@@ -113,6 +113,7 @@ public class ProfileController : Controller
 
         return View(model);
     }
+
     [HttpPost]
     [ValidateAntiForgeryToken]
     public async Task<IActionResult> DeleteProfile()
@@ -176,11 +177,44 @@ public class ProfileController : Controller
         return RedirectToAction("AllProfiles");
     }
 
+    [AllowAnonymous]
     public async Task<IActionResult> ProfileExhibitions(string userId)
     {
-        var user = string.IsNullOrEmpty(userId)
-            ? await _userManager.Users.FirstOrDefaultAsync(u => u.Id == _userManager.GetUserId(User))
-            : await _userManager.Users.FirstOrDefaultAsync(u => u.Id == userId);
+        if (string.IsNullOrEmpty(userId))
+        {
+            return NotFound();
+        }
+
+        var user = await _userManager.Users.FirstOrDefaultAsync(u => u.Id == userId);
+
+        if (user == null)
+        {
+            return NotFound();
+        }
+
+        var exhibitions = await _context.Exhibitions
+            .Where(e => e.CreatorId == userId)
+            .ToListAsync();
+
+        var model = new ProfileViewModel
+        {
+            Username = user.UserName,
+            Email = user.Email,
+            Exhibitions = exhibitions
+        };
+
+        if (!exhibitions.Any())
+        {
+            ViewBag.NoExhibitionsMessage = "Нет выставок";
+        }
+
+        return View(model);
+    }
+
+    public async Task<IActionResult> IndexExhibitions()
+    {
+        var userId = _userManager.GetUserId(User);
+        var user = await _userManager.Users.FirstOrDefaultAsync(u => u.Id == userId);
 
         if (user == null)
         {

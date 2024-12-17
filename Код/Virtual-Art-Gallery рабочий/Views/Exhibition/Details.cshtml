@@ -47,8 +47,15 @@
         </dd>
     </dl>
     <div>
-        <a asp-action="Edit" asp-route-id="@Model?.Id">Изменить</a> |
-        <a asp-action="Index">Вернуться к выставкам</a>
+        @if (User.Identity.GetUserId() == Model.CreatorId)
+        {
+            <a asp-action="Edit" class="btn btn-primary" asp-route-id="@Model.Id">Редактировать</a>
+        }
+        @if (User.IsInRole("Administrator"))
+        {
+            <a asp-action="Delete" class="btn btn-danger" asp-route-id="@Model.Id">Удалить</a>
+        }
+        <a asp-action="Index">Перейти к выставкам</a>
     </div>
     @if (!Model.IsClosed || User.Identity.GetUserId() == Model.CreatorId)
     {

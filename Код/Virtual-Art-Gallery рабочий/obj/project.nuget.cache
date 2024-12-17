@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JqZ6aLwL8L8=",
+  "dgSpecHash": "W38Uf1Rav98=",
   "success": true,
-  "projectFilePath": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\Virtual-Art-Gallery.csproj",
+  "projectFilePath": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\Virtual-Art-Gallery.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\abado\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\abado\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

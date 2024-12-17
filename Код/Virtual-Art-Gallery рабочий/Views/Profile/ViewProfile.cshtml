@@ -5,10 +5,11 @@
 <p><strong>Email:</strong> @Model.Email</p>
 
 <div class="nav-tabs">
-    <a class="nav-link active" asp-action="ViewProfile" asp-route-userId="@User.Identity.GetUserId()">Публикации</a>
-    <a class="nav-link" asp-action="ProfileExhibitions" asp-route-userId="@User.Identity.GetUserId()">Выставки</a>
+    <a class="nav-link active" asp-action="ViewProfile" asp-route-userId="@Model.Artworks.FirstOrDefault()?.CreatorId">Публикации</a>
+    <a class="nav-link" asp-action="ProfileExhibitions" asp-route-userId="@Model.Artworks.FirstOrDefault()?.CreatorId">Выставки</a>
     <a class="nav-link" asp-area="" asp-controller="PriceList" asp-action="Index">Прайсы</a>
 </div>
+
 
 <h2>Публикации</h2>
 @if (Model.Artworks.Any())

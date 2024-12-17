@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\Virtual-Art-Gallery.csproj": {}
+    "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\Virtual-Art-Gallery.csproj": {}
   },
   "projects": {
-    "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\Virtual-Art-Gallery.csproj": {
+    "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\Virtual-Art-Gallery.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\Virtual-Art-Gallery.csproj",
+        "projectUniqueName": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\Virtual-Art-Gallery.csproj",
         "projectName": "Virtual-Art-Gallery",
-        "projectPath": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\Virtual-Art-Gallery.csproj",
+        "projectPath": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\Virtual-Art-Gallery.csproj",
         "packagesPath": "C:\\Users\\abado\\.nuget\\packages\\",
-        "outputPath": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\obj\\",
+        "outputPath": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
