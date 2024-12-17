@@ -18,16 +18,23 @@ else
                 {
                     <a asp-action="Details" asp-controller="Artwork" asp-route-id="@artwork.Id">
                         <img src="@artwork.ImagePath" alt="@artwork.Title" style="width: 100%; max-height: 200px; object-fit: cover; border-radius: 5px;" />
-                    </a>                
+                    </a>
                     <h3 asp-action="Details" asp-controller="Artwork" asp-route-id="@artwork.Id">
                         <strong>@artwork.Title</strong>
                     </h3>
-                }                
+                }
 
                 <p><strong>Категория:</strong> @artwork.Category?.Name</p>
                 <p><strong>Лайки:</strong> @artwork.LikeCount</p>
                 <p><strong>Просмотров:</strong> @artwork.ViewCount</p>
-                <p><strong>Автор:</strong> @artwork.Creator?.UserName</p>
+                <p>
+                    <strong>
+                        Автор:
+                        <a asp-action="ViewProfile" asp-controller="Profile" asp-route-userId="@artwork.CreatorId">
+                            <strong>@artwork.Creator?.UserName</strong>
+                        </a>
+                    </strong>
+                </p>
                 <p>Дата: @artwork.DateCreated.ToShortDateString()</p>
             </div>
         }
@@ -49,6 +56,31 @@ else
                     <strong>@artist.UserName</strong>
                 </a>
                 <p>Email: @artist.Email</p>
+            </div>
+        }
+    </div>
+}
+
+<h2>Выставки</h2>
+@if (ViewBag.NoExhibitionsMessage != null)
+{
+    <p>@ViewBag.NoExhibitionsMessage</p>
+}
+else
+{
+    <div style="display: flex; flex-wrap: wrap; gap: 20px;">
+        @foreach (var exhibition in Model.Exhibitions)
+        {
+            <div style="border: 1px solid #ccc; padding: 15px; border-radius: 10px; width: 300px; text-align: center;">
+                <a asp-action="Details" asp-controller="Exhibition" asp-route-id="@exhibition.Id">
+                    <strong>@exhibition.Title</strong>
+                </a>
+                <p>
+                    Создатель:
+                    <a asp-action="ViewProfile" asp-controller="Profile" asp-route-userId="@exhibition.CreatorId">
+                        <strong>@exhibition.Creator?.UserName</strong>
+                    </a>
+                </p>
             </div>
         }
     </div>

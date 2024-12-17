@@ -43,6 +43,7 @@ public class ProfileController : Controller
 
         return View(model);
     }
+
     [HttpPost]
     [ValidateAntiForgeryToken]
     public async Task<IActionResult> SubmitForApproval(int id)
@@ -173,5 +174,35 @@ public class ProfileController : Controller
         await _context.SaveChangesAsync();
 
         return RedirectToAction("AllProfiles");
+    }
+
+    public async Task<IActionResult> ProfileExhibitions(string userId)
+    {
+        var user = string.IsNullOrEmpty(userId)
+            ? await _userManager.Users.FirstOrDefaultAsync(u => u.Id == _userManager.GetUserId(User))
+            : await _userManager.Users.FirstOrDefaultAsync(u => u.Id == userId);
+
+        if (user == null)
+        {
+            return NotFound();
+        }
+
+        var exhibitions = await _context.Exhibitions
+            .Where(e => e.CreatorId == user.Id)
+            .ToListAsync();
+
+        var model = new ProfileViewModel
+        {
+            Username = user.UserName,
+            Email = user.Email,
+            Exhibitions = exhibitions
+        };
+
+        if (!exhibitions.Any())
+        {
+            ViewBag.NoExhibitionsMessage = "Нет выставок";
+        }
+
+        return View(model);
     }
 }

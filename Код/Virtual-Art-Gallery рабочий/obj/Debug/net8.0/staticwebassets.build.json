@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "1HdNneDtkZMaEJwzmk61jKqk3yn0EUrJYnOj73FqwUA=",
+  "Hash": "UuqbW1BYY8p8dzlitXe/h4VsPYihl/cXxL/0uCOrpzQ=",
   "Source": "Virtual-Art-Gallery",
   "BasePath": "_content/Virtual-Art-Gallery",
   "Mode": "Default",
@@ -10,7 +10,7 @@
     {
       "Name": "Virtual-Art-Gallery\\wwwroot",
       "Source": "Virtual-Art-Gallery",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "Pattern": "**"
     }
@@ -1157,10 +1157,10 @@
       "OriginalItemSpec": "C:\\Users\\abado\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Virtual-Art-Gallery.styles.css",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Virtual-Art-Gallery.styles.css",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "Virtual-Art-Gallery.styles.css",
       "AssetKind": "All",
@@ -1173,13 +1173,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Virtual-Art-Gallery.styles.css"
+      "OriginalItemSpec": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Virtual-Art-Gallery.styles.css"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Virtual-Art-Gallery.bundle.scp.css",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Virtual-Art-Gallery.bundle.scp.css",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "Virtual-Art-Gallery.bundle.scp.css",
       "AssetKind": "All",
@@ -1192,13 +1192,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Virtual-Art-Gallery.bundle.scp.css"
+      "OriginalItemSpec": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Virtual-Art-Gallery.bundle.scp.css"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\css\\site.css",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\css\\site.css",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -1214,10 +1214,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\favicon.ico",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\favicon.ico",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -1233,10 +1233,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\1_2516d5a2-e0f8-45cc-bd17-879b58bae531.jpg",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\1_2516d5a2-e0f8-45cc-bd17-879b58bae531.jpg",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "images/1_2516d5a2-e0f8-45cc-bd17-879b58bae531.jpg",
       "AssetKind": "All",
@@ -1252,10 +1252,10 @@
       "OriginalItemSpec": "wwwroot\\images\\1_2516d5a2-e0f8-45cc-bd17-879b58bae531.jpg"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\1_2de790cf-ff17-4774-a5f9-3e0b09c56fbd.jpg",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\1_2de790cf-ff17-4774-a5f9-3e0b09c56fbd.jpg",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "images/1_2de790cf-ff17-4774-a5f9-3e0b09c56fbd.jpg",
       "AssetKind": "All",
@@ -1271,10 +1271,10 @@
       "OriginalItemSpec": "wwwroot\\images\\1_2de790cf-ff17-4774-a5f9-3e0b09c56fbd.jpg"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\1_446fb6d8-42f5-4182-aec3-db8afc0e0910.jpg",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\1_446fb6d8-42f5-4182-aec3-db8afc0e0910.jpg",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "images/1_446fb6d8-42f5-4182-aec3-db8afc0e0910.jpg",
       "AssetKind": "All",
@@ -1290,10 +1290,10 @@
       "OriginalItemSpec": "wwwroot\\images\\1_446fb6d8-42f5-4182-aec3-db8afc0e0910.jpg"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\1_79fdc55e-96d3-49a2-8d2e-e2cd29e2b701.jpg",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\1_79fdc55e-96d3-49a2-8d2e-e2cd29e2b701.jpg",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "images/1_79fdc55e-96d3-49a2-8d2e-e2cd29e2b701.jpg",
       "AssetKind": "All",
@@ -1309,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\images\\1_79fdc55e-96d3-49a2-8d2e-e2cd29e2b701.jpg"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\1_d1bf6549-6e46-46e2-9cf9-7f4dcd7a0c01.jpg",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\1_d1bf6549-6e46-46e2-9cf9-7f4dcd7a0c01.jpg",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "images/1_d1bf6549-6e46-46e2-9cf9-7f4dcd7a0c01.jpg",
       "AssetKind": "All",
@@ -1328,10 +1328,10 @@
       "OriginalItemSpec": "wwwroot\\images\\1_d1bf6549-6e46-46e2-9cf9-7f4dcd7a0c01.jpg"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\1_d4d23f13-1b0f-4747-9665-3fa2d8f8a000.jpg",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\1_d4d23f13-1b0f-4747-9665-3fa2d8f8a000.jpg",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "images/1_d4d23f13-1b0f-4747-9665-3fa2d8f8a000.jpg",
       "AssetKind": "All",
@@ -1347,10 +1347,10 @@
       "OriginalItemSpec": "wwwroot\\images\\1_d4d23f13-1b0f-4747-9665-3fa2d8f8a000.jpg"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\112_0757205d-ea84-43cb-954d-5fea55608b4f.jpg",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\112_0757205d-ea84-43cb-954d-5fea55608b4f.jpg",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "images/112_0757205d-ea84-43cb-954d-5fea55608b4f.jpg",
       "AssetKind": "All",
@@ -1366,10 +1366,10 @@
       "OriginalItemSpec": "wwwroot\\images\\112_0757205d-ea84-43cb-954d-5fea55608b4f.jpg"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\112_07ecc154-69b8-4178-a66c-f4d3330bd601.jpg",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\112_07ecc154-69b8-4178-a66c-f4d3330bd601.jpg",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "images/112_07ecc154-69b8-4178-a66c-f4d3330bd601.jpg",
       "AssetKind": "All",
@@ -1385,10 +1385,10 @@
       "OriginalItemSpec": "wwwroot\\images\\112_07ecc154-69b8-4178-a66c-f4d3330bd601.jpg"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\112_2899ad03-91ae-4dc8-82a6-7b040f89fe10.jpg",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\112_2899ad03-91ae-4dc8-82a6-7b040f89fe10.jpg",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "images/112_2899ad03-91ae-4dc8-82a6-7b040f89fe10.jpg",
       "AssetKind": "All",
@@ -1404,10 +1404,10 @@
       "OriginalItemSpec": "wwwroot\\images\\112_2899ad03-91ae-4dc8-82a6-7b040f89fe10.jpg"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\112_2acd3412-c805-4707-8458-48e5de1ac10d.jpg",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\112_2acd3412-c805-4707-8458-48e5de1ac10d.jpg",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "images/112_2acd3412-c805-4707-8458-48e5de1ac10d.jpg",
       "AssetKind": "All",
@@ -1423,10 +1423,10 @@
       "OriginalItemSpec": "wwwroot\\images\\112_2acd3412-c805-4707-8458-48e5de1ac10d.jpg"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\112_2b579455-1372-4cde-b8ea-17b09b2451ec.jpg",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\112_2b579455-1372-4cde-b8ea-17b09b2451ec.jpg",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "images/112_2b579455-1372-4cde-b8ea-17b09b2451ec.jpg",
       "AssetKind": "All",
@@ -1442,10 +1442,10 @@
       "OriginalItemSpec": "wwwroot\\images\\112_2b579455-1372-4cde-b8ea-17b09b2451ec.jpg"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\112_34a05429-3fe9-4973-8cd3-42af625992af.jpg",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\112_34a05429-3fe9-4973-8cd3-42af625992af.jpg",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "images/112_34a05429-3fe9-4973-8cd3-42af625992af.jpg",
       "AssetKind": "All",
@@ -1461,10 +1461,10 @@
       "OriginalItemSpec": "wwwroot\\images\\112_34a05429-3fe9-4973-8cd3-42af625992af.jpg"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\112_3693626a-9e91-4400-ba09-331dd13aa616.jpg",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\112_3693626a-9e91-4400-ba09-331dd13aa616.jpg",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "images/112_3693626a-9e91-4400-ba09-331dd13aa616.jpg",
       "AssetKind": "All",
@@ -1480,10 +1480,10 @@
       "OriginalItemSpec": "wwwroot\\images\\112_3693626a-9e91-4400-ba09-331dd13aa616.jpg"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\112_3ac36e1e-80e1-4d73-9966-68e5347844ba.jpg",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\112_3ac36e1e-80e1-4d73-9966-68e5347844ba.jpg",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "images/112_3ac36e1e-80e1-4d73-9966-68e5347844ba.jpg",
       "AssetKind": "All",
@@ -1499,10 +1499,10 @@
       "OriginalItemSpec": "wwwroot\\images\\112_3ac36e1e-80e1-4d73-9966-68e5347844ba.jpg"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\112_3c1688fe-db52-4aa9-bda7-bc05b26b8a65.jpg",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\112_3c1688fe-db52-4aa9-bda7-bc05b26b8a65.jpg",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "images/112_3c1688fe-db52-4aa9-bda7-bc05b26b8a65.jpg",
       "AssetKind": "All",
@@ -1518,10 +1518,10 @@
       "OriginalItemSpec": "wwwroot\\images\\112_3c1688fe-db52-4aa9-bda7-bc05b26b8a65.jpg"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\112_4823e6ff-92e8-40c7-a4cb-91cad3f79f70.jpg",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\112_4823e6ff-92e8-40c7-a4cb-91cad3f79f70.jpg",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "images/112_4823e6ff-92e8-40c7-a4cb-91cad3f79f70.jpg",
       "AssetKind": "All",
@@ -1537,10 +1537,10 @@
       "OriginalItemSpec": "wwwroot\\images\\112_4823e6ff-92e8-40c7-a4cb-91cad3f79f70.jpg"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\112_58a52854-5f85-44d4-951c-5a0ecf954adb.jpg",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\112_58a52854-5f85-44d4-951c-5a0ecf954adb.jpg",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "images/112_58a52854-5f85-44d4-951c-5a0ecf954adb.jpg",
       "AssetKind": "All",
@@ -1556,10 +1556,10 @@
       "OriginalItemSpec": "wwwroot\\images\\112_58a52854-5f85-44d4-951c-5a0ecf954adb.jpg"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\112_7e6e2b7d-0592-42c2-b154-04e890b3f448.jpg",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\112_7e6e2b7d-0592-42c2-b154-04e890b3f448.jpg",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "images/112_7e6e2b7d-0592-42c2-b154-04e890b3f448.jpg",
       "AssetKind": "All",
@@ -1575,10 +1575,10 @@
       "OriginalItemSpec": "wwwroot\\images\\112_7e6e2b7d-0592-42c2-b154-04e890b3f448.jpg"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\112_84280728-9c2d-499d-be61-788d5557316b.jpg",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\112_84280728-9c2d-499d-be61-788d5557316b.jpg",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "images/112_84280728-9c2d-499d-be61-788d5557316b.jpg",
       "AssetKind": "All",
@@ -1594,10 +1594,10 @@
       "OriginalItemSpec": "wwwroot\\images\\112_84280728-9c2d-499d-be61-788d5557316b.jpg"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\112_863ca1fb-1f31-48be-b748-5efcb24c283d.jpg",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\112_863ca1fb-1f31-48be-b748-5efcb24c283d.jpg",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "images/112_863ca1fb-1f31-48be-b748-5efcb24c283d.jpg",
       "AssetKind": "All",
@@ -1613,10 +1613,10 @@
       "OriginalItemSpec": "wwwroot\\images\\112_863ca1fb-1f31-48be-b748-5efcb24c283d.jpg"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\112_894b9977-af50-40e1-af37-2a046029f769.jpg",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\112_894b9977-af50-40e1-af37-2a046029f769.jpg",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "images/112_894b9977-af50-40e1-af37-2a046029f769.jpg",
       "AssetKind": "All",
@@ -1632,10 +1632,10 @@
       "OriginalItemSpec": "wwwroot\\images\\112_894b9977-af50-40e1-af37-2a046029f769.jpg"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\112_9734cbe1-bf86-4d93-a8e1-cf78e964dfc3.jpg",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\112_9734cbe1-bf86-4d93-a8e1-cf78e964dfc3.jpg",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "images/112_9734cbe1-bf86-4d93-a8e1-cf78e964dfc3.jpg",
       "AssetKind": "All",
@@ -1651,10 +1651,10 @@
       "OriginalItemSpec": "wwwroot\\images\\112_9734cbe1-bf86-4d93-a8e1-cf78e964dfc3.jpg"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\112_ade246c3-c8c1-4332-b2de-ea6834669c00.jpg",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\112_ade246c3-c8c1-4332-b2de-ea6834669c00.jpg",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "images/112_ade246c3-c8c1-4332-b2de-ea6834669c00.jpg",
       "AssetKind": "All",
@@ -1670,10 +1670,10 @@
       "OriginalItemSpec": "wwwroot\\images\\112_ade246c3-c8c1-4332-b2de-ea6834669c00.jpg"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\112_b3da1ea1-9852-4350-84da-b6d01f1d62ad.jpg",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\112_b3da1ea1-9852-4350-84da-b6d01f1d62ad.jpg",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "images/112_b3da1ea1-9852-4350-84da-b6d01f1d62ad.jpg",
       "AssetKind": "All",
@@ -1689,10 +1689,10 @@
       "OriginalItemSpec": "wwwroot\\images\\112_b3da1ea1-9852-4350-84da-b6d01f1d62ad.jpg"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\112_ccf44e84-3cb0-48f4-9163-d0b9591f7b85.jpg",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\112_ccf44e84-3cb0-48f4-9163-d0b9591f7b85.jpg",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "images/112_ccf44e84-3cb0-48f4-9163-d0b9591f7b85.jpg",
       "AssetKind": "All",
@@ -1708,10 +1708,10 @@
       "OriginalItemSpec": "wwwroot\\images\\112_ccf44e84-3cb0-48f4-9163-d0b9591f7b85.jpg"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\112_d052f444-7b55-4c77-9459-4637cf90a09c.jpg",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\112_d052f444-7b55-4c77-9459-4637cf90a09c.jpg",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "images/112_d052f444-7b55-4c77-9459-4637cf90a09c.jpg",
       "AssetKind": "All",
@@ -1727,10 +1727,10 @@
       "OriginalItemSpec": "wwwroot\\images\\112_d052f444-7b55-4c77-9459-4637cf90a09c.jpg"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\112_da9e8e45-70e7-4a39-a82e-ae4c66b2b3a4.jpg",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\112_da9e8e45-70e7-4a39-a82e-ae4c66b2b3a4.jpg",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "images/112_da9e8e45-70e7-4a39-a82e-ae4c66b2b3a4.jpg",
       "AssetKind": "All",
@@ -1746,10 +1746,10 @@
       "OriginalItemSpec": "wwwroot\\images\\112_da9e8e45-70e7-4a39-a82e-ae4c66b2b3a4.jpg"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\112_e2c66fba-ae8e-4423-a734-071b2c4880a0.jpg",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\112_e2c66fba-ae8e-4423-a734-071b2c4880a0.jpg",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "images/112_e2c66fba-ae8e-4423-a734-071b2c4880a0.jpg",
       "AssetKind": "All",
@@ -1765,10 +1765,10 @@
       "OriginalItemSpec": "wwwroot\\images\\112_e2c66fba-ae8e-4423-a734-071b2c4880a0.jpg"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\112_e4c6091d-9926-4f2d-ac97-f6a777dae082.jpg",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\112_e4c6091d-9926-4f2d-ac97-f6a777dae082.jpg",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "images/112_e4c6091d-9926-4f2d-ac97-f6a777dae082.jpg",
       "AssetKind": "All",
@@ -1784,10 +1784,10 @@
       "OriginalItemSpec": "wwwroot\\images\\112_e4c6091d-9926-4f2d-ac97-f6a777dae082.jpg"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\112_f3bfcc6d-5b24-4791-bb48-db03a3937db3.jpg",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\112_f3bfcc6d-5b24-4791-bb48-db03a3937db3.jpg",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "images/112_f3bfcc6d-5b24-4791-bb48-db03a3937db3.jpg",
       "AssetKind": "All",
@@ -1803,10 +1803,10 @@
       "OriginalItemSpec": "wwwroot\\images\\112_f3bfcc6d-5b24-4791-bb48-db03a3937db3.jpg"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\112_f4f81d07-5c1c-4f52-a58b-c851890c2cfb.jpg",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\112_f4f81d07-5c1c-4f52-a58b-c851890c2cfb.jpg",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "images/112_f4f81d07-5c1c-4f52-a58b-c851890c2cfb.jpg",
       "AssetKind": "All",
@@ -1822,10 +1822,10 @@
       "OriginalItemSpec": "wwwroot\\images\\112_f4f81d07-5c1c-4f52-a58b-c851890c2cfb.jpg"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\2.jpg",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\2.jpg",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "images/2.jpg",
       "AssetKind": "All",
@@ -1841,10 +1841,10 @@
       "OriginalItemSpec": "wwwroot\\images\\2.jpg"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\2_2f29d4d5-bb47-48d0-8640-f676227a5400.jpg",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\2_2f29d4d5-bb47-48d0-8640-f676227a5400.jpg",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "images/2_2f29d4d5-bb47-48d0-8640-f676227a5400.jpg",
       "AssetKind": "All",
@@ -1860,10 +1860,10 @@
       "OriginalItemSpec": "wwwroot\\images\\2_2f29d4d5-bb47-48d0-8640-f676227a5400.jpg"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\2_9597eb2b-aaaf-4213-9881-c936e7a07e5b.jpg",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\2_9597eb2b-aaaf-4213-9881-c936e7a07e5b.jpg",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "images/2_9597eb2b-aaaf-4213-9881-c936e7a07e5b.jpg",
       "AssetKind": "All",
@@ -1879,10 +1879,10 @@
       "OriginalItemSpec": "wwwroot\\images\\2_9597eb2b-aaaf-4213-9881-c936e7a07e5b.jpg"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\2_e20d8db2-e07d-41eb-8482-a0c7e1fabb79.jpg",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\2_e20d8db2-e07d-41eb-8482-a0c7e1fabb79.jpg",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "images/2_e20d8db2-e07d-41eb-8482-a0c7e1fabb79.jpg",
       "AssetKind": "All",
@@ -1898,10 +1898,10 @@
       "OriginalItemSpec": "wwwroot\\images\\2_e20d8db2-e07d-41eb-8482-a0c7e1fabb79.jpg"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\25c9dc7a17450e64760c9e7a55f00b87_0e2a56ca-25e6-4204-b268-f402b9156608.jpg",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\25c9dc7a17450e64760c9e7a55f00b87_0e2a56ca-25e6-4204-b268-f402b9156608.jpg",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "images/25c9dc7a17450e64760c9e7a55f00b87_0e2a56ca-25e6-4204-b268-f402b9156608.jpg",
       "AssetKind": "All",
@@ -1917,10 +1917,10 @@
       "OriginalItemSpec": "wwwroot\\images\\25c9dc7a17450e64760c9e7a55f00b87_0e2a56ca-25e6-4204-b268-f402b9156608.jpg"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\25c9dc7a17450e64760c9e7a55f00b87_304340dd-2ebe-4c31-bdea-a0fbe0810e0e.jpg",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\25c9dc7a17450e64760c9e7a55f00b87_304340dd-2ebe-4c31-bdea-a0fbe0810e0e.jpg",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "images/25c9dc7a17450e64760c9e7a55f00b87_304340dd-2ebe-4c31-bdea-a0fbe0810e0e.jpg",
       "AssetKind": "All",
@@ -1936,10 +1936,10 @@
       "OriginalItemSpec": "wwwroot\\images\\25c9dc7a17450e64760c9e7a55f00b87_304340dd-2ebe-4c31-bdea-a0fbe0810e0e.jpg"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\25c9dc7a17450e64760c9e7a55f00b87_547770fb-fc47-4925-b1d0-860a07f915de.jpg",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\25c9dc7a17450e64760c9e7a55f00b87_547770fb-fc47-4925-b1d0-860a07f915de.jpg",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "images/25c9dc7a17450e64760c9e7a55f00b87_547770fb-fc47-4925-b1d0-860a07f915de.jpg",
       "AssetKind": "All",
@@ -1955,10 +1955,10 @@
       "OriginalItemSpec": "wwwroot\\images\\25c9dc7a17450e64760c9e7a55f00b87_547770fb-fc47-4925-b1d0-860a07f915de.jpg"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\25c9dc7a17450e64760c9e7a55f00b87_868e68a1-b175-4fe8-ab3c-47772b37d1e4.jpg",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\25c9dc7a17450e64760c9e7a55f00b87_868e68a1-b175-4fe8-ab3c-47772b37d1e4.jpg",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "images/25c9dc7a17450e64760c9e7a55f00b87_868e68a1-b175-4fe8-ab3c-47772b37d1e4.jpg",
       "AssetKind": "All",
@@ -1974,10 +1974,10 @@
       "OriginalItemSpec": "wwwroot\\images\\25c9dc7a17450e64760c9e7a55f00b87_868e68a1-b175-4fe8-ab3c-47772b37d1e4.jpg"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\25c9dc7a17450e64760c9e7a55f00b87_b4da2765-fa34-4563-9a2e-0bcf650e91aa.jpg",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\25c9dc7a17450e64760c9e7a55f00b87_b4da2765-fa34-4563-9a2e-0bcf650e91aa.jpg",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "images/25c9dc7a17450e64760c9e7a55f00b87_b4da2765-fa34-4563-9a2e-0bcf650e91aa.jpg",
       "AssetKind": "All",
@@ -1993,10 +1993,10 @@
       "OriginalItemSpec": "wwwroot\\images\\25c9dc7a17450e64760c9e7a55f00b87_b4da2765-fa34-4563-9a2e-0bcf650e91aa.jpg"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\25c9dc7a17450e64760c9e7a55f00b87_fa60a0b2-4e5d-4083-a09e-e6ba3c87af13.jpg",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\25c9dc7a17450e64760c9e7a55f00b87_fa60a0b2-4e5d-4083-a09e-e6ba3c87af13.jpg",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "images/25c9dc7a17450e64760c9e7a55f00b87_fa60a0b2-4e5d-4083-a09e-e6ba3c87af13.jpg",
       "AssetKind": "All",
@@ -2012,10 +2012,10 @@
       "OriginalItemSpec": "wwwroot\\images\\25c9dc7a17450e64760c9e7a55f00b87_fa60a0b2-4e5d-4083-a09e-e6ba3c87af13.jpg"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_029eefec-3b8c-4816-8bef-04a8da02a812.jpg",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_029eefec-3b8c-4816-8bef-04a8da02a812.jpg",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "images/4_029eefec-3b8c-4816-8bef-04a8da02a812.jpg",
       "AssetKind": "All",
@@ -2031,10 +2031,10 @@
       "OriginalItemSpec": "wwwroot\\images\\4_029eefec-3b8c-4816-8bef-04a8da02a812.jpg"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_08393f8b-6139-4645-95f6-95f16bb84f7d.jpg",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_08393f8b-6139-4645-95f6-95f16bb84f7d.jpg",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "images/4_08393f8b-6139-4645-95f6-95f16bb84f7d.jpg",
       "AssetKind": "All",
@@ -2050,10 +2050,10 @@
       "OriginalItemSpec": "wwwroot\\images\\4_08393f8b-6139-4645-95f6-95f16bb84f7d.jpg"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_44d11083-5925-4539-a98d-827c1fe07ea3.jpg",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_44d11083-5925-4539-a98d-827c1fe07ea3.jpg",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "images/4_44d11083-5925-4539-a98d-827c1fe07ea3.jpg",
       "AssetKind": "All",
@@ -2069,10 +2069,10 @@
       "OriginalItemSpec": "wwwroot\\images\\4_44d11083-5925-4539-a98d-827c1fe07ea3.jpg"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_46f6b49e-9991-4305-9499-1fccc3e65896.jpg",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_46f6b49e-9991-4305-9499-1fccc3e65896.jpg",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "images/4_46f6b49e-9991-4305-9499-1fccc3e65896.jpg",
       "AssetKind": "All",
@@ -2088,10 +2088,10 @@
       "OriginalItemSpec": "wwwroot\\images\\4_46f6b49e-9991-4305-9499-1fccc3e65896.jpg"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_481edc2a-4f5f-4fe7-8fae-ba4ac08bb148.jpg",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_481edc2a-4f5f-4fe7-8fae-ba4ac08bb148.jpg",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "images/4_481edc2a-4f5f-4fe7-8fae-ba4ac08bb148.jpg",
       "AssetKind": "All",
@@ -2107,10 +2107,10 @@
       "OriginalItemSpec": "wwwroot\\images\\4_481edc2a-4f5f-4fe7-8fae-ba4ac08bb148.jpg"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_54fafa64-dbed-4831-803a-eddc34d9720d.jpg",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_54fafa64-dbed-4831-803a-eddc34d9720d.jpg",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "images/4_54fafa64-dbed-4831-803a-eddc34d9720d.jpg",
       "AssetKind": "All",
@@ -2126,10 +2126,10 @@
       "OriginalItemSpec": "wwwroot\\images\\4_54fafa64-dbed-4831-803a-eddc34d9720d.jpg"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_5fa18a51-1781-428f-8398-3794c532296f.jpg",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_5fa18a51-1781-428f-8398-3794c532296f.jpg",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "images/4_5fa18a51-1781-428f-8398-3794c532296f.jpg",
       "AssetKind": "All",
@@ -2145,10 +2145,10 @@
       "OriginalItemSpec": "wwwroot\\images\\4_5fa18a51-1781-428f-8398-3794c532296f.jpg"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_64c88346-215c-4726-af48-dc9fd6f729b0.jpg",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_64c88346-215c-4726-af48-dc9fd6f729b0.jpg",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "images/4_64c88346-215c-4726-af48-dc9fd6f729b0.jpg",
       "AssetKind": "All",
@@ -2164,10 +2164,10 @@
       "OriginalItemSpec": "wwwroot\\images\\4_64c88346-215c-4726-af48-dc9fd6f729b0.jpg"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_65410a58-06ae-4d4b-89fa-309037a7c111.jpg",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_65410a58-06ae-4d4b-89fa-309037a7c111.jpg",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "images/4_65410a58-06ae-4d4b-89fa-309037a7c111.jpg",
       "AssetKind": "All",
@@ -2183,10 +2183,10 @@
       "OriginalItemSpec": "wwwroot\\images\\4_65410a58-06ae-4d4b-89fa-309037a7c111.jpg"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_6ca5e2f8-3018-4a13-8176-76446ebd413b.jpg",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_6ca5e2f8-3018-4a13-8176-76446ebd413b.jpg",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "images/4_6ca5e2f8-3018-4a13-8176-76446ebd413b.jpg",
       "AssetKind": "All",
@@ -2202,10 +2202,10 @@
       "OriginalItemSpec": "wwwroot\\images\\4_6ca5e2f8-3018-4a13-8176-76446ebd413b.jpg"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_6ef31a91-01b0-4f43-b56d-3255601f58ad.jpg",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_6ef31a91-01b0-4f43-b56d-3255601f58ad.jpg",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "images/4_6ef31a91-01b0-4f43-b56d-3255601f58ad.jpg",
       "AssetKind": "All",
@@ -2221,10 +2221,10 @@
       "OriginalItemSpec": "wwwroot\\images\\4_6ef31a91-01b0-4f43-b56d-3255601f58ad.jpg"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_725b954b-7913-4a33-9657-4f9da91b173b.jpg",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_725b954b-7913-4a33-9657-4f9da91b173b.jpg",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "images/4_725b954b-7913-4a33-9657-4f9da91b173b.jpg",
       "AssetKind": "All",
@@ -2240,10 +2240,10 @@
       "OriginalItemSpec": "wwwroot\\images\\4_725b954b-7913-4a33-9657-4f9da91b173b.jpg"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_77d48256-178e-47bb-bcbe-83bdffd0fdfd.jpg",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_77d48256-178e-47bb-bcbe-83bdffd0fdfd.jpg",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "images/4_77d48256-178e-47bb-bcbe-83bdffd0fdfd.jpg",
       "AssetKind": "All",
@@ -2259,10 +2259,10 @@
       "OriginalItemSpec": "wwwroot\\images\\4_77d48256-178e-47bb-bcbe-83bdffd0fdfd.jpg"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_7dcacad2-bacc-404c-9dc3-a0ea885c112b.jpg",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_7dcacad2-bacc-404c-9dc3-a0ea885c112b.jpg",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "images/4_7dcacad2-bacc-404c-9dc3-a0ea885c112b.jpg",
       "AssetKind": "All",
@@ -2278,10 +2278,10 @@
       "OriginalItemSpec": "wwwroot\\images\\4_7dcacad2-bacc-404c-9dc3-a0ea885c112b.jpg"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_811287f2-88dd-4c79-b7f8-b15477750a12.jpg",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_811287f2-88dd-4c79-b7f8-b15477750a12.jpg",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "images/4_811287f2-88dd-4c79-b7f8-b15477750a12.jpg",
       "AssetKind": "All",
@@ -2297,10 +2297,10 @@
       "OriginalItemSpec": "wwwroot\\images\\4_811287f2-88dd-4c79-b7f8-b15477750a12.jpg"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_86330a92-240a-4381-ba94-bd0cf13e9394.jpg",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_86330a92-240a-4381-ba94-bd0cf13e9394.jpg",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "images/4_86330a92-240a-4381-ba94-bd0cf13e9394.jpg",
       "AssetKind": "All",
@@ -2316,10 +2316,10 @@
       "OriginalItemSpec": "wwwroot\\images\\4_86330a92-240a-4381-ba94-bd0cf13e9394.jpg"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_8d20fa88-089e-4040-9f21-5d5c1326321a.jpg",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_8d20fa88-089e-4040-9f21-5d5c1326321a.jpg",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "images/4_8d20fa88-089e-4040-9f21-5d5c1326321a.jpg",
       "AssetKind": "All",
@@ -2335,10 +2335,10 @@
       "OriginalItemSpec": "wwwroot\\images\\4_8d20fa88-089e-4040-9f21-5d5c1326321a.jpg"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_94deca09-f35f-48e0-9d9f-6c3f9ba4bddd.jpg",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_94deca09-f35f-48e0-9d9f-6c3f9ba4bddd.jpg",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "images/4_94deca09-f35f-48e0-9d9f-6c3f9ba4bddd.jpg",
       "AssetKind": "All",
@@ -2354,10 +2354,10 @@
       "OriginalItemSpec": "wwwroot\\images\\4_94deca09-f35f-48e0-9d9f-6c3f9ba4bddd.jpg"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_971dc6e2-3ebe-4d11-9bc7-c8bf009a8110.jpg",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_971dc6e2-3ebe-4d11-9bc7-c8bf009a8110.jpg",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "images/4_971dc6e2-3ebe-4d11-9bc7-c8bf009a8110.jpg",
       "AssetKind": "All",
@@ -2373,10 +2373,10 @@
       "OriginalItemSpec": "wwwroot\\images\\4_971dc6e2-3ebe-4d11-9bc7-c8bf009a8110.jpg"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_9e0e7660-f49e-4925-bab1-7e311bb5d5a6.jpg",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_9e0e7660-f49e-4925-bab1-7e311bb5d5a6.jpg",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "images/4_9e0e7660-f49e-4925-bab1-7e311bb5d5a6.jpg",
       "AssetKind": "All",
@@ -2392,10 +2392,10 @@
       "OriginalItemSpec": "wwwroot\\images\\4_9e0e7660-f49e-4925-bab1-7e311bb5d5a6.jpg"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_a9600616-b269-4ccf-a2d5-a2bf10817c0a.jpg",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_a9600616-b269-4ccf-a2d5-a2bf10817c0a.jpg",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "images/4_a9600616-b269-4ccf-a2d5-a2bf10817c0a.jpg",
       "AssetKind": "All",
@@ -2411,10 +2411,10 @@
       "OriginalItemSpec": "wwwroot\\images\\4_a9600616-b269-4ccf-a2d5-a2bf10817c0a.jpg"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_b2c3521e-ffa9-4641-9730-943dba365cac.jpg",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_b2c3521e-ffa9-4641-9730-943dba365cac.jpg",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "images/4_b2c3521e-ffa9-4641-9730-943dba365cac.jpg",
       "AssetKind": "All",
@@ -2430,10 +2430,10 @@
       "OriginalItemSpec": "wwwroot\\images\\4_b2c3521e-ffa9-4641-9730-943dba365cac.jpg"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_b31776b9-6777-4c12-b2ef-0fbd2f9671a9.jpg",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_b31776b9-6777-4c12-b2ef-0fbd2f9671a9.jpg",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "images/4_b31776b9-6777-4c12-b2ef-0fbd2f9671a9.jpg",
       "AssetKind": "All",
@@ -2449,10 +2449,10 @@
       "OriginalItemSpec": "wwwroot\\images\\4_b31776b9-6777-4c12-b2ef-0fbd2f9671a9.jpg"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_b49578b4-aad9-4f39-b021-9a1c82701f0f.jpg",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_b49578b4-aad9-4f39-b021-9a1c82701f0f.jpg",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "images/4_b49578b4-aad9-4f39-b021-9a1c82701f0f.jpg",
       "AssetKind": "All",
@@ -2468,10 +2468,10 @@
       "OriginalItemSpec": "wwwroot\\images\\4_b49578b4-aad9-4f39-b021-9a1c82701f0f.jpg"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_bb25718b-129a-4fe7-9838-9c102a0809e4.jpg",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_bb25718b-129a-4fe7-9838-9c102a0809e4.jpg",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "images/4_bb25718b-129a-4fe7-9838-9c102a0809e4.jpg",
       "AssetKind": "All",
@@ -2487,10 +2487,10 @@
       "OriginalItemSpec": "wwwroot\\images\\4_bb25718b-129a-4fe7-9838-9c102a0809e4.jpg"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_bfefa293-d75a-4414-8e9b-1bf58b38dad7.jpg",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_bfefa293-d75a-4414-8e9b-1bf58b38dad7.jpg",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "images/4_bfefa293-d75a-4414-8e9b-1bf58b38dad7.jpg",
       "AssetKind": "All",
@@ -2506,10 +2506,10 @@
       "OriginalItemSpec": "wwwroot\\images\\4_bfefa293-d75a-4414-8e9b-1bf58b38dad7.jpg"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_c6e6d601-6f63-46d8-85fc-9e2886892d1e.jpg",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_c6e6d601-6f63-46d8-85fc-9e2886892d1e.jpg",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "images/4_c6e6d601-6f63-46d8-85fc-9e2886892d1e.jpg",
       "AssetKind": "All",
@@ -2525,10 +2525,10 @@
       "OriginalItemSpec": "wwwroot\\images\\4_c6e6d601-6f63-46d8-85fc-9e2886892d1e.jpg"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_dba08d1f-2b3e-4d3e-81a9-df24b53890b3.jpg",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_dba08d1f-2b3e-4d3e-81a9-df24b53890b3.jpg",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "images/4_dba08d1f-2b3e-4d3e-81a9-df24b53890b3.jpg",
       "AssetKind": "All",
@@ -2544,10 +2544,10 @@
       "OriginalItemSpec": "wwwroot\\images\\4_dba08d1f-2b3e-4d3e-81a9-df24b53890b3.jpg"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_dce6340d-7f3c-4a44-ad30-dca5fad2cf6e.jpg",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_dce6340d-7f3c-4a44-ad30-dca5fad2cf6e.jpg",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "images/4_dce6340d-7f3c-4a44-ad30-dca5fad2cf6e.jpg",
       "AssetKind": "All",
@@ -2563,10 +2563,10 @@
       "OriginalItemSpec": "wwwroot\\images\\4_dce6340d-7f3c-4a44-ad30-dca5fad2cf6e.jpg"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_de887864-db59-4cd9-8eff-a72998aa7dc2.jpg",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_de887864-db59-4cd9-8eff-a72998aa7dc2.jpg",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "images/4_de887864-db59-4cd9-8eff-a72998aa7dc2.jpg",
       "AssetKind": "All",
@@ -2582,10 +2582,10 @@
       "OriginalItemSpec": "wwwroot\\images\\4_de887864-db59-4cd9-8eff-a72998aa7dc2.jpg"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_dfbba29b-8be6-411f-bbc4-1676c91e3f32.jpg",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_dfbba29b-8be6-411f-bbc4-1676c91e3f32.jpg",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "images/4_dfbba29b-8be6-411f-bbc4-1676c91e3f32.jpg",
       "AssetKind": "All",
@@ -2601,10 +2601,10 @@
       "OriginalItemSpec": "wwwroot\\images\\4_dfbba29b-8be6-411f-bbc4-1676c91e3f32.jpg"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_f6e8494b-e438-4bda-9549-2f180f27a84c.jpg",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_f6e8494b-e438-4bda-9549-2f180f27a84c.jpg",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "images/4_f6e8494b-e438-4bda-9549-2f180f27a84c.jpg",
       "AssetKind": "All",
@@ -2620,10 +2620,10 @@
       "OriginalItemSpec": "wwwroot\\images\\4_f6e8494b-e438-4bda-9549-2f180f27a84c.jpg"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_fa7f28bf-0187-47ca-bdde-9450ff4fbc60.jpg",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_fa7f28bf-0187-47ca-bdde-9450ff4fbc60.jpg",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "images/4_fa7f28bf-0187-47ca-bdde-9450ff4fbc60.jpg",
       "AssetKind": "All",
@@ -2639,10 +2639,10 @@
       "OriginalItemSpec": "wwwroot\\images\\4_fa7f28bf-0187-47ca-bdde-9450ff4fbc60.jpg"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\5_1cbe90a6-b8e5-4347-8f4a-732181bc1203.jpg",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\5_1cbe90a6-b8e5-4347-8f4a-732181bc1203.jpg",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "images/5_1cbe90a6-b8e5-4347-8f4a-732181bc1203.jpg",
       "AssetKind": "All",
@@ -2658,10 +2658,10 @@
       "OriginalItemSpec": "wwwroot\\images\\5_1cbe90a6-b8e5-4347-8f4a-732181bc1203.jpg"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\5_2fabc51a-a26a-4cec-87a6-496528f88c66.jpg",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\5_2fabc51a-a26a-4cec-87a6-496528f88c66.jpg",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "images/5_2fabc51a-a26a-4cec-87a6-496528f88c66.jpg",
       "AssetKind": "All",
@@ -2677,10 +2677,10 @@
       "OriginalItemSpec": "wwwroot\\images\\5_2fabc51a-a26a-4cec-87a6-496528f88c66.jpg"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\5_566c702a-7732-4f26-adea-9fbad1732049.jpg",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\5_566c702a-7732-4f26-adea-9fbad1732049.jpg",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "images/5_566c702a-7732-4f26-adea-9fbad1732049.jpg",
       "AssetKind": "All",
@@ -2696,10 +2696,10 @@
       "OriginalItemSpec": "wwwroot\\images\\5_566c702a-7732-4f26-adea-9fbad1732049.jpg"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\5_b5db66a4-a41f-4be7-a3ea-7ce75ff30647.jpg",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\5_b5db66a4-a41f-4be7-a3ea-7ce75ff30647.jpg",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "images/5_b5db66a4-a41f-4be7-a3ea-7ce75ff30647.jpg",
       "AssetKind": "All",
@@ -2715,10 +2715,10 @@
       "OriginalItemSpec": "wwwroot\\images\\5_b5db66a4-a41f-4be7-a3ea-7ce75ff30647.jpg"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\5_da601ddc-c3b4-46af-b2f0-0a2baf0fc023.jpg",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\5_da601ddc-c3b4-46af-b2f0-0a2baf0fc023.jpg",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "images/5_da601ddc-c3b4-46af-b2f0-0a2baf0fc023.jpg",
       "AssetKind": "All",
@@ -2734,10 +2734,10 @@
       "OriginalItemSpec": "wwwroot\\images\\5_da601ddc-c3b4-46af-b2f0-0a2baf0fc023.jpg"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\5_f679cea1-afb0-4815-98c6-11604318438a.jpg",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\5_f679cea1-afb0-4815-98c6-11604318438a.jpg",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "images/5_f679cea1-afb0-4815-98c6-11604318438a.jpg",
       "AssetKind": "All",
@@ -2753,10 +2753,10 @@
       "OriginalItemSpec": "wwwroot\\images\\5_f679cea1-afb0-4815-98c6-11604318438a.jpg"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\666_59144b1c-f7e9-49f8-8df5-73e17bd08b38.png",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\666_59144b1c-f7e9-49f8-8df5-73e17bd08b38.png",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "images/666_59144b1c-f7e9-49f8-8df5-73e17bd08b38.png",
       "AssetKind": "All",
@@ -2772,10 +2772,10 @@
       "OriginalItemSpec": "wwwroot\\images\\666_59144b1c-f7e9-49f8-8df5-73e17bd08b38.png"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\666_77d80798-8484-425a-9107-34c361476477.png",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\666_77d80798-8484-425a-9107-34c361476477.png",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "images/666_77d80798-8484-425a-9107-34c361476477.png",
       "AssetKind": "All",
@@ -2791,10 +2791,29 @@
       "OriginalItemSpec": "wwwroot\\images\\666_77d80798-8484-425a-9107-34c361476477.png"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\666_e49d4419-4aae-4795-a3fa-51ca5bd1f4c7.png",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\666_bdfd4a29-288f-4a66-bedf-077fccecb308.png",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "BasePath": "_content/Virtual-Art-Gallery",
+      "RelativePath": "images/666_bdfd4a29-288f-4a66-bedf-077fccecb308.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\666_bdfd4a29-288f-4a66-bedf-077fccecb308.png"
+    },
+    {
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\666_e49d4419-4aae-4795-a3fa-51ca5bd1f4c7.png",
+      "SourceId": "Virtual-Art-Gallery",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "images/666_e49d4419-4aae-4795-a3fa-51ca5bd1f4c7.png",
       "AssetKind": "All",
@@ -2810,10 +2829,29 @@
       "OriginalItemSpec": "wwwroot\\images\\666_e49d4419-4aae-4795-a3fa-51ca5bd1f4c7.png"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\f f f f f _931a93e0-1b00-4057-ac8f-4673e278d7df.png",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\f f f f f _82bf3262-9bd3-4640-9b28-8cd2d217d135.png",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "BasePath": "_content/Virtual-Art-Gallery",
+      "RelativePath": "images/f f f f f _82bf3262-9bd3-4640-9b28-8cd2d217d135.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\f f f f f _82bf3262-9bd3-4640-9b28-8cd2d217d135.png"
+    },
+    {
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\f f f f f _931a93e0-1b00-4057-ac8f-4673e278d7df.png",
+      "SourceId": "Virtual-Art-Gallery",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "images/f f f f f _931a93e0-1b00-4057-ac8f-4673e278d7df.png",
       "AssetKind": "All",
@@ -2829,10 +2867,10 @@
       "OriginalItemSpec": "wwwroot\\images\\f f f f f _931a93e0-1b00-4057-ac8f-4673e278d7df.png"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\f f f f f _f195c4fa-15a9-4fcc-ae0b-b34f69b605eb.png",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\f f f f f _f195c4fa-15a9-4fcc-ae0b-b34f69b605eb.png",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "images/f f f f f _f195c4fa-15a9-4fcc-ae0b-b34f69b605eb.png",
       "AssetKind": "All",
@@ -2848,10 +2886,10 @@
       "OriginalItemSpec": "wwwroot\\images\\f f f f f _f195c4fa-15a9-4fcc-ae0b-b34f69b605eb.png"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\flaff_9288ee67-078f-4188-b967-b98c886808eb.png",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\flaff_9288ee67-078f-4188-b967-b98c886808eb.png",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "images/flaff_9288ee67-078f-4188-b967-b98c886808eb.png",
       "AssetKind": "All",
@@ -2867,10 +2905,10 @@
       "OriginalItemSpec": "wwwroot\\images\\flaff_9288ee67-078f-4188-b967-b98c886808eb.png"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\Kmgzc6A8EYo_45695289-a9e4-4bbb-a355-b355e73ea114.jpg",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\Kmgzc6A8EYo_45695289-a9e4-4bbb-a355-b355e73ea114.jpg",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "images/Kmgzc6A8EYo_45695289-a9e4-4bbb-a355-b355e73ea114.jpg",
       "AssetKind": "All",
@@ -2886,10 +2924,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Kmgzc6A8EYo_45695289-a9e4-4bbb-a355-b355e73ea114.jpg"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\magi_9858a1fc-a5fb-434d-a37d-304b2e77e3d8.png",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\magi_9858a1fc-a5fb-434d-a37d-304b2e77e3d8.png",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "images/magi_9858a1fc-a5fb-434d-a37d-304b2e77e3d8.png",
       "AssetKind": "All",
@@ -2905,10 +2943,10 @@
       "OriginalItemSpec": "wwwroot\\images\\magi_9858a1fc-a5fb-434d-a37d-304b2e77e3d8.png"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\rDd76chF8a48FkNUJ6PkVbgjaPSwHzp3R4jZiSraxJ91UbA2b1qJMw4xRhtAm4Y9y5XsqI919mqZ2WUj1_wXnff7_3b8273ff-eb49-4da2-a8b3-9f5a0c2db380.jpg",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\rDd76chF8a48FkNUJ6PkVbgjaPSwHzp3R4jZiSraxJ91UbA2b1qJMw4xRhtAm4Y9y5XsqI919mqZ2WUj1_wXnff7_3b8273ff-eb49-4da2-a8b3-9f5a0c2db380.jpg",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "images/rDd76chF8a48FkNUJ6PkVbgjaPSwHzp3R4jZiSraxJ91UbA2b1qJMw4xRhtAm4Y9y5XsqI919mqZ2WUj1_wXnff7_3b8273ff-eb49-4da2-a8b3-9f5a0c2db380.jpg",
       "AssetKind": "All",
@@ -2924,10 +2962,10 @@
       "OriginalItemSpec": "wwwroot\\images\\rDd76chF8a48FkNUJ6PkVbgjaPSwHzp3R4jZiSraxJ91UbA2b1qJMw4xRhtAm4Y9y5XsqI919mqZ2WUj1_wXnff7_3b8273ff-eb49-4da2-a8b3-9f5a0c2db380.jpg"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\ава основа_2b44a37d-e1fc-40af-af78-7d09098c96b3.png",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\ава основа_2b44a37d-e1fc-40af-af78-7d09098c96b3.png",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "images/ава основа_2b44a37d-e1fc-40af-af78-7d09098c96b3.png",
       "AssetKind": "All",
@@ -2943,10 +2981,10 @@
       "OriginalItemSpec": "wwwroot\\images\\ава основа_2b44a37d-e1fc-40af-af78-7d09098c96b3.png"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\бирюза_ffdf8dc0-b076-4662-9ac1-c361d2581e30.png",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\бирюза_ffdf8dc0-b076-4662-9ac1-c361d2581e30.png",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "images/бирюза_ffdf8dc0-b076-4662-9ac1-c361d2581e30.png",
       "AssetKind": "All",
@@ -2962,10 +3000,10 @@
       "OriginalItemSpec": "wwwroot\\images\\бирюза_ffdf8dc0-b076-4662-9ac1-c361d2581e30.png"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\краши_42fae859-c905-4c3b-aac6-3d6aa1805fdc.png",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\краши_42fae859-c905-4c3b-aac6-3d6aa1805fdc.png",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "images/краши_42fae859-c905-4c3b-aac6-3d6aa1805fdc.png",
       "AssetKind": "All",
@@ -2981,10 +3019,10 @@
       "OriginalItemSpec": "wwwroot\\images\\краши_42fae859-c905-4c3b-aac6-3d6aa1805fdc.png"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\краши_bb6b6024-3656-4f63-adfb-cd87b389c9db.png",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\краши_bb6b6024-3656-4f63-adfb-cd87b389c9db.png",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "images/краши_bb6b6024-3656-4f63-adfb-cd87b389c9db.png",
       "AssetKind": "All",
@@ -3000,10 +3038,10 @@
       "OriginalItemSpec": "wwwroot\\images\\краши_bb6b6024-3656-4f63-adfb-cd87b389c9db.png"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\краши_f4b9a313-2e9b-499f-8a7d-cc1869294175.png",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\краши_f4b9a313-2e9b-499f-8a7d-cc1869294175.png",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "images/краши_f4b9a313-2e9b-499f-8a7d-cc1869294175.png",
       "AssetKind": "All",
@@ -3019,10 +3057,10 @@
       "OriginalItemSpec": "wwwroot\\images\\краши_f4b9a313-2e9b-499f-8a7d-cc1869294175.png"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\js\\site.js",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\js\\site.js",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -3038,10 +3076,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -3057,10 +3095,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -3076,10 +3114,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -3095,10 +3133,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -3114,10 +3152,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -3133,10 +3171,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -3152,10 +3190,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -3171,10 +3209,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -3190,10 +3228,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -3209,10 +3247,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -3228,10 +3266,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -3247,10 +3285,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -3266,10 +3304,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -3285,10 +3323,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -3304,10 +3342,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -3323,10 +3361,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -3342,10 +3380,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -3361,10 +3399,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -3380,10 +3418,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -3399,10 +3437,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -3418,10 +3456,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -3437,10 +3475,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -3456,10 +3494,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -3475,10 +3513,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -3494,10 +3532,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -3513,10 +3551,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -3532,10 +3570,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -3551,10 +3589,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -3570,10 +3608,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -3589,10 +3627,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -3608,10 +3646,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -3627,10 +3665,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -3646,10 +3684,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -3665,10 +3703,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -3684,10 +3722,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -3703,10 +3741,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -3722,10 +3760,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -3741,10 +3779,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -3760,10 +3798,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -3779,10 +3817,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -3798,10 +3836,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -3817,10 +3855,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -3836,10 +3874,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -3855,10 +3893,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -3874,10 +3912,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -3893,10 +3931,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -3912,10 +3950,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -3931,10 +3969,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -3950,10 +3988,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -3969,10 +4007,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -3988,10 +4026,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -4007,10 +4045,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -4026,10 +4064,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -4045,10 +4083,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -4064,10 +4102,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -4083,10 +4121,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -4102,10 +4140,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "ContentRoot": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
       "BasePath": "_content/Virtual-Art-Gallery",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",

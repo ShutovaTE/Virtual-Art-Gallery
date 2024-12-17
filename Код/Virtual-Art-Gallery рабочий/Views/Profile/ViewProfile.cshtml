@@ -1,8 +1,14 @@
-﻿@model Virtual_Art_Gallery.Models.ProfileViewModel
+﻿@using Microsoft.AspNet.Identity;
+@model Virtual_Art_Gallery.Models.ProfileViewModel
 
 <h1>Профиль: @Model.Username</h1>
-
 <p><strong>Email:</strong> @Model.Email</p>
+
+<div class="nav-tabs">
+    <a class="nav-link active" asp-action="ViewProfile" asp-route-userId="@User.Identity.GetUserId()">Публикации</a>
+    <a class="nav-link" asp-action="ProfileExhibitions" asp-route-userId="@User.Identity.GetUserId()">Выставки</a>
+    <a class="nav-link" asp-area="" asp-controller="PriceList" asp-action="Index">Прайсы</a>
+</div>
 
 <h2>Публикации</h2>
 @if (Model.Artworks.Any())
@@ -16,7 +22,7 @@
                 {
                     <a asp-action="Details" asp-controller="Artwork" asp-route-id="@artwork.Id">
                         <img src="@artwork.ImagePath" alt="@artwork.Title" style="width: 100%; max-height: 200px; object-fit: cover; border-radius: 5px;" />
-                    </a>                
+                    </a>
                     <h3 asp-action="Details" asp-controller="Artwork" asp-route-id="@artwork.Id">
                         <strong>@artwork.Title</strong>
                     </h3>

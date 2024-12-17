@@ -1,623 +1,631 @@
 {
   "Files": [
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Virtual-Art-Gallery.bundle.scp.css",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Virtual-Art-Gallery.bundle.scp.css",
       "PackagePath": "staticwebassets\\Virtual-Art-Gallery.bundle.scp.css"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\css\\site.css",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\favicon.ico",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\112_0757205d-ea84-43cb-954d-5fea55608b4f.jpg",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\112_0757205d-ea84-43cb-954d-5fea55608b4f.jpg",
       "PackagePath": "staticwebassets\\images\\112_0757205d-ea84-43cb-954d-5fea55608b4f.jpg"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\112_07ecc154-69b8-4178-a66c-f4d3330bd601.jpg",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\112_07ecc154-69b8-4178-a66c-f4d3330bd601.jpg",
       "PackagePath": "staticwebassets\\images\\112_07ecc154-69b8-4178-a66c-f4d3330bd601.jpg"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\112_2899ad03-91ae-4dc8-82a6-7b040f89fe10.jpg",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\112_2899ad03-91ae-4dc8-82a6-7b040f89fe10.jpg",
       "PackagePath": "staticwebassets\\images\\112_2899ad03-91ae-4dc8-82a6-7b040f89fe10.jpg"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\112_2acd3412-c805-4707-8458-48e5de1ac10d.jpg",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\112_2acd3412-c805-4707-8458-48e5de1ac10d.jpg",
       "PackagePath": "staticwebassets\\images\\112_2acd3412-c805-4707-8458-48e5de1ac10d.jpg"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\112_2b579455-1372-4cde-b8ea-17b09b2451ec.jpg",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\112_2b579455-1372-4cde-b8ea-17b09b2451ec.jpg",
       "PackagePath": "staticwebassets\\images\\112_2b579455-1372-4cde-b8ea-17b09b2451ec.jpg"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\112_34a05429-3fe9-4973-8cd3-42af625992af.jpg",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\112_34a05429-3fe9-4973-8cd3-42af625992af.jpg",
       "PackagePath": "staticwebassets\\images\\112_34a05429-3fe9-4973-8cd3-42af625992af.jpg"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\112_3693626a-9e91-4400-ba09-331dd13aa616.jpg",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\112_3693626a-9e91-4400-ba09-331dd13aa616.jpg",
       "PackagePath": "staticwebassets\\images\\112_3693626a-9e91-4400-ba09-331dd13aa616.jpg"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\112_3ac36e1e-80e1-4d73-9966-68e5347844ba.jpg",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\112_3ac36e1e-80e1-4d73-9966-68e5347844ba.jpg",
       "PackagePath": "staticwebassets\\images\\112_3ac36e1e-80e1-4d73-9966-68e5347844ba.jpg"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\112_3c1688fe-db52-4aa9-bda7-bc05b26b8a65.jpg",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\112_3c1688fe-db52-4aa9-bda7-bc05b26b8a65.jpg",
       "PackagePath": "staticwebassets\\images\\112_3c1688fe-db52-4aa9-bda7-bc05b26b8a65.jpg"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\112_4823e6ff-92e8-40c7-a4cb-91cad3f79f70.jpg",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\112_4823e6ff-92e8-40c7-a4cb-91cad3f79f70.jpg",
       "PackagePath": "staticwebassets\\images\\112_4823e6ff-92e8-40c7-a4cb-91cad3f79f70.jpg"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\112_58a52854-5f85-44d4-951c-5a0ecf954adb.jpg",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\112_58a52854-5f85-44d4-951c-5a0ecf954adb.jpg",
       "PackagePath": "staticwebassets\\images\\112_58a52854-5f85-44d4-951c-5a0ecf954adb.jpg"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\112_7e6e2b7d-0592-42c2-b154-04e890b3f448.jpg",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\112_7e6e2b7d-0592-42c2-b154-04e890b3f448.jpg",
       "PackagePath": "staticwebassets\\images\\112_7e6e2b7d-0592-42c2-b154-04e890b3f448.jpg"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\112_84280728-9c2d-499d-be61-788d5557316b.jpg",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\112_84280728-9c2d-499d-be61-788d5557316b.jpg",
       "PackagePath": "staticwebassets\\images\\112_84280728-9c2d-499d-be61-788d5557316b.jpg"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\112_863ca1fb-1f31-48be-b748-5efcb24c283d.jpg",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\112_863ca1fb-1f31-48be-b748-5efcb24c283d.jpg",
       "PackagePath": "staticwebassets\\images\\112_863ca1fb-1f31-48be-b748-5efcb24c283d.jpg"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\112_894b9977-af50-40e1-af37-2a046029f769.jpg",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\112_894b9977-af50-40e1-af37-2a046029f769.jpg",
       "PackagePath": "staticwebassets\\images\\112_894b9977-af50-40e1-af37-2a046029f769.jpg"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\112_9734cbe1-bf86-4d93-a8e1-cf78e964dfc3.jpg",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\112_9734cbe1-bf86-4d93-a8e1-cf78e964dfc3.jpg",
       "PackagePath": "staticwebassets\\images\\112_9734cbe1-bf86-4d93-a8e1-cf78e964dfc3.jpg"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\112_ade246c3-c8c1-4332-b2de-ea6834669c00.jpg",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\112_ade246c3-c8c1-4332-b2de-ea6834669c00.jpg",
       "PackagePath": "staticwebassets\\images\\112_ade246c3-c8c1-4332-b2de-ea6834669c00.jpg"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\112_b3da1ea1-9852-4350-84da-b6d01f1d62ad.jpg",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\112_b3da1ea1-9852-4350-84da-b6d01f1d62ad.jpg",
       "PackagePath": "staticwebassets\\images\\112_b3da1ea1-9852-4350-84da-b6d01f1d62ad.jpg"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\112_ccf44e84-3cb0-48f4-9163-d0b9591f7b85.jpg",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\112_ccf44e84-3cb0-48f4-9163-d0b9591f7b85.jpg",
       "PackagePath": "staticwebassets\\images\\112_ccf44e84-3cb0-48f4-9163-d0b9591f7b85.jpg"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\112_d052f444-7b55-4c77-9459-4637cf90a09c.jpg",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\112_d052f444-7b55-4c77-9459-4637cf90a09c.jpg",
       "PackagePath": "staticwebassets\\images\\112_d052f444-7b55-4c77-9459-4637cf90a09c.jpg"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\112_da9e8e45-70e7-4a39-a82e-ae4c66b2b3a4.jpg",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\112_da9e8e45-70e7-4a39-a82e-ae4c66b2b3a4.jpg",
       "PackagePath": "staticwebassets\\images\\112_da9e8e45-70e7-4a39-a82e-ae4c66b2b3a4.jpg"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\112_e2c66fba-ae8e-4423-a734-071b2c4880a0.jpg",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\112_e2c66fba-ae8e-4423-a734-071b2c4880a0.jpg",
       "PackagePath": "staticwebassets\\images\\112_e2c66fba-ae8e-4423-a734-071b2c4880a0.jpg"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\112_e4c6091d-9926-4f2d-ac97-f6a777dae082.jpg",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\112_e4c6091d-9926-4f2d-ac97-f6a777dae082.jpg",
       "PackagePath": "staticwebassets\\images\\112_e4c6091d-9926-4f2d-ac97-f6a777dae082.jpg"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\112_f3bfcc6d-5b24-4791-bb48-db03a3937db3.jpg",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\112_f3bfcc6d-5b24-4791-bb48-db03a3937db3.jpg",
       "PackagePath": "staticwebassets\\images\\112_f3bfcc6d-5b24-4791-bb48-db03a3937db3.jpg"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\112_f4f81d07-5c1c-4f52-a58b-c851890c2cfb.jpg",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\112_f4f81d07-5c1c-4f52-a58b-c851890c2cfb.jpg",
       "PackagePath": "staticwebassets\\images\\112_f4f81d07-5c1c-4f52-a58b-c851890c2cfb.jpg"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\1_2516d5a2-e0f8-45cc-bd17-879b58bae531.jpg",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\1_2516d5a2-e0f8-45cc-bd17-879b58bae531.jpg",
       "PackagePath": "staticwebassets\\images\\1_2516d5a2-e0f8-45cc-bd17-879b58bae531.jpg"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\1_2de790cf-ff17-4774-a5f9-3e0b09c56fbd.jpg",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\1_2de790cf-ff17-4774-a5f9-3e0b09c56fbd.jpg",
       "PackagePath": "staticwebassets\\images\\1_2de790cf-ff17-4774-a5f9-3e0b09c56fbd.jpg"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\1_446fb6d8-42f5-4182-aec3-db8afc0e0910.jpg",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\1_446fb6d8-42f5-4182-aec3-db8afc0e0910.jpg",
       "PackagePath": "staticwebassets\\images\\1_446fb6d8-42f5-4182-aec3-db8afc0e0910.jpg"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\1_79fdc55e-96d3-49a2-8d2e-e2cd29e2b701.jpg",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\1_79fdc55e-96d3-49a2-8d2e-e2cd29e2b701.jpg",
       "PackagePath": "staticwebassets\\images\\1_79fdc55e-96d3-49a2-8d2e-e2cd29e2b701.jpg"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\1_d1bf6549-6e46-46e2-9cf9-7f4dcd7a0c01.jpg",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\1_d1bf6549-6e46-46e2-9cf9-7f4dcd7a0c01.jpg",
       "PackagePath": "staticwebassets\\images\\1_d1bf6549-6e46-46e2-9cf9-7f4dcd7a0c01.jpg"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\1_d4d23f13-1b0f-4747-9665-3fa2d8f8a000.jpg",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\1_d4d23f13-1b0f-4747-9665-3fa2d8f8a000.jpg",
       "PackagePath": "staticwebassets\\images\\1_d4d23f13-1b0f-4747-9665-3fa2d8f8a000.jpg"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\2.jpg",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\2.jpg",
       "PackagePath": "staticwebassets\\images\\2.jpg"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\25c9dc7a17450e64760c9e7a55f00b87_0e2a56ca-25e6-4204-b268-f402b9156608.jpg",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\25c9dc7a17450e64760c9e7a55f00b87_0e2a56ca-25e6-4204-b268-f402b9156608.jpg",
       "PackagePath": "staticwebassets\\images\\25c9dc7a17450e64760c9e7a55f00b87_0e2a56ca-25e6-4204-b268-f402b9156608.jpg"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\25c9dc7a17450e64760c9e7a55f00b87_304340dd-2ebe-4c31-bdea-a0fbe0810e0e.jpg",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\25c9dc7a17450e64760c9e7a55f00b87_304340dd-2ebe-4c31-bdea-a0fbe0810e0e.jpg",
       "PackagePath": "staticwebassets\\images\\25c9dc7a17450e64760c9e7a55f00b87_304340dd-2ebe-4c31-bdea-a0fbe0810e0e.jpg"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\25c9dc7a17450e64760c9e7a55f00b87_547770fb-fc47-4925-b1d0-860a07f915de.jpg",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\25c9dc7a17450e64760c9e7a55f00b87_547770fb-fc47-4925-b1d0-860a07f915de.jpg",
       "PackagePath": "staticwebassets\\images\\25c9dc7a17450e64760c9e7a55f00b87_547770fb-fc47-4925-b1d0-860a07f915de.jpg"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\25c9dc7a17450e64760c9e7a55f00b87_868e68a1-b175-4fe8-ab3c-47772b37d1e4.jpg",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\25c9dc7a17450e64760c9e7a55f00b87_868e68a1-b175-4fe8-ab3c-47772b37d1e4.jpg",
       "PackagePath": "staticwebassets\\images\\25c9dc7a17450e64760c9e7a55f00b87_868e68a1-b175-4fe8-ab3c-47772b37d1e4.jpg"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\25c9dc7a17450e64760c9e7a55f00b87_b4da2765-fa34-4563-9a2e-0bcf650e91aa.jpg",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\25c9dc7a17450e64760c9e7a55f00b87_b4da2765-fa34-4563-9a2e-0bcf650e91aa.jpg",
       "PackagePath": "staticwebassets\\images\\25c9dc7a17450e64760c9e7a55f00b87_b4da2765-fa34-4563-9a2e-0bcf650e91aa.jpg"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\25c9dc7a17450e64760c9e7a55f00b87_fa60a0b2-4e5d-4083-a09e-e6ba3c87af13.jpg",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\25c9dc7a17450e64760c9e7a55f00b87_fa60a0b2-4e5d-4083-a09e-e6ba3c87af13.jpg",
       "PackagePath": "staticwebassets\\images\\25c9dc7a17450e64760c9e7a55f00b87_fa60a0b2-4e5d-4083-a09e-e6ba3c87af13.jpg"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\2_2f29d4d5-bb47-48d0-8640-f676227a5400.jpg",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\2_2f29d4d5-bb47-48d0-8640-f676227a5400.jpg",
       "PackagePath": "staticwebassets\\images\\2_2f29d4d5-bb47-48d0-8640-f676227a5400.jpg"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\2_9597eb2b-aaaf-4213-9881-c936e7a07e5b.jpg",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\2_9597eb2b-aaaf-4213-9881-c936e7a07e5b.jpg",
       "PackagePath": "staticwebassets\\images\\2_9597eb2b-aaaf-4213-9881-c936e7a07e5b.jpg"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\2_e20d8db2-e07d-41eb-8482-a0c7e1fabb79.jpg",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\2_e20d8db2-e07d-41eb-8482-a0c7e1fabb79.jpg",
       "PackagePath": "staticwebassets\\images\\2_e20d8db2-e07d-41eb-8482-a0c7e1fabb79.jpg"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_029eefec-3b8c-4816-8bef-04a8da02a812.jpg",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_029eefec-3b8c-4816-8bef-04a8da02a812.jpg",
       "PackagePath": "staticwebassets\\images\\4_029eefec-3b8c-4816-8bef-04a8da02a812.jpg"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_08393f8b-6139-4645-95f6-95f16bb84f7d.jpg",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_08393f8b-6139-4645-95f6-95f16bb84f7d.jpg",
       "PackagePath": "staticwebassets\\images\\4_08393f8b-6139-4645-95f6-95f16bb84f7d.jpg"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_44d11083-5925-4539-a98d-827c1fe07ea3.jpg",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_44d11083-5925-4539-a98d-827c1fe07ea3.jpg",
       "PackagePath": "staticwebassets\\images\\4_44d11083-5925-4539-a98d-827c1fe07ea3.jpg"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_46f6b49e-9991-4305-9499-1fccc3e65896.jpg",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_46f6b49e-9991-4305-9499-1fccc3e65896.jpg",
       "PackagePath": "staticwebassets\\images\\4_46f6b49e-9991-4305-9499-1fccc3e65896.jpg"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_481edc2a-4f5f-4fe7-8fae-ba4ac08bb148.jpg",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_481edc2a-4f5f-4fe7-8fae-ba4ac08bb148.jpg",
       "PackagePath": "staticwebassets\\images\\4_481edc2a-4f5f-4fe7-8fae-ba4ac08bb148.jpg"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_54fafa64-dbed-4831-803a-eddc34d9720d.jpg",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_54fafa64-dbed-4831-803a-eddc34d9720d.jpg",
       "PackagePath": "staticwebassets\\images\\4_54fafa64-dbed-4831-803a-eddc34d9720d.jpg"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_5fa18a51-1781-428f-8398-3794c532296f.jpg",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_5fa18a51-1781-428f-8398-3794c532296f.jpg",
       "PackagePath": "staticwebassets\\images\\4_5fa18a51-1781-428f-8398-3794c532296f.jpg"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_64c88346-215c-4726-af48-dc9fd6f729b0.jpg",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_64c88346-215c-4726-af48-dc9fd6f729b0.jpg",
       "PackagePath": "staticwebassets\\images\\4_64c88346-215c-4726-af48-dc9fd6f729b0.jpg"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_65410a58-06ae-4d4b-89fa-309037a7c111.jpg",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_65410a58-06ae-4d4b-89fa-309037a7c111.jpg",
       "PackagePath": "staticwebassets\\images\\4_65410a58-06ae-4d4b-89fa-309037a7c111.jpg"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_6ca5e2f8-3018-4a13-8176-76446ebd413b.jpg",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_6ca5e2f8-3018-4a13-8176-76446ebd413b.jpg",
       "PackagePath": "staticwebassets\\images\\4_6ca5e2f8-3018-4a13-8176-76446ebd413b.jpg"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_6ef31a91-01b0-4f43-b56d-3255601f58ad.jpg",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_6ef31a91-01b0-4f43-b56d-3255601f58ad.jpg",
       "PackagePath": "staticwebassets\\images\\4_6ef31a91-01b0-4f43-b56d-3255601f58ad.jpg"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_725b954b-7913-4a33-9657-4f9da91b173b.jpg",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_725b954b-7913-4a33-9657-4f9da91b173b.jpg",
       "PackagePath": "staticwebassets\\images\\4_725b954b-7913-4a33-9657-4f9da91b173b.jpg"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_77d48256-178e-47bb-bcbe-83bdffd0fdfd.jpg",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_77d48256-178e-47bb-bcbe-83bdffd0fdfd.jpg",
       "PackagePath": "staticwebassets\\images\\4_77d48256-178e-47bb-bcbe-83bdffd0fdfd.jpg"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_7dcacad2-bacc-404c-9dc3-a0ea885c112b.jpg",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_7dcacad2-bacc-404c-9dc3-a0ea885c112b.jpg",
       "PackagePath": "staticwebassets\\images\\4_7dcacad2-bacc-404c-9dc3-a0ea885c112b.jpg"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_811287f2-88dd-4c79-b7f8-b15477750a12.jpg",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_811287f2-88dd-4c79-b7f8-b15477750a12.jpg",
       "PackagePath": "staticwebassets\\images\\4_811287f2-88dd-4c79-b7f8-b15477750a12.jpg"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_86330a92-240a-4381-ba94-bd0cf13e9394.jpg",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_86330a92-240a-4381-ba94-bd0cf13e9394.jpg",
       "PackagePath": "staticwebassets\\images\\4_86330a92-240a-4381-ba94-bd0cf13e9394.jpg"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_8d20fa88-089e-4040-9f21-5d5c1326321a.jpg",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_8d20fa88-089e-4040-9f21-5d5c1326321a.jpg",
       "PackagePath": "staticwebassets\\images\\4_8d20fa88-089e-4040-9f21-5d5c1326321a.jpg"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_94deca09-f35f-48e0-9d9f-6c3f9ba4bddd.jpg",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_94deca09-f35f-48e0-9d9f-6c3f9ba4bddd.jpg",
       "PackagePath": "staticwebassets\\images\\4_94deca09-f35f-48e0-9d9f-6c3f9ba4bddd.jpg"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_971dc6e2-3ebe-4d11-9bc7-c8bf009a8110.jpg",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_971dc6e2-3ebe-4d11-9bc7-c8bf009a8110.jpg",
       "PackagePath": "staticwebassets\\images\\4_971dc6e2-3ebe-4d11-9bc7-c8bf009a8110.jpg"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_9e0e7660-f49e-4925-bab1-7e311bb5d5a6.jpg",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_9e0e7660-f49e-4925-bab1-7e311bb5d5a6.jpg",
       "PackagePath": "staticwebassets\\images\\4_9e0e7660-f49e-4925-bab1-7e311bb5d5a6.jpg"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_a9600616-b269-4ccf-a2d5-a2bf10817c0a.jpg",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_a9600616-b269-4ccf-a2d5-a2bf10817c0a.jpg",
       "PackagePath": "staticwebassets\\images\\4_a9600616-b269-4ccf-a2d5-a2bf10817c0a.jpg"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_b2c3521e-ffa9-4641-9730-943dba365cac.jpg",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_b2c3521e-ffa9-4641-9730-943dba365cac.jpg",
       "PackagePath": "staticwebassets\\images\\4_b2c3521e-ffa9-4641-9730-943dba365cac.jpg"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_b31776b9-6777-4c12-b2ef-0fbd2f9671a9.jpg",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_b31776b9-6777-4c12-b2ef-0fbd2f9671a9.jpg",
       "PackagePath": "staticwebassets\\images\\4_b31776b9-6777-4c12-b2ef-0fbd2f9671a9.jpg"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_b49578b4-aad9-4f39-b021-9a1c82701f0f.jpg",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_b49578b4-aad9-4f39-b021-9a1c82701f0f.jpg",
       "PackagePath": "staticwebassets\\images\\4_b49578b4-aad9-4f39-b021-9a1c82701f0f.jpg"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_bb25718b-129a-4fe7-9838-9c102a0809e4.jpg",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_bb25718b-129a-4fe7-9838-9c102a0809e4.jpg",
       "PackagePath": "staticwebassets\\images\\4_bb25718b-129a-4fe7-9838-9c102a0809e4.jpg"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_bfefa293-d75a-4414-8e9b-1bf58b38dad7.jpg",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_bfefa293-d75a-4414-8e9b-1bf58b38dad7.jpg",
       "PackagePath": "staticwebassets\\images\\4_bfefa293-d75a-4414-8e9b-1bf58b38dad7.jpg"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_c6e6d601-6f63-46d8-85fc-9e2886892d1e.jpg",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_c6e6d601-6f63-46d8-85fc-9e2886892d1e.jpg",
       "PackagePath": "staticwebassets\\images\\4_c6e6d601-6f63-46d8-85fc-9e2886892d1e.jpg"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_dba08d1f-2b3e-4d3e-81a9-df24b53890b3.jpg",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_dba08d1f-2b3e-4d3e-81a9-df24b53890b3.jpg",
       "PackagePath": "staticwebassets\\images\\4_dba08d1f-2b3e-4d3e-81a9-df24b53890b3.jpg"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_dce6340d-7f3c-4a44-ad30-dca5fad2cf6e.jpg",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_dce6340d-7f3c-4a44-ad30-dca5fad2cf6e.jpg",
       "PackagePath": "staticwebassets\\images\\4_dce6340d-7f3c-4a44-ad30-dca5fad2cf6e.jpg"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_de887864-db59-4cd9-8eff-a72998aa7dc2.jpg",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_de887864-db59-4cd9-8eff-a72998aa7dc2.jpg",
       "PackagePath": "staticwebassets\\images\\4_de887864-db59-4cd9-8eff-a72998aa7dc2.jpg"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_dfbba29b-8be6-411f-bbc4-1676c91e3f32.jpg",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_dfbba29b-8be6-411f-bbc4-1676c91e3f32.jpg",
       "PackagePath": "staticwebassets\\images\\4_dfbba29b-8be6-411f-bbc4-1676c91e3f32.jpg"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_f6e8494b-e438-4bda-9549-2f180f27a84c.jpg",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_f6e8494b-e438-4bda-9549-2f180f27a84c.jpg",
       "PackagePath": "staticwebassets\\images\\4_f6e8494b-e438-4bda-9549-2f180f27a84c.jpg"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_fa7f28bf-0187-47ca-bdde-9450ff4fbc60.jpg",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\4_fa7f28bf-0187-47ca-bdde-9450ff4fbc60.jpg",
       "PackagePath": "staticwebassets\\images\\4_fa7f28bf-0187-47ca-bdde-9450ff4fbc60.jpg"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\5_1cbe90a6-b8e5-4347-8f4a-732181bc1203.jpg",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\5_1cbe90a6-b8e5-4347-8f4a-732181bc1203.jpg",
       "PackagePath": "staticwebassets\\images\\5_1cbe90a6-b8e5-4347-8f4a-732181bc1203.jpg"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\5_2fabc51a-a26a-4cec-87a6-496528f88c66.jpg",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\5_2fabc51a-a26a-4cec-87a6-496528f88c66.jpg",
       "PackagePath": "staticwebassets\\images\\5_2fabc51a-a26a-4cec-87a6-496528f88c66.jpg"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\5_566c702a-7732-4f26-adea-9fbad1732049.jpg",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\5_566c702a-7732-4f26-adea-9fbad1732049.jpg",
       "PackagePath": "staticwebassets\\images\\5_566c702a-7732-4f26-adea-9fbad1732049.jpg"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\5_b5db66a4-a41f-4be7-a3ea-7ce75ff30647.jpg",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\5_b5db66a4-a41f-4be7-a3ea-7ce75ff30647.jpg",
       "PackagePath": "staticwebassets\\images\\5_b5db66a4-a41f-4be7-a3ea-7ce75ff30647.jpg"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\5_da601ddc-c3b4-46af-b2f0-0a2baf0fc023.jpg",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\5_da601ddc-c3b4-46af-b2f0-0a2baf0fc023.jpg",
       "PackagePath": "staticwebassets\\images\\5_da601ddc-c3b4-46af-b2f0-0a2baf0fc023.jpg"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\5_f679cea1-afb0-4815-98c6-11604318438a.jpg",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\5_f679cea1-afb0-4815-98c6-11604318438a.jpg",
       "PackagePath": "staticwebassets\\images\\5_f679cea1-afb0-4815-98c6-11604318438a.jpg"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\666_59144b1c-f7e9-49f8-8df5-73e17bd08b38.png",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\666_59144b1c-f7e9-49f8-8df5-73e17bd08b38.png",
       "PackagePath": "staticwebassets\\images\\666_59144b1c-f7e9-49f8-8df5-73e17bd08b38.png"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\666_77d80798-8484-425a-9107-34c361476477.png",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\666_77d80798-8484-425a-9107-34c361476477.png",
       "PackagePath": "staticwebassets\\images\\666_77d80798-8484-425a-9107-34c361476477.png"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\666_e49d4419-4aae-4795-a3fa-51ca5bd1f4c7.png",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\666_bdfd4a29-288f-4a66-bedf-077fccecb308.png",
+      "PackagePath": "staticwebassets\\images\\666_bdfd4a29-288f-4a66-bedf-077fccecb308.png"
+    },
+    {
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\666_e49d4419-4aae-4795-a3fa-51ca5bd1f4c7.png",
       "PackagePath": "staticwebassets\\images\\666_e49d4419-4aae-4795-a3fa-51ca5bd1f4c7.png"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\Kmgzc6A8EYo_45695289-a9e4-4bbb-a355-b355e73ea114.jpg",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\Kmgzc6A8EYo_45695289-a9e4-4bbb-a355-b355e73ea114.jpg",
       "PackagePath": "staticwebassets\\images\\Kmgzc6A8EYo_45695289-a9e4-4bbb-a355-b355e73ea114.jpg"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\f f f f f _931a93e0-1b00-4057-ac8f-4673e278d7df.png",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\f f f f f _82bf3262-9bd3-4640-9b28-8cd2d217d135.png",
+      "PackagePath": "staticwebassets\\images\\f f f f f _82bf3262-9bd3-4640-9b28-8cd2d217d135.png"
+    },
+    {
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\f f f f f _931a93e0-1b00-4057-ac8f-4673e278d7df.png",
       "PackagePath": "staticwebassets\\images\\f f f f f _931a93e0-1b00-4057-ac8f-4673e278d7df.png"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\f f f f f _f195c4fa-15a9-4fcc-ae0b-b34f69b605eb.png",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\f f f f f _f195c4fa-15a9-4fcc-ae0b-b34f69b605eb.png",
       "PackagePath": "staticwebassets\\images\\f f f f f _f195c4fa-15a9-4fcc-ae0b-b34f69b605eb.png"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\flaff_9288ee67-078f-4188-b967-b98c886808eb.png",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\flaff_9288ee67-078f-4188-b967-b98c886808eb.png",
       "PackagePath": "staticwebassets\\images\\flaff_9288ee67-078f-4188-b967-b98c886808eb.png"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\magi_9858a1fc-a5fb-434d-a37d-304b2e77e3d8.png",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\magi_9858a1fc-a5fb-434d-a37d-304b2e77e3d8.png",
       "PackagePath": "staticwebassets\\images\\magi_9858a1fc-a5fb-434d-a37d-304b2e77e3d8.png"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\rDd76chF8a48FkNUJ6PkVbgjaPSwHzp3R4jZiSraxJ91UbA2b1qJMw4xRhtAm4Y9y5XsqI919mqZ2WUj1_wXnff7_3b8273ff-eb49-4da2-a8b3-9f5a0c2db380.jpg",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\rDd76chF8a48FkNUJ6PkVbgjaPSwHzp3R4jZiSraxJ91UbA2b1qJMw4xRhtAm4Y9y5XsqI919mqZ2WUj1_wXnff7_3b8273ff-eb49-4da2-a8b3-9f5a0c2db380.jpg",
       "PackagePath": "staticwebassets\\images\\rDd76chF8a48FkNUJ6PkVbgjaPSwHzp3R4jZiSraxJ91UbA2b1qJMw4xRhtAm4Y9y5XsqI919mqZ2WUj1_wXnff7_3b8273ff-eb49-4da2-a8b3-9f5a0c2db380.jpg"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\ава основа_2b44a37d-e1fc-40af-af78-7d09098c96b3.png",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\ава основа_2b44a37d-e1fc-40af-af78-7d09098c96b3.png",
       "PackagePath": "staticwebassets\\images\\ава основа_2b44a37d-e1fc-40af-af78-7d09098c96b3.png"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\бирюза_ffdf8dc0-b076-4662-9ac1-c361d2581e30.png",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\бирюза_ffdf8dc0-b076-4662-9ac1-c361d2581e30.png",
       "PackagePath": "staticwebassets\\images\\бирюза_ffdf8dc0-b076-4662-9ac1-c361d2581e30.png"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\краши_42fae859-c905-4c3b-aac6-3d6aa1805fdc.png",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\краши_42fae859-c905-4c3b-aac6-3d6aa1805fdc.png",
       "PackagePath": "staticwebassets\\images\\краши_42fae859-c905-4c3b-aac6-3d6aa1805fdc.png"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\краши_bb6b6024-3656-4f63-adfb-cd87b389c9db.png",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\краши_bb6b6024-3656-4f63-adfb-cd87b389c9db.png",
       "PackagePath": "staticwebassets\\images\\краши_bb6b6024-3656-4f63-adfb-cd87b389c9db.png"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\краши_f4b9a313-2e9b-499f-8a7d-cc1869294175.png",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\краши_f4b9a313-2e9b-499f-8a7d-cc1869294175.png",
       "PackagePath": "staticwebassets\\images\\краши_f4b9a313-2e9b-499f-8a7d-cc1869294175.png"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\js\\site.js",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "D:\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {

@@ -383,7 +383,7 @@ namespace Virtual_Art_Gallery.Controllers
                 return NotFound();
             }
 
-            return View(artwork);  
+            return View(artwork);
         }
 
         [HttpPost, ActionName("AdminDelete")]

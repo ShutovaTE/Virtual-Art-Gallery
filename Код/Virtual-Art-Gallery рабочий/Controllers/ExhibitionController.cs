@@ -22,16 +22,22 @@ namespace Virtual_Art_Gallery.Controllers
         // GET: Exhibition
         public async Task<IActionResult> Index()
         {
-            var exhibitions = await _context.Exhibitions.Include(c => c.Creator).ToListAsync();
+            var exhibitions = await _context.Exhibitions
+                .Include(e => e.Creator)
+                .ToListAsync();
+
             return View(exhibitions);
         }
 
         // GET: Exhibition/Details/5
         public async Task<IActionResult> Details(int id)
         {
+            var userId = _userManager.GetUserId(User);
+            var isAdmin = User.IsInRole("Administrator");
+
             var exhibition = _context.Exhibitions
                 .Include(e => e.Artworks)
-                .ThenInclude(a => a.Category)
+                .ThenInclude(a => a.Creator)
                 .Include(c => c.Creator)
                 .FirstOrDefault(e => e.Id == id);
 
@@ -40,8 +46,15 @@ namespace Virtual_Art_Gallery.Controllers
                 return NotFound();
             }
 
+            exhibition.Artworks = exhibition.Artworks
+                .Where(a =>
+                    a.Status == ArtworkStatus.Approved ||
+                    (a.CreatorId == userId || isAdmin))
+                .ToList();
+
             return View(exhibition);
         }
+
 
         // GET: Exhibition/Create
         [Authorize]
@@ -85,6 +98,10 @@ namespace Virtual_Art_Gallery.Controllers
             {
                 return NotFound();
             }
+            if (exhibitionModel.CreatorId != _userManager.GetUserId(User))
+            {
+                return Unauthorized("Редактировать выставку может только её создатель.");
+            }
             return View(exhibitionModel);
         }
 
@@ -93,7 +110,7 @@ namespace Virtual_Art_Gallery.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Title,Description,IsClosed")] ExhibitionModel exhibitionModel)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Title,Description,IsClosed,CreatorId")] ExhibitionModel exhibitionModel)
         {
             if (id != exhibitionModel.Id)
             {
@@ -138,6 +155,10 @@ namespace Virtual_Art_Gallery.Controllers
             {
                 return NotFound();
             }
+            if (exhibitionModel.CreatorId != _userManager.GetUserId(User) && !User.IsInRole("Administrator"))
+            {
+                return Unauthorized("Удалять выставку может только её создатель или администратор.");
+            }
 
             return View(exhibitionModel);
         }
@@ -161,5 +182,6 @@ namespace Virtual_Art_Gallery.Controllers
         {
             return _context.Exhibitions.Any(e => e.Id == id);
         }
+
     }
 }

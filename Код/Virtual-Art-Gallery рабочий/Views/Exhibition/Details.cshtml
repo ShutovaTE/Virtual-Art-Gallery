@@ -1,4 +1,14 @@
-﻿@model Virtual_Art_Gallery.Models.ExhibitionModel
+﻿@using Microsoft.AspNet.Identity
+@model Virtual_Art_Gallery.Models.ExhibitionModel
+@{
+    var statusTranslations = new Dictionary<ArtworkStatus, string>
+    {
+        { ArtworkStatus.Draft, "Черновик" },
+        { ArtworkStatus.Submitted, "На модерации" },
+        { ArtworkStatus.Approved, "Подтверждено" },
+        { ArtworkStatus.Rejected, "Отклонено" }
+    };
+}
 
 @{
     ViewData["Title"] = "О выставке";
@@ -26,45 +36,88 @@
         </dt>
         <dd class="col-sm-10">
             <a asp-action="ViewProfile" asp-controller="Profile" asp-route-userId="@Model.CreatorId">
-            @Model.Creator.UserName
+                @Model.Creator.UserName
             </a>
         </dd>
         <dt class="col-sm-2">
             Открытость
         </dt>
         <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.IsClosed)
+            @(Model.IsClosed ? "Приватна" : "Открыта")
         </dd>
     </dl>
     <div>
-        <a asp-action="Create" asp-controller="Artwork" asp-route-exhibitionId="@Model.Id" class="btn btn-success">
-            Добавить публикацию
-        </a>
+        <a asp-action="Edit" asp-route-id="@Model?.Id">Изменить</a> |
+        <a asp-action="Index">Вернуться к выставкам</a>
     </div>
+    @if (!Model.IsClosed || User.Identity.GetUserId() == Model.CreatorId)
+    {
+        <div>
+            <a asp-action="Create" asp-controller="Artwork" asp-route-exhibitionId="@Model.Id" class="btn btn-success">
+                Добавить публикацию
+            </a>
+        </div>
+    }
     <h3>Публикации</h3>
     <ul>
         @if (Model.Artworks != null && Model.Artworks.Any())
         {
-            foreach (var artwork in Model.Artworks)
-            {
-                <h1>@artwork.Title</h1>
+            <div style="display: flex; flex-wrap: wrap; gap: 20px;">
+                @foreach (var artwork in Model.Artworks)
+                {
+                    <div style="border: 1px solid #ccc; padding: 15px; border-radius: 10px; width: 300px; text-align: center;">
+                        @if (!string.IsNullOrEmpty(artwork.ImagePath))
+                        {
+                            <img src="@artwork.ImagePath" alt="@artwork.Title" style="width: 100%; max-height: 200px; object-fit: cover; border-radius: 5px;" />
+                        }
+                        else
+                        {
+                            <p style="font-style: italic; color: gray;">Изображение отсутствует</p>
+                        }
 
-                <img src="@(string.IsNullOrEmpty(artwork.ImagePath) ? "/images/default.png" : artwork.ImagePath)"
-                     alt="Artwork Image"
-                     class="img-fluid" />
-                <p>@artwork.Description</p>
-                <p>Категория: @(artwork.Category != null ? artwork.Category.Name : "Без категории")</p>
-                <p><strong>Дата создания:</strong> @artwork.DateCreated.ToString("dd.MM.yyyy HH:mm")</p>
-                <p>Размеры: @artwork.Width x @artwork.Height</p>
-            }
+                        <h3>@artwork.Title</h3>
+                        <p>
+                            <strong>
+                                Автор:
+                                <a asp-action="ViewProfile" asp-controller="Profile" asp-route-userId="@artwork.CreatorId">
+                                    <strong>@artwork.Creator?.UserName</strong>
+                                </a>
+                            </strong>
+                        </p>
+                        <p><strong>Дата создания:</strong> @artwork.DateCreated.ToShortDateString()</p>
+                        <p><strong>Лайков:</strong> @artwork.LikeCount</p>
+                        <p><strong>Просмотров:</strong> @artwork.ViewCount</p>
+                        <p><strong>Статус:</strong> @statusTranslations[artwork.Status]</p>
+
+                        <div style="margin-top: 10px;">
+                            @if (artwork.CreatorId == User.Identity.GetUserId())
+                            {
+                                @if (artwork.Status == ArtworkStatus.Draft)
+                                {
+                                    <form asp-controller="Profile" asp-action="SubmitForApproval" method="post" style="margin-bottom: 10px;">
+                                        <input type="hidden" name="id" value="@artwork.Id" />
+                                        <button type="submit" class="btn btn-primary">Отправить на модерацию</button>
+                                    </form>
+
+                                    <a asp-action="Edit" asp-controller="Artwork" asp-route-id="@artwork.Id" class="btn btn-secondary" style="margin-right: 10px;">Редактировать</a>
+                                }
+                                <form asp-action="Delete" asp-controller="Artwork" method="post" style="display: inline;">
+                                    <input type="hidden" name="id" value="@artwork.Id" />
+                                    <button type="submit" class="btn btn-danger">Удалить</button>
+                                </form>
+                            }
+                            <form asp-action="Details" asp-controller="Artwork" method="post" style="display: inline;">
+                                <input type="hidden" name="id" value="@artwork.Id" />
+                                <button type="submit" class="btn btn-primary">Посмотреть</button>
+                            </form>
+                        </div>
+                    </div>
+                }
+            </div>
         }
         else
         {
             <p>Выставка пустая.</p>
         }
     </ul>
-</div>
-<div>
-    <a asp-action="Edit" asp-route-id="@Model?.Id">Изменить</a> |
-    <a asp-action="Index">Вернуться к выставкам</a>
 </div>

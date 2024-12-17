@@ -6,6 +6,10 @@
         public string Email { get; set; }
 
         public List<ArtworkModel> Artworks { get; set; }
+
+        public List<ExhibitionModel> Exhibitions { get; set; }
+
+        public List<PriceListModel> Prices { get; set; }
     }
 
 }
