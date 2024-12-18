@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "+LBRfkQluQ4UMnQ6uX0aruHD+4sl2p6xw1IGSrTRfyI=",
+  "Hash": "rgq16XJXQoiF8oKYFsWhaN5wOJSW6XIg2Ez55cTH7bw=",
   "Source": "Virtual-Art-Gallery",
   "BasePath": "_content/Virtual-Art-Gallery",
   "Mode": "Default",
@@ -2905,6 +2905,25 @@
       "OriginalItemSpec": "wwwroot\\images\\f f f f f _f195c4fa-15a9-4fcc-ae0b-b34f69b605eb.png"
     },
     {
+      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\flaff_677b8f02-e068-473e-8719-a8624c80d8f0.png",
+      "SourceId": "Virtual-Art-Gallery",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "BasePath": "_content/Virtual-Art-Gallery",
+      "RelativePath": "images/flaff_677b8f02-e068-473e-8719-a8624c80d8f0.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\flaff_677b8f02-e068-473e-8719-a8624c80d8f0.png"
+    },
+    {
       "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\flaff_6b41fcb0-7d24-41e5-beba-68908062635d.png",
       "SourceId": "Virtual-Art-Gallery",
       "SourceType": "Discovered",
@@ -3150,6 +3169,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\васса с жемчужиной серёжкой_f8a7190e-156a-431b-9f5c-4285654aae6f.png"
+    },
+    {
+      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\все с чего-то начинают_fc5eff88-fbd5-4f99-ba9e-88b7b64a53a7.png",
+      "SourceId": "Virtual-Art-Gallery",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "BasePath": "_content/Virtual-Art-Gallery",
+      "RelativePath": "images/все с чего-то начинают_fc5eff88-fbd5-4f99-ba9e-88b7b64a53a7.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\все с чего-то начинают_fc5eff88-fbd5-4f99-ba9e-88b7b64a53a7.png"
     },
     {
       "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\Граунд_8596f083-ff59-4630-8d3d-cfe602256739.png",

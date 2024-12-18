@@ -1440,6 +1440,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\f f f f f _f195c4fa-15a9-4fcc-ae0b-b34f69b605eb.png))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\flaff_677b8f02-e068-473e-8719-a8624c80d8f0.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>Virtual-Art-Gallery</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Virtual-Art-Gallery</BasePath>
+      <RelativePath>images/flaff_677b8f02-e068-473e-8719-a8624c80d8f0.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\flaff_677b8f02-e068-473e-8719-a8624c80d8f0.png))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\flaff_6b41fcb0-7d24-41e5-beba-68908062635d.png))">
       <SourceType>Package</SourceType>
       <SourceId>Virtual-Art-Gallery</SourceId>
@@ -1647,6 +1663,22 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\васса с жемчужиной серёжкой_f8a7190e-156a-431b-9f5c-4285654aae6f.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\все с чего-то начинают_fc5eff88-fbd5-4f99-ba9e-88b7b64a53a7.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>Virtual-Art-Gallery</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Virtual-Art-Gallery</BasePath>
+      <RelativePath>images/все с чего-то начинают_fc5eff88-fbd5-4f99-ba9e-88b7b64a53a7.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\все с чего-то начинают_fc5eff88-fbd5-4f99-ba9e-88b7b64a53a7.png))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\Граунд_8596f083-ff59-4630-8d3d-cfe602256739.png))">
       <SourceType>Package</SourceType>

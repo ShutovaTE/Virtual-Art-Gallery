@@ -6,6 +6,7 @@ using Virtual_Art_Gallery.Models;
 using Microsoft.EntityFrameworkCore;
 using System.Linq;
 using Microsoft.AspNet.Identity;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace Virtual_Art_Gallery.Controllers
 {
@@ -18,9 +19,10 @@ namespace Virtual_Art_Gallery.Controllers
             _context = context;
         }
 
-        public async Task<IActionResult> Index(string searchQuery, int? categoryId)
+        public async Task<IActionResult> Index(string? searchQuery, int? categoryId)
         {
-            // Получение данных для списка категорий
+            ViewData["CategoryList"] = new SelectList(_context.Categories, "Id", "Name", categoryId);
+
             var categories = await _context.Categories.ToListAsync();
             ViewBag.SearchQuery = searchQuery;
             ViewBag.CategoryId = categoryId;
@@ -38,37 +40,40 @@ namespace Virtual_Art_Gallery.Controllers
                 .Include(e => e.Artworks)
                     .ThenInclude(a => a.Creator);
 
-            // Фильтрация по категории
             if (categoryId.HasValue)
             {
                 artworkQuery = artworkQuery.Where(a => a.CategoryId == categoryId.Value);
-            }
 
-            // Фильтрация по ключевым словам
-            if (!string.IsNullOrEmpty(searchQuery))
+                if (!string.IsNullOrEmpty(searchQuery))
+                {
+                    string lowerSearchQuery = searchQuery.ToLower();
+                    artworkQuery = artworkQuery.Where(a => a.Title.ToLower().Contains(lowerSearchQuery));
+                }
+
+                artistQuery = Enumerable.Empty<IdentityUser>().AsQueryable();
+                exhibitionQuery = Enumerable.Empty<ExhibitionModel>().AsQueryable();
+            }
+            else if (!string.IsNullOrEmpty(searchQuery))
             {
                 string lowerSearchQuery = searchQuery.ToLower();
 
-                // Поиск по названиям и авторам
                 artworkQuery = artworkQuery.Where(a =>
-                    a.Title.ToLower().Contains(lowerSearchQuery) ||
-                    a.Creator.UserName.ToLower().Contains(lowerSearchQuery));
+                    a.Title.ToLower().Contains(lowerSearchQuery));
 
-                // Поиск по выставкам и авторам
                 exhibitionQuery = exhibitionQuery.Where(e =>
-                    e.Title.ToLower().Contains(lowerSearchQuery) ||
-                    e.Creator.UserName.ToLower().Contains(lowerSearchQuery));
+                    e.Title.ToLower().Contains(lowerSearchQuery));
 
-                // Поиск по профилям художников
                 artistQuery = artistQuery.Where(u => u.UserName.ToLower().Contains(lowerSearchQuery));
             }
 
-            // Получение данных
             var artworks = await artworkQuery.OrderBy(a => Guid.NewGuid()).Take(4).ToListAsync();
-            var artistProfiles = await artistQuery.OrderBy(u => Guid.NewGuid()).Take(4).ToListAsync();
-            var exhibitions = await exhibitionQuery.OrderBy(e => Guid.NewGuid()).Take(4).ToListAsync();
+            var artistProfiles = artistQuery.Any()
+                ? await artistQuery.OrderBy(u => Guid.NewGuid()).Take(4).ToListAsync()
+                : artistQuery.ToList();
+            var exhibitions = exhibitionQuery.Any()
+                ? await exhibitionQuery.OrderBy(e => Guid.NewGuid()).Take(4).ToListAsync()
+                : exhibitionQuery.ToList();
 
-            // Сообщения при отсутствии данных
             if (!artworks.Any())
             {
                 ViewBag.NoArtworksMessage = "Нет публикаций.";
@@ -84,13 +89,13 @@ namespace Virtual_Art_Gallery.Controllers
                 ViewBag.NoExhibitionsMessage = "Нет выставок.";
             }
 
-            // Модель для представления
             var model = new GalleryIndexViewModel
             {
                 Artworks = artworks,
                 ArtistProfiles = artistProfiles,
                 Exhibitions = exhibitions,
-                Categories = categories
+                Categories = categories,
+                SelectedCategoryId = categoryId
             };
 
             return View(model);

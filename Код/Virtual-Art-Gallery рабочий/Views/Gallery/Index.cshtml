@@ -2,25 +2,14 @@
 
 <h1>Галерея</h1>
 
-<form asp-action="Index" method="get" class="form-inline mb-4">
-    <div class="form-group">
-        <label for="searchQuery">Поиск:</label>
-        <input type="text" name="searchQuery" class="form-control mx-2" placeholder="Введите ключевые слова" value="@ViewBag.SearchQuery" />
-    </div>
-    <div class="form-group">
-        <label for="category">Категория:</label>
-        @* <select name="categoryId" class="form-control mx-2">
-            <option value="">Все категории</option>
-            @foreach (var category in Model.Categories)
-            {
-                <option value="@category.Id" @(ViewBag.CategoryId == category.Id ? "selected" : "")>
-                    @category.Name
-                </option>
-            }
-        </select> *@
-    </div>
+<form asp-action="Index" method="get" class="d-flex mb-4">
+    <select name="categoryId" asp-for="SelectedCategoryId" class="form-select mx-2 search" asp-items="@(ViewData["CategoryList"] as IEnumerable<SelectListItem>)">
+        <option value="">Все категории</option>
+    </select>
+    <input type="text" name="searchQuery" class="form-control mx-2 search" placeholder="Поиск..." value="@ViewBag.SearchQuery" />
     <button type="submit" class="btn btn-primary">Искать</button>
 </form>
+
 
 <h2><a asp-controller="Artwork" asp-action="Index">Публикации</a></h2>
 @if (ViewBag.NoArtworksMessage != null)
