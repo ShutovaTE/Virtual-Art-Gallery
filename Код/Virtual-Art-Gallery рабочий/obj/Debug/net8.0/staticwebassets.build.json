@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "mVw5tKasdVtExTgUA376WPkg6FP0wM6RhfA2McktU3M=",
+  "Hash": "a48TTzlO2LyGC9pN25vSbjqsbVee5c2qLHP7+v7tyaQ=",
   "Source": "Virtual-Art-Gallery",
   "BasePath": "_content/Virtual-Art-Gallery",
   "Mode": "Default",
@@ -3055,6 +3055,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\ава основа_eec28a2e-578d-4072-95f3-6cf3feeb32fa.png"
+    },
+    {
+      "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\ах ты падла сбежал_4e805c52-f021-4eb7-83ae-ac4931219b3b.png",
+      "SourceId": "Virtual-Art-Gallery",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\",
+      "BasePath": "_content/Virtual-Art-Gallery",
+      "RelativePath": "images/ах ты падла сбежал_4e805c52-f021-4eb7-83ae-ac4931219b3b.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\ах ты падла сбежал_4e805c52-f021-4eb7-83ae-ac4931219b3b.png"
     },
     {
       "Identity": "D:\\Коды и чертежи\\ТП\\5 семестр\\Курсовик\\Virtual-Art-Gallery\\Код\\Virtual-Art-Gallery рабочий\\wwwroot\\images\\бирюза_ffdf8dc0-b076-4662-9ac1-c361d2581e30.png",

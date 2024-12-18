@@ -1,0 +1,55 @@
+﻿@using Microsoft.AspNet.Identity;
+@model Virtual_Art_Gallery.Models.ProfileViewModel
+
+<h1>Профиль: @Model.Username</h1>
+<p><strong>Email:</strong> @Model.Email</p>
+
+<form asp-action="DeleteProfile" method="post" style="margin-top: 20px;">
+    <button type="submit" class="btn btn-danger" onclick="return confirm('Вы уверены, что хотите удалить профиль?')">Удалить профиль</button>
+</form>
+
+<div class="nav-tabs">
+    <a class="nav-link" asp-action="Index">Публикации</a>
+    <a class="nav-link" asp-action="IndexExhibitions">Выставки</a>
+    <a class="nav-link active" asp-action="IndexPrices">Прайсы</a>
+</div>
+
+<h2>Прайсы</h2>
+<div class="mt-3">
+    <a class="btn btn-primary" asp-controller="PriceList" asp-action="Create">Добавить прайс</a>
+</div>
+@if (Model.Prices.Any())
+{
+    <div style="display: flex; flex-wrap: wrap; gap: 20px;">
+        @foreach (var price in Model.Prices)
+        {
+            <div style="border: 1px solid #ccc; padding: 15px; border-radius: 10px; width: 300px; text-align: center;">
+                @if (!string.IsNullOrEmpty(price.ImagePath))
+                {
+                    <img src="@price.ImagePath" alt="@price.Name" style="width: 100%; max-height: 200px; object-fit: cover; border-radius: 5px;" />
+                }
+                else
+                {
+                    <p style="font-style: italic; color: gray;">Изображение отсутствует</p>
+                }
+                <h3>@price.Name</h3>
+                <p><strong>Цена: @price.Price ₽</p>
+                <div style="margin-top: 10px;">
+                    <form asp-action="Details" asp-controller="PriceList" method="post" style="display: inline;">
+                        <input type="hidden" name="id" value="@price.Id" />
+                        <button type="submit" class="btn btn-primary">Посмотреть</button>
+                    </form>
+                    <a asp-action="Edit" asp-controller="PriceList" asp-route-id="@price.Id" class="btn btn-secondary" style="margin-right: 10px;">Редактировать</a>
+                    <form asp-action="Delete" asp-controller="PriceList" method="post" style="display: inline;">
+                        <input type="hidden" name="id" value="@price.Id" />
+                        <button type="submit" class="btn btn-danger">Удалить</button>
+                    </form>
+                </div>
+            </div>
+        }
+    </div>
+}
+else
+{
+    <p>Прайсов нет.</p>
+}

@@ -47,6 +47,14 @@
         </dd>
     </dl>
     <div>
+        @if (!Model.IsClosed || User.Identity.GetUserId() == Model.CreatorId)
+        {
+            <div>
+                <a asp-action="Create" asp-controller="Artwork" asp-route-exhibitionId="@Model.Id" class="btn btn-success">
+                    Добавить публикацию
+                </a>
+            </div>
+        }
         @if (User.Identity.GetUserId() == Model.CreatorId)
         {
             <a asp-action="Edit" class="btn btn-primary" asp-route-id="@Model.Id">Редактировать</a>
@@ -57,14 +65,6 @@
         }
         <a asp-action="Index">Перейти к выставкам</a>
     </div>
-    @if (!Model.IsClosed || User.Identity.GetUserId() == Model.CreatorId)
-    {
-        <div>
-            <a asp-action="Create" asp-controller="Artwork" asp-route-exhibitionId="@Model.Id" class="btn btn-success">
-                Добавить публикацию
-            </a>
-        </div>
-    }
     <h3>Публикации</h3>
     <ul>
         @if (Model.Artworks != null && Model.Artworks.Any())

@@ -1,0 +1,47 @@
+﻿@using Microsoft.AspNet.Identity;
+@model Virtual_Art_Gallery.Models.ProfileViewModel
+
+<h1>Профиль: @Model.Username</h1>
+<p><strong>Email:</strong> @Model.Email</p>
+
+<div class="nav-tabs">
+    <a class="nav-link" asp-action="ViewProfile" asp-route-userId="@Model.UserId">Публикации</a>
+    <a class="nav-link" asp-action="ProfileExhibitions" asp-route-userId="@Model.UserId">Выставки</a>
+    <a class="nav-link active" asp-action="ProfilePrices" asp-route-userId="@Model.UserId">Прайсы</a>
+</div>
+
+<h2>Прайсы</h2>
+@if (Model.Prices.Any()) {
+    <div style="display: flex; flex-wrap: wrap; gap: 20px;">
+    @foreach (var price in Model.Prices)
+    {
+            <div style="border: 1px solid #ccc; padding: 15px; border-radius: 10px; width: 300px; text-align: center;">
+                @if (!string.IsNullOrEmpty(price.ImagePath))
+                {
+                    <img src="@price.ImagePath" alt="@price.Name" style="width: 100%; max-height: 200px; object-fit: cover; border-radius: 5px;" />
+                }
+                else
+                {
+                    <p style="font-style: italic; color: gray;">Изображение отсутствует</p>
+                }
+                <h3>@price.Name</h3>
+                <p><strong>Цена: @price.Price ₽</p>
+                <div style="margin-top: 10px;">
+                <form asp-action="Details" asp-controller="PriceList" method="post" style="display: inline;">
+                    <input type="hidden" name="id" value="@price.Id" />
+                    <button type="submit" class="btn btn-primary">Посмотреть</button>
+                </form>
+                @if (@User.IsInRole("Administrator"))
+                {
+                    <form asp-action="Delete" asp-controller="PriceList" method="post" style="display: inline;">
+                    <input type="hidden" name="id" value="@price.Id" />
+                    <button type="submit" class="btn btn-danger">Удалить</button>
+                    </form>
+                }
+                </div>
+            </div>
+    }
+    </div>
+} else {
+    <p>Прайсов нет.</p>
+} 

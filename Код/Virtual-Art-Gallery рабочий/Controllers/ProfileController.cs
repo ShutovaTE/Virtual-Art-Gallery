@@ -7,6 +7,7 @@ using Virtual_Art_Gallery.Models;
 using System.Threading.Tasks;
 using System.Linq;
 using Microsoft.AspNetCore.Authentication;
+using Virtual_Art_Gallery.Migrations;
 
 [Authorize]
 public class ProfileController : Controller
@@ -36,6 +37,7 @@ public class ProfileController : Controller
 
         var model = new ProfileViewModel
         {
+            UserId = userId,
             Username = user.UserName,
             Email = user.Email,
             Artworks = artworks
@@ -106,6 +108,7 @@ public class ProfileController : Controller
 
         var model = new ProfileViewModel
         {
+            UserId = userId,
             Username = user.UserName,
             Email = user.Email,
             Artworks = artworks
@@ -198,6 +201,7 @@ public class ProfileController : Controller
 
         var model = new ProfileViewModel
         {
+            UserId = userId,
             Username = user.UserName,
             Email = user.Email,
             Exhibitions = exhibitions
@@ -235,6 +239,70 @@ public class ProfileController : Controller
         if (!exhibitions.Any())
         {
             ViewBag.NoExhibitionsMessage = "Нет выставок";
+        }
+
+        return View(model);
+    }
+
+    public async Task<IActionResult> IndexPrices()
+    {
+        var userId = _userManager.GetUserId(User);
+        var user = await _userManager.Users.FirstOrDefaultAsync(u => u.Id == userId);
+
+        if (user == null)
+        {
+            return NotFound();
+        }
+
+        var prices = await _context.Prices
+            .Where(e => e.CreatorId == user.Id)
+            .ToListAsync();
+
+        var model = new ProfileViewModel
+        {
+            Username = user.UserName,
+            Email = user.Email,
+            Prices = prices
+        };
+
+        if (!prices.Any())
+        {
+            ViewBag.NoPricesMessage = "Нет прайсов";
+        }
+
+        return View(model);
+    }
+
+    [AllowAnonymous]
+    public async Task<IActionResult> ProfilePrices(string userId)
+    {
+        if (string.IsNullOrEmpty(userId))
+        {
+            return NotFound();
+        }
+
+        var user = await _userManager.Users.FirstOrDefaultAsync(u => u.Id == userId);
+
+        if (user == null)
+        {
+            return NotFound();
+        }
+
+        var prices = await _context.Prices
+            .Where(e => e.CreatorId == userId)
+            .ToListAsync();
+
+        var model = new ProfileViewModel
+        {
+            UserId = userId,
+            Username = user.UserName,
+            Email = user.Email,
+            Prices = prices
+        };
+
+        if (!prices.Any())
+        {
+            ViewBag.NoExhibitionsMessage = "Нет прайсов";
         }
 
         return View(model);
