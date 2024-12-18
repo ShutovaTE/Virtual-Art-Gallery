@@ -42,7 +42,7 @@
                     <a asp-action="Details" asp-route-id="@item.Id">Просмотреть</a>
                     @if (User.IsInRole("Administrator") && item.Status == ArtworkStatus.Approved)
                     {
-                        <form asp-action="AdminDelete" asp-route-id="@item.Id" method="post" style="display:inline;">
+                        <form asp-action="AdminDelete" asp-route-id="@item.Id" method="get" style="display:inline;">
                             <button type="submit" class="btn btn-danger">Удалить</button>
                         </form>
                     }

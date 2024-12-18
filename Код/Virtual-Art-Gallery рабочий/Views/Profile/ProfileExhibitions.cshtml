@@ -26,6 +26,13 @@ else
                 </a>
                 <p>@exhibition.Description</p>
                 <p>@(exhibition.IsClosed ? "Приватна" : "Открыта")</p>
+                @if (@User.IsInRole("Administrator"))
+                {
+                    <form asp-action="Delete" asp-controller="Exhibition" method="get" style="display: inline;">
+                        <input type="hidden" name="id" value="@exhibition.Id" />
+                        <button type="submit" class="btn btn-danger">Удалить</button>
+                    </form>
+                }
             </div>
         }
     </div>

@@ -77,6 +77,7 @@ namespace Virtual_Art_Gallery.Controllers
         }
 
         [Authorize(Roles = "Administrator")]
+        [HttpGet]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null) return NotFound();

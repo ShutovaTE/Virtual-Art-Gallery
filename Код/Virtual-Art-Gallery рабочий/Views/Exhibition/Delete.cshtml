@@ -26,13 +26,13 @@
             Открытость
         </dt>
         <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.IsClosed)
+            @(Model.IsClosed ? "Приватна" : "Открыта")
         </dd>
     </dl>
     
     <form asp-action="Delete">
         <input type="hidden" asp-for="Id" />
-        <input type="submit" value="Удалить" class="btn btn-danger" /> |
-        <a asp-action="Index">Отмена</a>
+        <input type="submit" value="Удалить" class="btn btn-danger" /> 
+        <a asp-action="Details" asp-route-id="@Model.Id" class="btn btn-secondary">Отмена</a>
     </form>
 </div>

@@ -202,6 +202,7 @@ namespace Virtual_Art_Gallery.Controllers
 
 
         // GET: PriceList/Delete/5
+        [HttpGet]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)

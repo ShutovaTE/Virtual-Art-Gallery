@@ -62,7 +62,7 @@
                         <input type="hidden" name="id" value="@artwork.Id" />
                         <button type="submit" class="btn btn-primary">Посмотреть</button>
                     </form>
-                    <form asp-action="Delete" asp-controller="Artwork" method="post" style="display: inline;">
+                    <form asp-action="Delete" asp-controller="Artwork" method="get" style="display: inline;">
                         <input type="hidden" name="id" value="@artwork.Id" />
                         <button type="submit" class="btn btn-danger">Удалить</button>
                     </form>

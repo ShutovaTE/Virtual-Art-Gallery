@@ -142,6 +142,7 @@ namespace Virtual_Art_Gallery.Controllers
 
         // GET: Exhibition/Delete/5
         [Authorize]
+        [HttpGet]
         public async Task<IActionResult> Delete(int id)
         {
             if (id == null)

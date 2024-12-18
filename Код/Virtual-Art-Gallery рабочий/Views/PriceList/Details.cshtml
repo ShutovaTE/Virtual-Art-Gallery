@@ -30,9 +30,18 @@
         <p><strong>Цена:</strong> @Model.Price ₽</p>
 
         <div class="mt-4">
-            <a class="nav-link" asp-controller="Profile" asp-action="ProfilePrices" asp-route-userId="@Model.CreatorId">
-                Вернуться в профиль
-            </a>
+            @if (User.Identity.GetUserId() == Model.CreatorId)
+            {
+                <a class="nav-link" asp-controller="Profile" asp-action="ViewProfile">
+                    Вернуться в профиль
+                </a>
+            }
+            else
+            {
+                <a class="nav-link" asp-controller="Profile" asp-action="ProfilePrices" asp-route-userId="@Model.CreatorId">
+                    Вернуться в профиль
+                </a>
+            }
             @if (User.Identity.GetUserId() == Model.CreatorId)
             {
                 <a asp-action="Edit" asp-controller="PriceList" asp-route-id="@Model.Id" class="btn btn-secondary me-2">
@@ -47,7 +56,7 @@
             }
             @if (User.Identity.GetUserId() == Model.CreatorId || User.IsInRole("Administrator"))
             {
-                <form asp-action="Delete" asp-controller="PriceList" method="post" style="display: inline;">
+                <form asp-action="Delete" asp-controller="PriceList" method="get" style="display: inline;">
                     <input type="hidden" name="id" value="@Model.Id" />
                     <button type="submit" class="btn btn-danger">Удалить</button>
                 </form>

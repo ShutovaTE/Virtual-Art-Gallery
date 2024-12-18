@@ -40,7 +40,7 @@
                         <button type="submit" class="btn btn-primary">Посмотреть</button>
                     </form>
                     <a asp-action="Edit" asp-controller="PriceList" asp-route-id="@price.Id" class="btn btn-secondary" style="margin-right: 10px;">Редактировать</a>
-                    <form asp-action="Delete" asp-controller="PriceList" method="post" style="display: inline;">
+                    <form asp-action="Delete" asp-controller="PriceList" method="get" style="display: inline;">
                         <input type="hidden" name="id" value="@price.Id" />
                         <button type="submit" class="btn btn-danger">Удалить</button>
                     </form>
