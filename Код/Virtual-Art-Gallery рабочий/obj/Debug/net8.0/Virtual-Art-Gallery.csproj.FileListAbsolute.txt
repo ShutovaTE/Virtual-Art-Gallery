@@ -2916,3 +2916,5 @@ D:\Virtual-Art-Gallery\Код\Virtual-Art-Gallery рабочий\bin\Debug\net8.
 D:\Virtual-Art-Gallery\Код\Virtual-Art-Gallery рабочий\obj\Debug\net8.0\Virtual-.0CD4C31C.Up2Date
 D:\Коды и чертежи\ТП\5 семестр\Курсовик\Virtual-Art-Gallery\Код\Virtual-Art-Gallery рабочий\bin\Debug\net8.0\Npgsql.dll
 D:\Коды и чертежи\ТП\5 семестр\Курсовик\Virtual-Art-Gallery\Код\Virtual-Art-Gallery рабочий\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+D:\Коды и чертежи\ТП\5 семестр\Курсовик\Virtual-Art-Gallery\Код\Virtual-Art-Gallery рабочий\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.Design.dll
+D:\Коды и чертежи\ТП\5 семестр\Курсовик\Virtual-Art-Gallery\Код\Virtual-Art-Gallery рабочий\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.Design.dll

@@ -6,7 +6,7 @@ using System.Globalization;
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddDbContext<GalleryContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("GalleryContext")));
+    options.UseNpgsql(builder.Configuration.GetConnectionString("GalleryContext")));
 
 builder.Services.AddIdentity<IdentityUser, IdentityRole>()
     .AddEntityFrameworkStores<GalleryContext>()
