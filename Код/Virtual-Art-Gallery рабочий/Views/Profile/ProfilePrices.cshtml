@@ -31,6 +31,12 @@
                     <input type="hidden" name="id" value="@price.Id" />
                     <button type="submit" class="btn btn-primary">Посмотреть</button>
                 </form>
+                @if (User.Identity.GetUserId() != price.CreatorId)
+                {
+                    <form asp-controller="PriceList" asp-action="Order" asp-route-id="@price.Id" method="post" style="display:inline;">
+                        <button type="submit" class="btn btn-success">Заказать</button>
+                    </form>
+                }
                 @if (@User.IsInRole("Administrator"))
                 {
                     <form asp-action="Delete" asp-controller="PriceList" method="post" style="display: inline;">

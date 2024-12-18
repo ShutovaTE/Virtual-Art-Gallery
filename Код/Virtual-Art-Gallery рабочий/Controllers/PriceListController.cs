@@ -3,6 +3,8 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
+using System.Globalization;
+using System.Text.RegularExpressions;
 using Virtual_Art_Gallery.Data;
 using Virtual_Art_Gallery.Models;
 
@@ -67,6 +69,11 @@ namespace Virtual_Art_Gallery.Controllers
                     return Unauthorized("Вы должны быть авторизованы для создания прайса.");
                 }
 
+                if (!Regex.IsMatch(priceListModel.Price.ToString(CultureInfo.InvariantCulture), @"^\d+(\.\d{1,2})?$"))
+                {
+                    ModelState.AddModelError("Price", "Цена должна содержать не более двух цифр после запятой.");
+                }
+
                 if (imageFile != null && imageFile.Length > 0)
                 {
                     var allowedExtensions = new[] { ".jpg", ".jpeg", ".png", ".gif" };
@@ -95,7 +102,7 @@ namespace Virtual_Art_Gallery.Controllers
 
                 _context.Add(priceListModel);
                 await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                return RedirectToAction("Details", priceListModel);
             }
             ViewData["CreatorId"] = new SelectList(_context.Users, "Id", "Id", priceListModel.CreatorId);
             return View(priceListModel);
@@ -120,6 +127,8 @@ namespace Virtual_Art_Gallery.Controllers
                 return NotFound();
             }
 
+            price.Price = Math.Round(price.Price, 2);
+
             ViewData["CreatorId"] = new SelectList(_context.Users, "Id", "Id", price.CreatorId);
             return View(price);
         }
@@ -129,11 +138,16 @@ namespace Virtual_Art_Gallery.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,Description,Price,CreatorId")] PriceListModel priceListModel, IFormFile? imageFile)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,Description,Price,CreatorId,ImagePath")] PriceListModel priceListModel, IFormFile? imageFile)
         {
             if (id != priceListModel.Id)
             {
                 return NotFound();
+            }
+
+            if (!Regex.IsMatch(priceListModel.Price.ToString(CultureInfo.InvariantCulture), @"^\d+(\.\d{1,2})?$"))
+            {
+                ModelState.AddModelError("Price", "Цена должна содержать не более двух цифр после запятой.");
             }
 
             if (ModelState.IsValid)
@@ -178,12 +192,13 @@ namespace Virtual_Art_Gallery.Controllers
                     }
                 }
 
-                return RedirectToAction(nameof(Index));
+                return RedirectToAction("Details", priceListModel);
             }
 
             ViewData["CreatorId"] = new SelectList(_context.Users, "Id", "Id", priceListModel.CreatorId);
             return View(priceListModel);
         }
+
 
 
         // GET: PriceList/Delete/5
@@ -211,18 +226,43 @@ namespace Virtual_Art_Gallery.Controllers
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
             var priceListModel = await _context.Prices.FindAsync(id);
+            var userId = _userManager.GetUserId(User);
+            var creatorId = priceListModel.CreatorId;
             if (priceListModel != null)
             {
                 _context.Prices.Remove(priceListModel);
             }
 
             await _context.SaveChangesAsync();
-            return RedirectToAction(nameof(Index));
+            if (userId == creatorId)
+            {
+                return RedirectToAction("IndexPrices", "Profile");
+            }
+            else
+            {
+                return RedirectToAction("ProfilePrices", "Profile", new {userId = creatorId});
+            }
         }
 
         private bool PriceListModelExists(int id)
         {
             return _context.Prices.Any(e => e.Id == id);
         }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Order(int id)
+        {
+            var price = await _context.Prices.FindAsync(id);
+            if (price == null)
+            {
+                return NotFound("Прайс не найден.");
+            }
+
+            TempData["OrderMessage"] = $"Вы заказали работу \"{price.Name}\". Вы сможете списаться с художником по почте, когда он получит уведомление о заказе.";
+
+            return RedirectToAction("Details", price);
+        }
+
     }
 }

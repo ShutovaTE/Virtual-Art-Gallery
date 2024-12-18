@@ -18,6 +18,7 @@ namespace Virtual_Art_Gallery.Models
         public string? ImagePath { get; set; }
 
         [Required]
+        [Range(0, 9999999.99, ErrorMessage = "Цена должна быть положительной и не превышать 9 999 999.99.")]
         public decimal Price { get; set; }
 
         [Required]

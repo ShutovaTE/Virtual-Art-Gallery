@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Identity;
 using Virtual_Art_Gallery.Data;
 using Microsoft.EntityFrameworkCore;
+using System.Globalization;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -76,5 +77,11 @@ async Task AssignAdminRoleToFirstUser(UserManager<IdentityUser> userManager)
         }
     }
 
-
 }
+
+var cultureInfo = new CultureInfo("ru-RU");
+cultureInfo.NumberFormat.CurrencyDecimalSeparator = ",";
+cultureInfo.NumberFormat.NumberDecimalSeparator = ",";
+
+CultureInfo.DefaultThreadCurrentCulture = cultureInfo;
+CultureInfo.DefaultThreadCurrentUICulture = cultureInfo;
