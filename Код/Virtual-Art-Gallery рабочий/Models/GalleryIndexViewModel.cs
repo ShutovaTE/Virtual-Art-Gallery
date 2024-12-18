@@ -7,6 +7,7 @@ namespace Virtual_Art_Gallery.Models
         public List<ArtworkModel> Artworks { get; set; }
         public List<IdentityUser> ArtistProfiles { get; set; }
         public List<ExhibitionModel> Exhibitions { get; set; }
+        public List<CategoryModel> Categories { get; set; }
     }
 
 }
