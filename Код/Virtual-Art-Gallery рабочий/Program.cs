@@ -2,6 +2,10 @@ using Microsoft.AspNetCore.Identity;
 using Virtual_Art_Gallery.Data;
 using Microsoft.EntityFrameworkCore;
 using System.Globalization;
+using System.Runtime.CompilerServices;
+using Microsoft.AspNetCore.Hosting;
+
+[assembly: InternalsVisibleTo("VirtualArtGallery.Tests")]
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -85,3 +89,5 @@ cultureInfo.NumberFormat.NumberDecimalSeparator = ",";
 
 CultureInfo.DefaultThreadCurrentCulture = cultureInfo;
 CultureInfo.DefaultThreadCurrentUICulture = cultureInfo;
+
+
