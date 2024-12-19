@@ -250,6 +250,7 @@ namespace Virtual_Art_Gallery.Controllers
             return _context.Prices.Any(e => e.Id == id);
         }
 
+        [Authorize]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Order(int id)

@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Virtual_Art_Gallery.Models;
 
 namespace Virtual_Art_Gallery.Data
@@ -21,9 +22,19 @@ namespace Virtual_Art_Gallery.Data
                 .HasOne(a => a.Creator)
                 .WithMany() 
                 .HasForeignKey(a => a.CreatorId)
-                .OnDelete(DeleteBehavior.Restrict); 
-        }
+                .OnDelete(DeleteBehavior.Restrict);
 
+            foreach (var property in modelBuilder.Model.GetEntityTypes()
+                .SelectMany(t => t.GetProperties())
+                .Where(p => p.ClrType == typeof(DateTime)))
+            {
+                property.SetValueConverter(new ValueConverter<DateTime, DateTime>(
+                    v => v.ToUniversalTime(),
+                    v => DateTime.SpecifyKind(v, DateTimeKind.Utc))); 
+            }
+
+            base.OnModelCreating(modelBuilder);
+        }
 
     }
 }

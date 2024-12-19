@@ -21,7 +21,7 @@ namespace ExhibitionTests
         public void Setup()
         {
             StartAspNetCoreApp();
-            WaitForServer();
+            //WaitForServer();
 
             var options = new FirefoxOptions();
             // options.AddArgument("-headless"); // Для выполнения тестов в безголовом режиме
@@ -136,28 +136,28 @@ namespace ExhibitionTests
 
             serverProcess = Process.Start(startInfo);
         }
-        private void WaitForServer()
-        {
-            using (var client = new System.Net.Http.HttpClient())
-            {
-                for (int i = 0; i < 30; i++) // Попробовать подключиться 30 раз
-                {
-                    try
-                    {
-                        var response = client.GetAsync(BaseUrl).Result;
-                        if (response.IsSuccessStatusCode)
-                        {
-                            return; // Сервер успешно запущен
-                        }
-                    }
-                    catch
-                    {
-                        Thread.Sleep(1000); // Подождать 1 секунду перед повторной попыткой
-                    }
-                }
-                throw new Exception("Сервер не запустился за отведенное время.");
-            }
-        }
+        //private void WaitForServer()
+        //{
+        //    using (var client = new System.Net.Http.HttpClient())
+        //    {
+        //        for (int i = 0; i < 30; i++) // Попробовать подключиться 30 раз
+        //        {
+        //            try
+        //            {
+        //                var response = client.GetAsync(BaseUrl).Result;
+        //                if (response.IsSuccessStatusCode)
+        //                {
+        //                    return; // Сервер успешно запущен
+        //                }
+        //            }
+        //            catch
+        //            {
+        //                Thread.Sleep(1000); // Подождать 1 секунду перед повторной попыткой
+        //            }
+        //        }
+        //        throw new Exception("Сервер не запустился за отведенное время.");
+        //    }
+        //}
 
 
     }
